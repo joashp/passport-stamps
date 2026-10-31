@@ -1,5 +1,9 @@
 # Passport stamps
 
+![Ten example stamps on a passport page: France, Spain, United States, China, Italy, Turkey, Mexico, United Kingdom, Japan and Germany](docs/top10-example.png)
+
+*Example output from `trips.top10.csv`. Every country has its own frame and monument, one ink colour, and the month and year filled in by the script.*
+
 One folder per country: countries/<code>/ holds country.json, frame.mjs, monument.svg.
 
     node stamp.mjs make FR 2024-05            one stamp -> out/
