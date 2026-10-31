@@ -52,7 +52,7 @@ async function stampBody(code, month, year) {
   const ink = palette[meta.ink] ?? meta.ink;
   const f = frame({ font, name: meta.name, month: monthLabel(month), year: String(year) });
   f.warn.forEach((w) => console.warn(`fit warning (${meta.code}):`, w));
-  const body = `${f.art}<g transform="translate(${f.monumentAt.x} ${f.monumentAt.y})">${monument}</g>`;
+  const body = `${f.art}<g transform="translate(${f.monumentAt.x} ${f.monumentAt.y}) scale(${f.monumentAt.scale ?? 1})">${monument}</g>`;
   return { body: body.replaceAll('INK', ink), width: f.width, height: f.height };
 }
 
