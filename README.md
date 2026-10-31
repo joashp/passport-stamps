@@ -1,0 +1,15 @@
+# Passport stamps
+
+One folder per country: countries/<code>/ holds country.json, frame.mjs, monument.svg.
+
+    node stamp.mjs make FR 2024-05            one stamp -> out/
+    node stamp.mjs batch trips.example.csv    many stamps from a CSV or JSON file
+    node stamp.mjs new DE GERMANY navy oval   scaffold a country (circle | box | oval)
+    node stamp.mjs validate                   check every country before you ship
+    node stamp.mjs serve 3000                 GET /stamp/FR/2024/05.png
+
+From code: `import { stampPNG } from './render.mjs'; await stampPNG('FR', 'MAY', 2024)`.
+
+Adding a country: run `new`, replace monument.svg (flat shapes, colour INK only, origin at the middle),
+reshape frame.mjs if it should look different, run `validate`.
+Same country + month + year always gives the same look; pass --seed, --rotate or --wear to override.
