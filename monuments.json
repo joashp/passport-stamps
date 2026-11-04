@@ -1,5 +1,5 @@
 {
- "note": "Landmark chosen for each stamp. high/medium: checked in the first research pass. supported: a source named it as the country's best known landmark. partly: a source lists it among the main sights. changed: replaced after checking. not confirmed / unverified: chosen from general knowledge and not checked. Many small countries could not be checked because several list sites were blocked by the session's network allowlist. The set is the 193 UN member states plus the Holy See and Palestine.",
+ "note": "Landmark chosen for each stamp. high/medium: checked in the first research pass. supported: a source named it as the country's best known, most iconic or symbolic landmark. partly: sources confirm it as a major landmark or main sight, or frame it as the symbol of the capital or a region rather than the whole country. changed: replaced after checking. not confirmed: searches found no source backing the pick as a national landmark, so it needs review. unverified: not checked yet. Most support comes from travel and tourism sites, not formal rankings. The set is the 193 UN member states plus the Holy See and Palestine.",
  "sources": [
   "https://www.worldatlas.com/articles/10-most-visited-countries-in-the-world.html",
   "https://www.statista.com/statistics/261726/most-visited-countries-in-the-world/",
@@ -23,7 +23,12 @@
    "country": "UNITED ARAB EMIRATES",
    "chosen": "Burj Khalifa",
    "where": "Dubai",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Sources present Burj Khalifa as a global icon and a symbol of UAE ambition, but mostly as the emblem of Dubai. None ranks it the single best known landmark of the whole country.",
+   "sources": [
+    "https://www.arabianbusiness.com/industries/construction/uaes-top-iconic-buildings-burj-khalifa-atlantis-dubai-frame-all-you-need-to-know",
+    "https://graziamagazine.com/me/articles/burj-khalifa-dubai-most-popular-landmark/"
+   ],
    "drawing": "tower kit (burj)",
    "frame": "octTall"
   },
@@ -32,7 +37,12 @@
    "country": "AFGHANISTAN",
    "chosen": "Minaret of Jam",
    "where": "Ghor",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "The Minaret of Jam is Afghanistan's best known UNESCO landmark and the first site the country had inscribed (2002).",
+   "sources": [
+    "https://en.unesco.org/silkroad/silk-road-themes/world-heritage-sites/minaret-and-archaeological-remains-jam",
+    "https://news.un.org/en/story/2002/06/38942-800-year-old-afghan-minaret-heads-9-properties-named-un-world-heritage-list"
+   ],
    "drawing": "mosque kit (jam)",
    "frame": "stepTall"
   },
@@ -54,7 +64,12 @@
    "country": "ALBANIA",
    "chosen": "Skanderbeg Monument",
    "where": "Tirana",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Described as Tirana's signature landmark and the centre of the city for over half a century; no source ranks it first for the whole country.",
+   "sources": [
+    "https://akt.gov.al/skanderbeg-monument-and-square/",
+    "https://en.wikipedia.org/wiki/Skanderbeg_Monument"
+   ],
    "drawing": "statue kit (rider)",
    "frame": "roundArch"
   },
@@ -63,7 +78,12 @@
    "country": "ARMENIA",
    "chosen": "Mount Ararat and Khor Virap",
    "where": "Ararat plain",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Khor Virap is called one of Armenia's most revered and photographed sites, with Mount Ararat behind it. No source ranks it as the single most iconic.",
+   "sources": [
+    "https://armeniadiscovery.com/en/place/khor-virap-monastery",
+    "https://besidestheobvious.net/2024/08/23/khor-virap-a-journey-to-the-spiritual-heart-of-armenia/"
+   ],
    "drawing": "mountain kit (ararat)",
    "frame": "hexWide"
   },
@@ -72,7 +92,12 @@
    "country": "ANGOLA",
    "chosen": "Kalandula Falls",
    "where": "Malanje",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Wikivoyage calls Kalandula Falls arguably Angola's most famous tourist attraction. World Waterfall Database notes it is not widely known abroad.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kalandula_Falls",
+    "https://www.worldwaterfalldatabase.com/waterfall/453"
+   ],
    "drawing": "waterfall kit (wide)",
    "frame": "notch"
   },
@@ -81,7 +106,12 @@
    "country": "ARGENTINA",
    "chosen": "Obelisco de Buenos Aires",
    "where": "Buenos Aires",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The Obelisco is called an iconic landmark and national historic monument by Buenos Aires tourism, but sources frame it as the emblem of the city, not confirmed as a national symbol.",
+   "sources": [
+    "https://turismo.buenosaires.gob.ar/en/atractivo/obelisco-obelisk",
+    "https://www.frommers.com/destinations/buenos-aires/attractions/obelisco"
+   ],
    "drawing": "monument kit (obelisk)",
    "frame": "roundArch"
   },
@@ -90,7 +120,12 @@
    "country": "AUSTRIA",
    "chosen": "St Stephen's Cathedral",
    "where": "Vienna",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Stephansdom is called the trademark and most recognisable landmark of Vienna and is Austria's tallest church. The framing is about the capital, not a national ranking.",
+   "sources": [
+    "https://www.wien.info/en/see-do/sights-from-a-to-z/st-stephens-cathedral-359690",
+    "https://www.austria.info/en-us/locations/st-stephens-cathedral/"
+   ],
    "drawing": "church kit (gothicSpire)",
    "frame": "roundArch"
   },
@@ -99,7 +134,12 @@
    "country": "AUSTRALIA",
    "chosen": "Sydney Opera House",
    "where": "Sydney",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Australia's tourism site calls it the country's most iconic cultural landmark; a recognisability study ranked it sixth worldwide. Uluru is the natural rival.",
+   "sources": [
+    "https://signatureexperiences.australia.com/en/operators/sydney-opera-house.html",
+    "https://www.timeout.com/sydney/news/the-sydney-opera-house-just-ranked-among-the-worlds-top-10-most-recognisable-landmarks-110124"
+   ],
    "drawing": "one-off drawing (opera)",
    "frame": "hexWide"
   },
@@ -108,7 +148,12 @@
    "country": "AZERBAIJAN",
    "chosen": "Flame Towers",
    "where": "Baku",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Widely treated as Baku's main modern landmark, which has displaced the Maiden Tower in promotional material. Debated as a symbol, and a city rather than national claim.",
+   "sources": [
+    "https://energyethics.st-andrews.ac.uk/blog/the-flame-towers-of-baku-new-building-old-symbol/",
+    "https://www.advantour.com/azerbaijan/baku/flame-towers.htm"
+   ],
    "drawing": "tower kit (flame)",
    "frame": "heater"
   },
@@ -117,7 +162,12 @@
    "country": "BOSNIA AND HERZEGOVINA",
    "chosen": "Stari Most",
    "where": "Mostar",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Stari Most is described as the most famous landmark of Mostar and of Bosnia and Herzegovina; UNESCO listed, rebuilt in 2004.",
+   "sources": [
+    "https://www.lonelyplanet.com/points-of-interest/stari-most/444733",
+    "https://balkland.com/guide/history-heritage/mostar-old-bridge-history-destruction-and-rebirth/"
+   ],
    "drawing": "bridge kit (stari)",
    "frame": "banner"
   },
@@ -139,7 +189,12 @@
    "country": "BANGLADESH",
    "chosen": "Shaheed Minar",
    "where": "Dhaka",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Described as Bangladesh's national memorial and a cornerstone of national identity, the focal point of Language Movement Day on 21 February.",
+   "sources": [
+    "https://en.banglapedia.org/index.php/Shaheed_Minar",
+    "https://www.bssnews.net/news/362575"
+   ],
    "drawing": "monument kit (shaheed)",
    "frame": "boxTall"
   },
@@ -148,7 +203,12 @@
    "country": "BELGIUM",
    "chosen": "Atomium",
    "where": "Brussels",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Chosen as a Belgian Icon by Brussels Airlines in 2024 from over 900 submissions; widely called Brussels' most recognisable landmark.",
+   "sources": [
+    "https://atomium.be/atomium_symbol_of_Brussels_and_Belgium",
+    "https://economyclassandbeyond.boardingarea.com/2024/11/06/brussles-airlines-next-belgian-icon-is-the-atomium/"
+   ],
    "drawing": "tower kit (atomium)",
    "frame": "boxTall"
   },
@@ -170,25 +230,42 @@
    "country": "BULGARIA",
    "chosen": "Alexander Nevsky Cathedral",
    "where": "Sofia",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "The cathedral's own site calls it a symbol of Sofia; one source calls it a landmark of all Bulgaria, not only the capital.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Saint_Alexander_Nevsky_Cathedral,_Sofia",
+    "https://tourism.government.bg/en/tourist-destinations/2799/5815"
+   ],
    "drawing": "church kit (nevsky)",
    "frame": "scallop"
   },
   {
    "code": "BH",
    "country": "BAHRAIN",
-   "chosen": "Pearl Monument",
+   "chosen": "Qal'at al-Bahrain (Bahrain Fort)",
    "where": "Manama",
-   "confidence": "unverified",
-   "drawing": "monument kit (pearl)",
-   "frame": "octTall"
+   "confidence": "changed",
+   "evidence": "The Pearl Monument was demolished on 18 March 2011, so it was replaced. Qal'at al-Bahrain (Bahrain Fort) is described as the country's most famous archaeological site and best known landmark, and has been a UNESCO site since 2005.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pearl_Roundabout",
+    "https://www.aljazeera.com/news/2011/3/18/bahrain-tears-down-protest-symbol",
+    "https://www.historyhit.com/locations/bahrain-fort/",
+    "https://www.worldatlas.com/articles/unesco-world-heritage-sites-in-bahrain.html"
+   ],
+   "drawing": "fort kit (bastion)",
+   "frame": "banner"
   },
   {
    "code": "BI",
    "country": "BURUNDI",
    "chosen": "Karera Falls",
    "where": "Rutana",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Karera Falls is generally described as one of Burundi's main natural attractions; no source ranks it first.",
+   "sources": [
+    "https://bujukuecotours.com/destination/karera-waterfalls/",
+    "https://www.nonprod.lonelyplanet.com/points-of-interest/chutes-de-la-karera/1503848"
+   ],
    "drawing": "waterfall kit (cascade)",
    "frame": "hexWide"
   },
@@ -210,7 +287,12 @@
    "country": "BRUNEI",
    "chosen": "Omar Ali Saifuddien Mosque",
    "where": "Bandar Seri Begawan",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Described as Brunei's best known landmark and one of the most photographed icons in the country.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Omar_Ali_Saifuddien_Mosque",
+    "https://www.bruneitourism.com/?p=2242"
+   ],
    "drawing": "mosque kit (grand)",
    "frame": "banner"
   },
@@ -219,7 +301,12 @@
    "country": "BOLIVIA",
    "chosen": "Gate of the Sun",
    "where": "Tiwanaku",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The Gate of the Sun is called Tiwanaku's most famous monument. No source ranks it as the best known landmark of the whole country.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gate_of_the_Sun",
+    "https://www.lonelyplanet.com/bolivia/attractions/puerta-del-sol/a/poi-sig/1530892/1315979"
+   ],
    "drawing": "gate kit (sun)",
    "frame": "heater"
   },
@@ -228,7 +315,12 @@
    "country": "BRAZIL",
    "chosen": "Christ the Redeemer",
    "where": "Rio de Janeiro",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Widely regarded as Brazil's most iconic symbol and most famous landmark.",
+   "sources": [
+    "https://news.artnet.com/art-world/huge-why-brazils-christ-the-redeemer-is-so-so-big-2546523",
+    "https://www.tampabay.com/features/travel/attractions/christ-the-redeemer-the-many-meanings-of-rios-massive-jesus-statue/2288780/"
+   ],
    "drawing": "statue kit (christ)",
    "frame": "boxTall"
   },
@@ -237,7 +329,12 @@
    "country": "BAHAMAS",
    "chosen": "Atlantis Paradise Island",
    "where": "Nassau",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Only travel and tour sites support it; the Royal Tower is called the resort's most iconic structure and commentators call the resort an instant national landmark. A private resort is a weak pick for a national symbol.",
+   "sources": [
+    "https://travelpander.com/?p=79474",
+    "https://www.citizendailypost.com/faq/what-is-the-main-tower-at-atlantis/"
+   ],
    "drawing": "tower kit (atlantis)",
    "frame": "octSquare"
   },
@@ -259,7 +356,12 @@
    "country": "BOTSWANA",
    "chosen": "Chobe baobab",
    "where": "Chobe",
-   "confidence": "unverified",
+   "confidence": "not confirmed",
+   "evidence": "Searches found the Kasane Baobab (Prison Tree) and Baines' Baobabs, but no source names a Chobe baobab as Botswana's best known landmark. The pick is vague and should be narrowed or replaced.",
+   "sources": [
+    "https://sheiswanderlust.com/destinations/africa-travel-guide/botswana/attractions/baobab-prison-tree/",
+    "https://www.lonelyplanet.com/botswana/attractions/baines-baobabs/a/poi-sig/454901/355094"
+   ],
    "drawing": "tree kit (baobab)",
    "frame": "octTall"
   },
@@ -268,7 +370,12 @@
    "country": "BELARUS",
    "chosen": "Mir Castle",
    "where": "Mir",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Called one of the most recognisable symbols of Belarus, a UNESCO site since 2000 and on the 50 rouble banknote.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mir_Castle_Complex",
+    "https://belarus.by/en/travel/belarus-life/mir-castle"
+   ],
    "drawing": "fort kit (bran)",
    "frame": "circle"
   },
@@ -277,7 +384,12 @@
    "country": "BELIZE",
    "chosen": "Xunantunich El Castillo",
    "where": "Cayo",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Xunantunich is called one of Belize's most famous Maya sites and El Castillo is its best known feature; Caracol's Sky Temple is taller.",
+   "sources": [
+    "https://belize.com/xunantunich-maya-site-belize/",
+    "https://www.lonelyplanet.com/points-of-interest/xunantunich/1010844"
+   ],
    "drawing": "pyramid kit (maya)",
    "frame": "stepWide"
   },
@@ -286,7 +398,12 @@
    "country": "CANADA",
    "chosen": "CN Tower",
    "where": "Toronto",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Tourism Ontario and Narcity call it Canada's most recognisable and celebrated landmark. It is also the Toronto skyline icon.",
+   "sources": [
+    "https://www.narcity.com/iconic-landmarks-of-canada-to-add-to-your-bucket-list",
+    "https://thecanadianencyclopedia.ca/en/article/cn-tower"
+   ],
    "drawing": "tower kit (cn)",
    "frame": "stepTall"
   },
@@ -334,7 +451,12 @@
    "country": "SWITZERLAND",
    "chosen": "Matterhorn",
    "where": "Zermatt",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Switzerland Tourism calls the Matterhorn the symbol for Switzerland and its most famous landmark.",
+   "sources": [
+    "https://www.myswitzerland.com/en/destinations/matterhorn-symbol-for-switzerland",
+    "https://www.myswitzerland.com/en-us/destinations/matterhorn-symbol-for-switzerland/"
+   ],
    "drawing": "mountain kit (matterhorn)",
    "frame": "seal"
   },
@@ -357,7 +479,12 @@
    "country": "CHILE",
    "chosen": "Moai of Easter Island",
    "where": "Rapa Nui",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The moai are called Easter Island's most famous landmark and the island is a UNESCO site (1995), but it is a remote territory and sources do not rank them as Chile's top landmark.",
+   "sources": [
+    "https://theculturetrip.com/south-america/chile/articles/a-brief-history-of-easter-islands-incredible-moai-statues",
+    "https://geographyworlds.com/blog/moai-easter-island-landmark-guide/"
+   ],
    "drawing": "statue kit (moai)",
    "frame": "notch"
   },
@@ -366,7 +493,12 @@
    "country": "CAMEROON",
    "chosen": "Mount Cameroon",
    "where": "Buea",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The country's highest peak and most prominent natural landmark; the 'national symbol' wording comes from travel articles, not an official source.",
+   "sources": [
+    "https://peakvisor.com/peak/mount-cameroon.html",
+    "https://www.childrenofcameroon.co.uk/post/5-iconic-places-to-see-in-cameroon"
+   ],
    "drawing": "volcano kit (crater)",
    "frame": "banner"
   },
@@ -393,7 +525,12 @@
    "country": "COLOMBIA",
    "chosen": "Torre del Reloj",
    "where": "Cartagena",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The clock tower is the gateway to Cartagena's walled city and its most recognisable landmark; sources frame it around Cartagena, not the whole country.",
+   "sources": [
+    "https://colombia.travel/visita-la-torre-del-reloj",
+    "https://www.historyhit.com/locations/torre-del-reloj-de-cartagena/"
+   ],
    "drawing": "church kit (clocktower)",
    "frame": "octTall"
   },
@@ -402,7 +539,12 @@
    "country": "COSTA RICA",
    "chosen": "Arenal Volcano",
    "where": "La Fortuna",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Called the most famous of Costa Rica's volcanoes and one of its most visited natural attractions. The volcano has been dormant since about 2010.",
+   "sources": [
+    "https://national-parks.org/costa-rica/arenal-volcano",
+    "https://theculturetrip.com/central-america/costa-rica/articles/a-guide-to-exploring-the-arenal-volcano"
+   ],
    "drawing": "volcano kit (cone)",
    "frame": "circle"
   },
@@ -411,7 +553,12 @@
    "country": "CUBA",
    "chosen": "El Capitolio",
    "where": "Havana",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "One source calls El Capitolio the most famous landmark in Cuba; others call it Havana's most recognised building.",
+   "sources": [
+    "https://www.frommers.com/destinations/havana/attractions/el-capitolio",
+    "https://www.designingbuildings.co.uk/wiki/El_Capitolio,_Cuba"
+   ],
    "drawing": "church kit (capitol)",
    "frame": "scallop"
   },
@@ -434,7 +581,12 @@
    "country": "CYPRUS",
    "chosen": "Aphrodite's Rock (Petra tou Romiou)",
    "where": "Paphos",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Described as one of Cyprus's best known landmarks and the legendary birthplace of Aphrodite; no source ranks it first.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Petra_tou_Romiou",
+    "https://cyprus-mail.com/2025/11/21/aphrodites-rock-the-heart-of-cyprus-coastal-magic"
+   ],
    "drawing": "rock formation kit (seastack)",
    "frame": "circle"
   },
@@ -443,7 +595,12 @@
    "country": "CZECHIA",
    "chosen": "St Vitus Cathedral",
    "where": "Prague",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Called the largest and most important church in Czechia and a symbol of Czech faith; Prague Castle and Charles Bridge compete as national icons.",
+   "sources": [
+    "https://www.amazingczechia.com/?p=9367",
+    "https://aviewoncities.com/prague/st-vitus-cathedral"
+   ],
    "drawing": "church kit (gothicTwin)",
    "frame": "house"
   },
@@ -470,7 +627,12 @@
    "country": "DJIBOUTI",
    "chosen": "Lake Abbe limestone chimneys",
    "where": "Lake Abbe",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The chimneys are Lake Abbe's signature feature and widely promoted, and the area is on UNESCO's tentative list. Lake Assal and the central market compete for top attraction.",
+   "sources": [
+    "https://worldheritagesite.org/tentative/id/5965",
+    "https://www.walkopedia.net/best-world-walks/Djibouti/Lac-Abbe"
+   ],
    "drawing": "rock formation kit (chimneys)",
    "frame": "hexWide"
   },
@@ -479,7 +641,12 @@
    "country": "DENMARK",
    "chosen": "The Little Mermaid",
    "where": "Copenhagen",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Several guides call it Copenhagen's top attraction and one calls it Denmark's most famous landmark.",
+   "sources": [
+    "https://odysseytraveller.com/articles/the-little-mermaid-statue",
+    "https://www.seebeautifulplaces.com/2024/10/the-little-mermaid-denmarks-icon-by-sea.html"
+   ],
    "drawing": "statue kit (mermaid)",
    "frame": "seal"
   },
@@ -501,7 +668,12 @@
    "country": "DOMINICAN REPUBLIC",
    "chosen": "Santo Domingo Cathedral",
    "where": "Santo Domingo",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The oldest cathedral in the Americas (founded 1511) in the UNESCO listed Colonial Zone; no source ranks it as the country's best known landmark.",
+   "sources": [
+    "https://www.lonelyplanet.com/points-of-interest/catedral-primada-de-america/1181867",
+    "https://gcatholic.org/churches/centralamerica/0373"
+   ],
    "drawing": "church kit (baroque)",
    "frame": "roundSquare"
   },
@@ -524,7 +696,12 @@
    "country": "ECUADOR",
    "chosen": "Mitad del Mundo",
    "where": "Quito",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Described as the best known landmark of the Quito area, the monument to the Equator.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ciudad_Mitad_del_Mundo",
+    "https://www.lonelyplanet.com/points-of-interest/mitad-del-mundo/1021208"
+   ],
    "drawing": "monument kit (globe)",
    "frame": "roundArch"
   },
@@ -533,7 +710,12 @@
    "country": "ESTONIA",
    "chosen": "Tallinn Town Hall",
    "where": "Tallinn",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The Gothic town hall is the only one surviving in the Baltic and Nordic countries, with Old Thomas on the spire called Tallinn's symbol. A UNESCO Old Town landmark, but framed around the capital.",
+   "sources": [
+    "https://www.lonelyplanet.com/estonia/tallinn/old-town/attractions/town-hall-tower/a/poi-sig/1275579/1342792",
+    "https://en.wikipedia.org/wiki/Tallinn_Town_Hall"
+   ],
    "drawing": "church kit (townHall)",
    "frame": "stepTall"
   },
@@ -542,7 +724,12 @@
    "country": "EGYPT",
    "chosen": "Pyramids of Giza",
    "where": "Giza",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Sources consistently name the Pyramids of Giza as Egypt's most iconic landmark; the only surviving ancient wonder and a World Heritage Site.",
+   "sources": [
+    "https://www.demandafrica.com/travel/destinations/iconic-sites-and-landmarks-of-egypt",
+    "https://www.royalcaribbean.com/inspire/famous-landmarks-in-egypt"
+   ],
    "drawing": "pyramid kit (giza)",
    "frame": "banner"
   },
@@ -582,7 +769,12 @@
    "country": "ETHIOPIA",
    "chosen": "Rock-hewn Churches of Lalibela",
    "where": "Lalibela",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "UNESCO site since 1978; Bete Giyorgis, the cross shaped church, is named the most famous of the eleven churches.",
+   "sources": [
+    "https://www.roughguides.com/destinations/africa/ethiopia/lalibela-around/lalibela/lalibela-church-complex/bet-giyorgis",
+    "https://everything-everywhere.com/unesco-world-heritage-site-306-rock-hewn-churches-lalibela/"
+   ],
    "drawing": "church kit (baroque)",
    "frame": "boxTall"
   },
@@ -591,7 +783,12 @@
    "country": "FINLAND",
    "chosen": "Helsinki Cathedral",
    "where": "Helsinki",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Official tourism listings call it the symbol of Helsinki as a whole; the claim is about the capital rather than the country.",
+   "sources": [
+    "https://myhelsinki.fi/en/see-and-do/sights/helsinki-cathedral",
+    "https://www.visitfinland.com/sv/produkt/203b0043-2c47-4532-bb4b-08d385a78198/helsinki-cathedral/"
+   ],
    "drawing": "church kit (helsinki)",
    "frame": "roundSquare"
   },
@@ -600,7 +797,12 @@
    "country": "FIJI",
    "chosen": "Sri Siva Subramaniya Temple",
    "where": "Nadi",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Widely described as one of Nadi's best known landmarks and the largest Hindu temple in the Southern Hemisphere. No source calls it Fiji's top landmark.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Sri_Siva_Subramaniya_Temple",
+    "https://hinduismtoday.com/magazine/september-1994/1994-09-largest-temple-in-fiji-opens/"
+   ],
    "drawing": "Asian temple kit (gopuram)",
    "frame": "roundArch"
   },
@@ -609,7 +811,12 @@
    "country": "MICRONESIA",
    "chosen": "Nan Madol",
    "where": "Pohnpei",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Nan Madol is the best known site in Micronesia and the first inscribed on the UNESCO World Heritage List (2016).",
+   "sources": [
+    "https://whc.unesco.org/ES/list/1503",
+    "https://en.wikipedia.org/wiki/Nan_Madol"
+   ],
    "drawing": "traditional structure kit (nanMadol)",
    "frame": "pill"
   },
@@ -636,7 +843,12 @@
    "country": "GABON",
    "chosen": "Kongou Falls",
    "where": "Ivindo",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The best known attraction of Ivindo National Park and one of the most powerful waterfalls in Central Africa; remote, and no source calls it the national icon.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kongou_Falls",
+    "https://www.lonelyplanet.com/points-of-interest/kongou-falls/1559036"
+   ],
    "drawing": "waterfall kit (wide)",
    "frame": "stepWide"
   },
@@ -663,7 +875,12 @@
    "country": "GRENADA",
    "chosen": "Fort George",
    "where": "St George's",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The main landmark of St George's, the capital, built by the French in 1706 to 1710.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Fort_George,_Grenada",
+    "https://petiteanse.com/2023/03/grenadas-historical-landmarks/"
+   ],
    "drawing": "fort kit (colonial)",
    "frame": "notch"
   },
@@ -672,7 +889,12 @@
    "country": "GEORGIA",
    "chosen": "Gergeti Trinity Church",
    "where": "Kazbegi",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Georgia's tourism site calls it one of the most recognisable monuments in the country; guides call it a symbol of Georgia.",
+   "sources": [
+    "https://georgia.travel/gergeti-trinity-church",
+    "https://georgia.travel/en_US/mtskheta-mtianeti/kazbegi/Gergeti-Trinity-Church"
+   ],
    "drawing": "church kit (mountainChurch)",
    "frame": "scallop"
   },
@@ -681,7 +903,12 @@
    "country": "GHANA",
    "chosen": "Cape Coast Castle",
    "where": "Cape Coast",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "A UNESCO site and one of Ghana's most visited historic monuments, best known for the Door of No Return. Elmina Castle is the other major slave castle.",
+   "sources": [
+    "https://theculturetrip.com/africa/ghana/articles/this-african-coastline-has-more-castles-than-anywhere-else-in-the-world",
+    "https://demandafrica.com/travel/destinations/explore-these-8-iconic-landmarks-in-ghana/"
+   ],
    "drawing": "fort kit (colonial)",
    "frame": "boxWide"
   },
@@ -703,7 +930,12 @@
    "country": "GUINEA",
    "chosen": "Mount Nimba",
    "where": "Nimba",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Called the signature landmark of the region and a UNESCO natural site, but it sits on the Guinea, Liberia and Cote d'Ivoire border so it is shared.",
+   "sources": [
+    "https://whc.unesco.org/ES/list/155",
+    "https://en.wikipedia.org/wiki/Nimba_Range"
+   ],
    "drawing": "mountain kit (range)",
    "frame": "notch"
   },
@@ -712,7 +944,12 @@
    "country": "EQUATORIAL GUINEA",
    "chosen": "Malabo Cathedral",
    "where": "Malabo",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Called Malabo's best known landmark and the country's most important Catholic church. One report mentions a fire at the cathedral; the date and damage were not confirmed.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/St._Elizabeth%27s_Cathedral,_Malabo",
+    "https://www.eturbonews.com/539975/landmark-cathedral-burned-down-in-malabo-equatorial-guinea/"
+   ],
    "drawing": "church kit (gothicTwin)",
    "frame": "ogee"
   },
@@ -721,7 +958,12 @@
    "country": "GREECE",
    "chosen": "Parthenon",
    "where": "Athens",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Sources describe the Parthenon as Greece's most iconic and recognisable landmark; the Acropolis is a UNESCO site.",
+   "sources": [
+    "https://www.historyskills.com/classroom/ancient-history/parthenon",
+    "https://austria-forum.org/af/Geography/Europe/Greece/Special_Information/Greece_Acropolis?skin=raw"
+   ],
    "drawing": "ruins kit (greek)",
    "frame": "stepWide"
   },
@@ -730,7 +972,12 @@
    "country": "GUATEMALA",
    "chosen": "Tikal Temple I",
    "where": "Tikal",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Temple I is called the most recognised structure at Tikal and appeared on the 50 quetzal note; Tikal is a UNESCO site (1979). One source ranks Temple IV as the most iconic.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Tikal_Temple_I",
+    "https://www.historyhit.com/locations/tikal"
+   ],
    "drawing": "pyramid kit (tikal)",
    "frame": "heater"
   },
@@ -739,7 +986,12 @@
    "country": "GUINEA-BISSAU",
    "chosen": "Fortaleza de Sao Jose da Amura",
    "where": "Bissau",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "One of Bissau's main landmarks and the site of the Cabral mausoleum. Still a military site, with restricted access.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Fortaleza_de_S%C3%A3o_Jos%C3%A9_da_Amura",
+    "https://travel2unlimited.com/guinea-bissau-bissau-fortaleza-damura/"
+   ],
    "drawing": "fort kit (bastion)",
    "frame": "hexWide"
   },
@@ -775,7 +1027,12 @@
    "country": "CROATIA",
    "chosen": "Walls of Dubrovnik",
    "where": "Dubrovnik",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The walls are called the main landmark of Dubrovnik and a UNESCO listed site (1979). The claim is about the city; Croatia has other headline sights.",
+   "sources": [
+    "https://www.historyhit.com/locations/dubrovnik-city-walls/",
+    "https://total-croatia-news.com/destinations/destination-dubrovnik/see-in-dubrovnik/sights/dubrovnik-city-walls/"
+   ],
    "drawing": "fort kit (wallTowers)",
    "frame": "pill"
   },
@@ -784,7 +1041,12 @@
    "country": "HAITI",
    "chosen": "Citadelle Laferriere",
    "where": "Milot",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Described as Haiti's best known landmark and a symbol of independence; shown on its currency and stamps, and a UNESCO site since 1982.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Citadelle_Laferri%C3%A8re",
+    "https://www.thevintagenews.com/2017/01/11/citadelle-laferriere-built-in-1820-is-the-haitian-symbol-of-liberty/"
+   ],
    "drawing": "fort kit (citadelle)",
    "frame": "boxTall"
   },
@@ -793,7 +1055,12 @@
    "country": "HUNGARY",
    "chosen": "Hungarian Parliament Building",
    "where": "Budapest",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Called Budapest's most iconic landmark and a symbol of national identity; it houses the Crown of St Stephen.",
+   "sources": [
+    "https://www.budapest.com/en/locations/parliament-building",
+    "https://dailynewshungary.com/hungarian-parliament-building-budapest"
+   ],
    "drawing": "church kit (parliament)",
    "frame": "octSquare"
   },
@@ -802,7 +1069,12 @@
    "country": "INDONESIA",
    "chosen": "Borobudur",
    "where": "Java",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "National Geographic Traveller calls it Indonesia's most famous landmark; the world's largest Buddhist temple and a UNESCO site (1991).",
+   "sources": [
+    "https://www.pressreader.com/uk/national-geographic-traveller-uk/20190606/282595969415274",
+    "https://mytouristmaps.com/?p=5999"
+   ],
    "drawing": "Asian temple kit (borobudur)",
    "frame": "stepWide"
   },
@@ -811,7 +1083,12 @@
    "country": "IRELAND",
    "chosen": "Cliffs of Moher",
    "where": "County Clare",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Ireland's most visited natural attraction in 2022 (about 1.1 million visitors). Evidence of popularity rather than a source naming it the top national symbol.",
+   "sources": [
+    "https://www.irishpost.com/travel/more-than-one-million-visitors-enjoyed-cliffs-of-moher-experience-in-2022-247316",
+    "https://www.ireland.com/en-us/myireland/attraction/54551abaaefd489e85ecad2c6bce79d0/cliffs-of-moher/"
+   ],
    "drawing": "cliff kit (moher)",
    "frame": "heater"
   },
@@ -820,7 +1097,12 @@
    "country": "ISRAEL",
    "chosen": "Masada",
    "where": "Dead Sea",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "UNESCO site (2001) and among Israel's most visited attractions, roughly second to Jerusalem. Politically sensitive picks are easy to swap.",
+   "sources": [
+    "https://www.britannica.com/summary/Masada",
+    "https://archive.israel21c.org/where-to-go-in-israel-the-countrys-top-10-tourist-spots/"
+   ],
    "drawing": "rock formation kit (mesa)",
    "frame": "boxWide"
   },
@@ -829,7 +1111,12 @@
    "country": "INDIA",
    "chosen": "Taj Mahal",
    "where": "Agra",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Sources consistently call the Taj Mahal India's most iconic landmark; the only Indian monument in a top 10 Travellers' Choice landmarks list.",
+   "sources": [
+    "https://english.udayavani.com/article/wah-taj-monument-of-love-among-top-10-global-landmarks/213817",
+    "https://foxnews.com/world/taj-mahal-how-mausoleum-india-became-one-worlds-most-famous-landmarks.amp"
+   ],
    "drawing": "one-off drawing (taj)",
    "frame": "seal"
   },
@@ -838,7 +1125,12 @@
    "country": "IRAQ",
    "chosen": "Malwiya Minaret",
    "where": "Samarra",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Called Samarra's most famous landmark and a treasured Iraqi national monument. The top was damaged in 2005; UNESCO restoration began in 2017.",
+   "sources": [
+    "https://www.thenationalnews.com/mena/iraq/2022/07/27/the-great-mosque-of-samarras-spiral-malwiya-minaret-in-pictures",
+    "https://al-monitor.com/originals/2018/02/samarra-mosque-reconstruction-unesco-world-heritage.html"
+   ],
    "drawing": "mosque kit (samarra)",
    "frame": "roundSquare"
   },
@@ -847,7 +1139,12 @@
    "country": "IRAN",
    "chosen": "Azadi Tower",
    "where": "Tehran",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Widely treated as the symbol of Tehran; the monument's director calls it a national symbol of Iran, though it is described as a contested one (built 1971 as Shahyad).",
+   "sources": [
+    "https://www.laprensalatina.com/tehrans-azadi-tower-marks-50-years-as-contradictory-symbol-of-iran/",
+    "https://atalayar.com/en/content/azadi-tower-turns-50-symbol-irans-paradoxes"
+   ],
    "drawing": "monument kit (azadi)",
    "frame": "hexTall"
   },
@@ -856,7 +1153,12 @@
    "country": "ICELAND",
    "chosen": "Hallgrimskirkja",
    "where": "Reykjavik",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Described as Reykjavik's most recognisable landmark, visible across the city; the claim is about the capital.",
+   "sources": [
+    "https://guidetoiceland.is/travel-iceland/attraction/hallgrimskirkja",
+    "https://re.is/blog/guide-to-hallgrimskirkja-church-reykjavik"
+   ],
    "drawing": "church kit (hallgrim)",
    "frame": "boxTall"
   },
@@ -882,7 +1184,12 @@
    "country": "JAMAICA",
    "chosen": "Dunn's River Falls",
    "where": "Ocho Rios",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Lonely Planet calls it Jamaica's top-grossing tourist attraction; other guides call it the country's most famous attraction.",
+   "sources": [
+    "https://www.lonelyplanet.com/points-of-interest/dunns-river-falls/431134",
+    "https://www.visitjamaica.com/blog/post/experiences-in-jamaica-dunns-river-falls/"
+   ],
    "drawing": "waterfall kit (cascade)",
    "frame": "pill"
   },
@@ -891,7 +1198,12 @@
    "country": "JORDAN",
    "chosen": "Petra, the Treasury",
    "where": "Petra",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "The Treasury is called Petra's most iconic monument; Petra is the country's flagship UNESCO site. The Monastery is a rival within Petra.",
+   "sources": [
+    "https://theculturetrip.com/middle-east/jordan/articles/the-ancient-wonders-of-jordans-petra",
+    "https://locations.accessiblejordan.com/en/locations/petra/treasury"
+   ],
    "drawing": "one-off drawing (petra)",
    "frame": "octSquare"
   },
@@ -917,7 +1229,12 @@
    "country": "KENYA",
    "chosen": "Mount Kenya",
    "where": "Central Kenya",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Mount Kenya appears on the national coat of arms and is a UNESCO site, so it is a national symbol, but no source ranks it Kenya's single most famous landmark.",
+   "sources": [
+    "https://maputo.mfa.go.ke/?p=159",
+    "https://www.shadowsofafrica.com/mount-kenya-national-park"
+   ],
    "drawing": "mountain kit (twin)",
    "frame": "notch"
   },
@@ -952,7 +1269,12 @@
    "country": "KIRIBATI",
    "chosen": "Maneaba (meeting house)",
    "where": "Tarawa",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The maneaba is the central cultural institution of Kiribati and the national parliament is called the Maneaba ni Maungatabu. It is a building type rather than one landmark.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Maneaba",
+    "https://museumsvictoria.com.au/melbournemuseum/resources/tok-stori-vikitolia-pasifiki/kiribati/"
+   ],
    "drawing": "traditional structure kit (maneaba)",
    "frame": "banner"
   },
@@ -987,7 +1309,12 @@
    "country": "NORTH KOREA",
    "chosen": "Juche Tower",
    "where": "Pyongyang",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "One of Pyongyang's best known monuments, completed 1982 for Kim Il Sung's 70th birthday; described as a national symbol in some sources.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Juche_Tower",
+    "https://atlasobscura.com/places/juche-tower"
+   ],
    "drawing": "monument kit (juche)",
    "frame": "octTall"
   },
@@ -996,7 +1323,12 @@
    "country": "SOUTH KOREA",
    "chosen": "Gwanghwamun Gate",
    "where": "Seoul",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The main gate of Gyeongbokgung Palace, described as a symbol of Seoul's Joseon history and a cultural icon. Results did not rank it nationally.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Gwanghwamun",
+    "https://www.agoda.com/travel-guides/south-korea/seoul/discover-gwanghwamun-gate-your-seasonal-seoul-guide"
+   ],
    "drawing": "Asian temple kit (palaceGate)",
    "frame": "scallop"
   },
@@ -1005,7 +1337,12 @@
    "country": "KUWAIT",
    "chosen": "Kuwait Towers",
    "where": "Kuwait City",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Described as Kuwait's national symbol and capital landmark, shown on the old 1 dinar note; it won the Aga Khan Award in 1980.",
+   "sources": [
+    "https://gulfnews.com/world/gulf/kuwait/kuwait-towers-a-symbol-of-independence-and-sovereignty-1.76529512",
+    "https://kuwaittimes.com/article/40142/kuwait/other-news/kuwait-towers-an-enduring-symbol-of-national-identity/amp"
+   ],
    "drawing": "tower kit (kuwait)",
    "frame": "heater"
   },
@@ -1014,7 +1351,12 @@
    "country": "KAZAKHSTAN",
    "chosen": "Bayterek Tower",
    "where": "Astana",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Described as a symbol of the whole country, compared in status to Big Ben or the Eiffel Tower, and shown on the 10,000 tenge note.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Baiterek_(monument)",
+    "https://www.euronews.com/2015/06/29/postcards-from-kazakhstan-astana-s-emblematic-tree-of-life"
+   ],
    "drawing": "monument kit (bayterek)",
    "frame": "roundArch"
   },
@@ -1023,7 +1365,12 @@
    "country": "LAOS",
    "chosen": "Pha That Luang",
    "where": "Vientiane",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Called the national symbol of Laos and its most important national monument.",
+   "sources": [
+    "https://www.exotravel.com/blog/pha-that-luang-vientiane-laos/",
+    "https://www.nationsonline.org/oneworld/map/Pha_That_Luang.htm"
+   ],
    "drawing": "Asian temple kit (thatluang)",
    "frame": "shield"
   },
@@ -1032,7 +1379,12 @@
    "country": "LEBANON",
    "chosen": "Baalbek, Temple of Jupiter",
    "where": "Baalbek",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The Temple of Jupiter is the centrepiece of the UNESCO listed Baalbek complex (1984); sources did not rank Baalbek against other Lebanese sights.",
+   "sources": [
+    "https://britannica.com/EBchecked/topic/47283/Baalbeck",
+    "https://theculturetrip.com/middle-east/lebanon/articles/a-brief-history-of-the-baalbek-roman-ruins-in-lebanon"
+   ],
    "drawing": "ruins kit (baalbek)",
    "frame": "heater"
   },
@@ -1067,7 +1419,12 @@
    "country": "SRI LANKA",
    "chosen": "Sigiriya Lion Rock",
    "where": "Sigiriya",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Called one of Sri Lanka's most visited and best known sights and a UNESCO site since 1982. Most support is from travel sites.",
+   "sources": [
+    "https://www.srilankatailormade.com/jetwing-destinations/sigiriya/",
+    "https://www.whatsdannydoing.com/?p=8890"
+   ],
    "drawing": "rock formation kit (sigiriya)",
    "frame": "seal"
   },
@@ -1104,7 +1461,12 @@
    "country": "LITHUANIA",
    "chosen": "Trakai Island Castle",
    "where": "Trakai",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Sources call it a symbol of Lithuania and probably its most famous castle; a Gothic island castle on Lake Galve.",
+   "sources": [
+    "https://welovelithuania.com/en/trakai-island-castle",
+    "https://travelfeed.io/@phortun/architectural-photography-trakai-castle-the-iconic-landmark-of-lithuania"
+   ],
    "drawing": "fort kit (islandCastle)",
    "frame": "notch"
   },
@@ -1126,7 +1488,12 @@
    "country": "LATVIA",
    "chosen": "Freedom Monument",
    "where": "Riga",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Widely regarded as a national symbol of freedom and independence, unveiled in 1935 and still the focus of official ceremonies.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Freedom_Monument",
+    "https://www.latvia.travel/en/sight/freedom-monument"
+   ],
    "drawing": "monument kit (freedom)",
    "frame": "stepTall"
   },
@@ -1148,7 +1515,12 @@
    "country": "MOROCCO",
    "chosen": "Hassan II Mosque",
    "where": "Casablanca",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Described as Morocco's most iconic landmark in travel sources, with a 210 m minaret. Built in 1993 to give Casablanca a major landmark; sources are mostly travel sites.",
+   "sources": [
+    "https://en.hertz.ma/morocco/discover-morocco/heritage/hassan-ll-mosque-casablanca",
+    "https://journal.diyanet.gov.tr/content/the-pearl-of-maghreb-the-hassan-ii-mosque"
+   ],
    "drawing": "mosque kit (squareMinaret)",
    "frame": "house"
   },
@@ -1184,7 +1556,12 @@
    "country": "MONTENEGRO",
    "chosen": "Fortress of Kotor",
    "where": "Kotor",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The fortifications are the top attraction of Kotor and sit in a UNESCO listed site; Kotor is one of several headline sights in Montenegro.",
+   "sources": [
+    "https://montenegro.com/en/blog/kotor-complete-guide",
+    "https://www.fodors.com/world/europe/montenegro/things-to-do/sights/kotor"
+   ],
    "drawing": "fort kit (hillCastle)",
    "frame": "roundSquare"
   },
@@ -1193,7 +1570,12 @@
    "country": "MADAGASCAR",
    "chosen": "Avenue of the Baobabs",
    "where": "Morondava",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Travel sources call it the most iconic sight in Madagascar. The Tsingy rock formations are the main rival.",
+   "sources": [
+    "https://waytostay.com/?p=1010264",
+    "https://www.worldatlas.com/landmarks/avenue-of-the-baobabs.html"
+   ],
    "drawing": "tree kit (avenue)",
    "frame": "banner"
   },
@@ -1202,7 +1584,12 @@
    "country": "MARSHALL ISLANDS",
    "chosen": "Majuro Atoll",
    "where": "Majuro",
-   "confidence": "unverified",
+   "confidence": "not confirmed",
+   "evidence": "Majuro Atoll is a place, not a landmark, and no source gives it as a national symbol. The Capitol complex in Delap is described as the main symbol of statehood. The pick should be replaced with a specific structure.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Majuro",
+    "https://www.geocountries.com/symbols/marshall-islands/majuro-atoll"
+   ],
    "drawing": "island kit (palms)",
    "frame": "heater"
   },
@@ -1211,7 +1598,12 @@
    "country": "NORTH MACEDONIA",
    "chosen": "Millennium Cross",
    "where": "Skopje",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "A 66 m cross on Mount Vodno, one of the best known landmarks of Skopje; its role as a national symbol is politically contested.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Millennium_Cross",
+    "https://macedonia.for91days.com/the-millennium-cross-of-mount-vodno"
+   ],
    "drawing": "monument kit (cross)",
    "frame": "octSquare"
   },
@@ -1220,7 +1612,12 @@
    "country": "MALI",
    "chosen": "Great Mosque of Djenne",
    "where": "Djenne",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Called the defining landmark of Djenne and widely regarded as the largest mud built structure in the world; sources did not rank it against other Malian sites.",
+   "sources": [
+    "https://newarab.com/analysis/malis-great-mosque-where-mud-slinging-becomes-constructive",
+    "https://mosqpedia.org/en/mosque/126"
+   ],
    "drawing": "mud-brick kit (djenne)",
    "frame": "seal"
   },
@@ -1229,7 +1626,12 @@
    "country": "MYANMAR",
    "chosen": "Shwedagon Pagoda",
    "where": "Yangon",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Called Myanmar's most famous landmark and its holiest Buddhist site.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Shwedagon_Pagoda",
+    "https://architectureofbuddhism.com/books/shwedagon-pagoda-myanmars-world-famous-landmark"
+   ],
    "drawing": "Asian temple kit (shwe)",
    "frame": "boxTall"
   },
@@ -1238,7 +1640,12 @@
    "country": "MONGOLIA",
    "chosen": "Genghis Khan Equestrian Statue",
    "where": "Tsonjin Boldog",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "A major landmark east of Ulaanbaatar and a Guinness record statue, completed 2008. No source ranks it Mongolia's top landmark.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Equestrian_statue_of_Genghis_Khan",
+    "https://www.guinnessworldrecords.com/world-records/118997-largest-equestrian-statue"
+   ],
    "drawing": "statue kit (rider)",
    "frame": "octTall"
   },
@@ -1247,7 +1654,12 @@
    "country": "MAURITANIA",
    "chosen": "Chinguetti Mosque",
    "where": "Chinguetti",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Sources identify the mosque and minaret as Mauritania's national emblem and it appears on the 1000 ouguiya note; restoration is under way.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Chinguetti_Mosque",
+    "https://icesco.org/en/2024/12/15/icesco-restores-historic-mosque-of-chinguetti-in-mauritania/"
+   ],
    "drawing": "mud-brick kit (chinguetti)",
    "frame": "roundSquare"
   },
@@ -1269,7 +1681,12 @@
    "country": "MAURITIUS",
    "chosen": "Le Morne Brabant",
    "where": "Le Morne",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Travel sources call it Mauritius's most iconic landmark; UNESCO listed in 2008 for its maroon heritage. Support is from travel pages, not an official ranking.",
+   "sources": [
+    "https://advcollective.com/mauritius/Landmark/le-morne-brabant",
+    "https://www.traveldojo.com/le-morne-brabant"
+   ],
    "drawing": "rock formation kit (leMorne)",
    "frame": "stepWide"
   },
@@ -1278,7 +1695,12 @@
    "country": "MALDIVES",
    "chosen": "Islamic Centre",
    "where": "Male",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The Islamic Centre with its golden dome is called Male's best known landmark and the most recognisable feature of the skyline; the claim is about the capital.",
+   "sources": [
+    "https://en.wikipedia.com/wiki/Islamic_Centre_(Maldives)",
+    "https://theculturetrip.com/articles/nature-and-tradition-top-cultural-sights-and-venues-in-mal"
+   ],
    "drawing": "mosque kit (grand)",
    "frame": "notch"
   },
@@ -1287,7 +1709,12 @@
    "country": "MALAWI",
    "chosen": "Mount Mulanje",
    "where": "Mulanje",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Mulanje is the main attraction of southern Malawi, holds Malawi's highest point (Sapitwa, 3,002 m) and was added to UNESCO's list in 2025. No source ranks it first nationally.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mulanje_Massif",
+    "https://whc.unesco.org/ar/list/1201"
+   ],
    "drawing": "mountain kit (range)",
    "frame": "pill"
   },
@@ -1313,7 +1740,12 @@
    "country": "MALAYSIA",
    "chosen": "Petronas Twin Towers",
    "where": "Kuala Lumpur",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Described as Malaysia's leading national symbol and most renowned icon; the tallest buildings in the world from 1998 to 2004.",
+   "sources": [
+    "https://theculturetrip.com/asia/malaysia/articles/all-you-need-to-know-about-petronas-towers-the-pride-of-kuala-lumpur",
+    "https://ww3.rics.org/content/rics/uk/en/modus/built-environment/urbanisation/buildings-that-elevated-cities--petronas-towers-.html"
+   ],
    "drawing": "tower kit (petronas)",
    "frame": "stepTall"
   },
@@ -1322,7 +1754,12 @@
    "country": "MOZAMBIQUE",
    "chosen": "Maputo Central Railway Station",
    "where": "Maputo",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Called Maputo's most famous landmark and ranked by publications among the world's most beautiful railway stations; a city rather than national claim.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Maputo_Central_Railway_Station",
+    "https://www.lonelyplanet.com/points-of-interest/train-station/1040743"
+   ],
    "drawing": "church kit (station)",
    "frame": "octSquare"
   },
@@ -1331,7 +1768,12 @@
    "country": "NAMIBIA",
    "chosen": "Sossusvlei dunes",
    "where": "Namib Desert",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Travel sources call Sossusvlei easily Namibia's most iconic destination. Deadvlei within it is also named the most iconic landmark.",
+   "sources": [
+    "https://untamedtravelling.com/en/destinations/africa/namibia/sand-dunes-sossusvlei-namibia",
+    "https://yellowzebrasafaris.com/us/namibia/where-to-go/sossusvlei/"
+   ],
    "drawing": "rock formation kit (dune)",
    "frame": "boxWide"
   },
@@ -1340,7 +1782,12 @@
    "country": "NIGER",
    "chosen": "Agadez Grand Mosque",
    "where": "Agadez",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The 27 m mud brick minaret is called the city's landmark and one of Niger's best known, in the UNESCO listed historic centre of Agadez.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Agadez_Mosque",
+    "https://WWW.ATLASOBSCURA.COM/places/grand-mosque-agadez-niger"
+   ],
    "drawing": "mud-brick kit (agadez)",
    "frame": "octTall"
   },
@@ -1349,7 +1796,12 @@
    "country": "NIGERIA",
    "chosen": "Zuma Rock",
    "where": "Abuja",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Known as the gateway to Abuja and shown on the 100 naira note. Sources are mostly tourism pages and none ranks it Nigeria's top landmark.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Zuma_Rock",
+    "https://africa.cgtn.com/?p=21053"
+   ],
    "drawing": "rock formation kit (monolith)",
    "frame": "heater"
   },
@@ -1371,7 +1823,12 @@
    "country": "NETHERLANDS",
    "chosen": "Dutch windmill",
    "where": "Kinderdijk",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The pick is generic. Windmills are listed with clogs, cheese and bicycles as the most recognisable Dutch symbols, and Kinderdijk is the UNESCO site (1997) with 19 mills.",
+   "sources": [
+    "https://www.connollycove.com/iconic-windmills-of-the-netherlands/",
+    "https://theculturetrip.com/europe/the-netherlands/articles/8-things-you-didnt-know-about-dutch-windmills"
+   ],
    "drawing": "one-off drawing (windmill)",
    "frame": "hexTall"
   },
@@ -1380,7 +1837,12 @@
    "country": "NORWAY",
    "chosen": "Urnes Stave Church",
    "where": "Luster",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Called the most famous of Norway's stave churches and the only one on the UNESCO list (1979). Stave churches as a type are a national icon; Urnes is not ranked against fjord sights.",
+   "sources": [
+    "https://www.worldhistory.org/article/1609/stave-churches-norways-national-treasures/",
+    "https://fortidsminneforeningen.no/en/museum/urnes-stave-church"
+   ],
    "drawing": "church kit (stave)",
    "frame": "heater"
   },
@@ -1389,7 +1851,12 @@
    "country": "NEPAL",
    "chosen": "Boudhanath Stupa",
    "where": "Kathmandu",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Called one of Kathmandu's most iconic landmarks and among the largest stupas in the world (UNESCO 1979); not ranked above Swayambhunath.",
+   "sources": [
+    "https://encyclopediaofbuddhism.org/wiki/Boudhanath_Stupa",
+    "https://www.bestheritagetour.com/blog/boudhanath-stupa-a-spiritual-journey-to-kathmandu's-iconic-landmark"
+   ],
    "drawing": "Asian temple kit (boudha)",
    "frame": "ogee"
   },
@@ -1398,7 +1865,12 @@
    "country": "NAURU",
    "chosen": "Phosphate pinnacles",
    "where": "Nauru",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The pinnacles of Topside, left by phosphate mining, cover about 80 percent of the island and are called its most defining sight; support is from travel pages.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Topside_(Nauru)",
+    "https://www.plizio.com/nauru-attractions/"
+   ],
    "drawing": "rock formation kit (pinnacles)",
    "frame": "stepWide"
   },
@@ -1407,7 +1879,12 @@
    "country": "NEW ZEALAND",
    "chosen": "Aoraki Mount Cook",
    "where": "Canterbury",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "New Zealand's highest mountain (3,724 m) and a UNESCO site since 1990, described as a national icon in mostly travel sources; no formal ranking.",
+   "sources": [
+    "https://tripideas.nz/aoraki-mount-cook/",
+    "https://www.twinkl.com/blog/14-famous-landmarks-in-new-zealand"
+   ],
    "drawing": "mountain kit (range)",
    "frame": "boxWide"
   },
@@ -1416,7 +1893,12 @@
    "country": "OMAN",
    "chosen": "Sultan Qaboos Grand Mosque",
    "where": "Muscat",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Called one of Oman's most iconic landmarks; opened 2001, the country's tallest structure with a 90 m minaret, and open to non-Muslim visitors.",
+   "sources": [
+    "https://lovin.co/muscat/en/one-of-omans-most-iconic-landmarks",
+    "https://www.omanobserver.om/article/1168399/oman/grand-mosque-a-blend-of-faith-culture-and-architectural-grandeur"
+   ],
    "drawing": "mosque kit (grand)",
    "frame": "hexWide"
   },
@@ -1425,7 +1907,12 @@
    "country": "PANAMA",
    "chosen": "Bridge of the Americas",
    "where": "Panama Canal",
-   "confidence": "unverified",
+   "confidence": "not confirmed",
+   "evidence": "Sources describe a road bridge (1962) over the Pacific end of the canal, not a national symbol. The Panama Canal itself, for example the Miraflores Locks, is the more likely icon and should be considered.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Bridge_of_the_Americas",
+    "https://www.aaa.com/tripcanvas/attraction/bridge-of-the-americas-puente-de-las-americas-VA14211"
+   ],
    "drawing": "bridge kit (steelArch)",
    "frame": "stepWide"
   },
@@ -1434,7 +1921,12 @@
    "country": "PERU",
    "chosen": "Machu Picchu",
    "where": "Cusco",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Treated as Peru's most famous landmark and the main emblem of the Inca Empire; UNESCO site since 1983 and one of the New Seven Wonders (2007).",
+   "sources": [
+    "https://activeadventures.com/blog/the-most-famous-inca-ruins-in-peru-discover-machu-picchu",
+    "https://waytostay.com/?p=1514339"
+   ],
    "drawing": "one-off drawing (machu)",
    "frame": "scallop"
   },
@@ -1443,7 +1935,12 @@
    "country": "PAPUA NEW GUINEA",
    "chosen": "Haus Tambaran (spirit house)",
    "where": "Sepik",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Described as a major symbol of PNG identity; the national parliament in Port Moresby is modelled on it. It is a Sepik region building type rather than one landmark.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Haus_Tambaran",
+    "https://www.undp.org/papua-new-guinea/news/its-not-about-how-much-you-do-how-much-love-you-put-doing-what-you-do-counts"
+   ],
    "drawing": "traditional structure kit (tambaran)",
    "frame": "boxTall"
   },
@@ -1452,7 +1949,12 @@
    "country": "PHILIPPINES",
    "chosen": "Mayon Volcano",
    "where": "Albay",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Described as the Philippines' most iconic volcano for its near perfect cone; on the tentative World Heritage list. No source ranks it first among all national landmarks.",
+   "sources": [
+    "https://www.amusingplanet.com/2014/11/mayon-volcano-volcano-with-perfect-cone.html",
+    "https://worldheritagesite.org/tentative/id/6007"
+   ],
    "drawing": "volcano kit (cone)",
    "frame": "notch"
   },
@@ -1461,7 +1963,12 @@
    "country": "PAKISTAN",
    "chosen": "Badshahi Mosque",
    "where": "Lahore",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Called one of Lahore's most iconic landmarks, completed 1673 by Aurangzeb; the claim is about the city rather than the nation.",
+   "sources": [
+    "https://en.wikipedia.com/wiki/Badshahi_Mosque",
+    "https://auqaf.punjab.gov.pk/node/165"
+   ],
    "drawing": "mosque kit (grand)",
    "frame": "banner"
   },
@@ -1470,7 +1977,12 @@
    "country": "POLAND",
    "chosen": "Palace of Culture and Science",
    "where": "Warsaw",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Warsaw's best known and most visible landmark and the tallest building in Poland. A divisive Soviet era gift (1955) rather than a clear national symbol.",
+   "sources": [
+    "https://go2warsaw.pl/en/palace-of-culture-and-science",
+    "https://warsawinsider.pl/the-palace-of-culture-and-science-a-must-visit-icon/"
+   ],
    "drawing": "tower kit (stepped)",
    "frame": "heater"
   },
@@ -1479,7 +1991,12 @@
    "country": "PALESTINE",
    "chosen": "Dome of the Rock",
    "where": "Jerusalem",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Jerusalem's most recognised landmark and a symbol of Palestinian national aspiration in popular and political use, though not an official emblem and claimed by both sides. Politically sensitive pick.",
+   "sources": [
+    "https://apollo-magazine.com/?p=285272",
+    "https://ctc.westpoint.edu/militant-imagery-project/0121/"
+   ],
    "drawing": "mosque kit (octagon)",
    "frame": "boxTall"
   },
@@ -1488,7 +2005,12 @@
    "country": "PORTUGAL",
    "chosen": "Belem Tower",
    "where": "Lisbon",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Called Lisbon's most iconic landmark and one of Portugal's most famous; seen as a metonym for Portugal and the Age of Discoveries. UNESCO site.",
+   "sources": [
+    "https://www.wikipedia.org/wiki/Bel%C3%A9m_Tower",
+    "https://lisbonportugaltourism.com/guide/belem-tower.html"
+   ],
    "drawing": "fort kit (belem)",
    "frame": "shield"
   },
@@ -1497,7 +2019,12 @@
    "country": "PALAU",
    "chosen": "Rock Islands",
    "where": "Koror",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The Rock Islands Southern Lagoon is Palau's UNESCO site and a leading dive destination; its most famous single attraction is Jellyfish Lake. Pick is an area rather than one landmark.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Rock_Islands",
+    "https://worldatlas.com/articles/rock-islands-southern-lagoon-palau.html"
+   ],
    "drawing": "rock formation kit (mushroom)",
    "frame": "notch"
   },
@@ -1519,7 +2046,12 @@
    "country": "QATAR",
    "chosen": "Aspire Tower",
    "where": "Doha",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Described as a landmark of Doha built for the 2006 Asian Games and a 2008 CTBUH award winner; sources disagree on whether it is still the tallest.",
+   "sources": [
+    "https://www.gulf-times.com/story/635178/The-architectural-wonders-of-Qatar",
+    "https://www.hotels.com/go/qatar/stunning-landmarks-qatar"
+   ],
    "drawing": "tower kit (aspire)",
    "frame": "roundArch"
   },
@@ -1528,7 +2060,12 @@
    "country": "ROMANIA",
    "chosen": "Bran Castle",
    "where": "Bran",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Called Romania's most famous landmark and best known medieval castle; its Dracula link is myth, since Vlad the Impaler never lived there.",
+   "sources": [
+    "https://www.rferl.org/a/1068701.html",
+    "https://theculturetrip.com/europe/romania/articles/a-brief-history-of-bran-castle"
+   ],
    "drawing": "fort kit (bran)",
    "frame": "boxTall"
   },
@@ -1537,7 +2074,12 @@
    "country": "SERBIA",
    "chosen": "Church of Saint Sava",
    "where": "Belgrade",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Called the most recognisable building in Belgrade, with a dome modelled on Hagia Sophia and dedicated to the nation's patron saint. The claim is about the capital.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Church_of_Saint_Sava",
+    "https://tob.rs/en/what-to-see/belgrade-attractions/st-sava-church"
+   ],
    "drawing": "church kit (sava)",
    "frame": "notch"
   },
@@ -1546,7 +2088,12 @@
    "country": "RUSSIA",
    "chosen": "Saint Basil's Cathedral",
    "where": "Moscow",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Described as Russia's most recognisable symbol and compared to the Eiffel Tower for France; completed 1561 and a UNESCO site.",
+   "sources": [
+    "https://www.travelallrussia.com/st-basil-moscow",
+    "https://tsarvisit.com/en/blog/st-basil-cathedral"
+   ],
    "drawing": "church kit (basil)",
    "frame": "octTall"
   },
@@ -1555,7 +2102,12 @@
    "country": "RWANDA",
    "chosen": "Virunga volcanoes",
    "where": "Volcanoes NP",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Volcanoes National Park is called Rwanda's most famous national park and top attraction, mainly for the mountain gorillas. The Virunga range is shared with Uganda and the DR Congo.",
+   "sources": [
+    "https://www.lonelyplanet.com/rwanda/attractions/volcanoes-national-park/a/poi-sig/1504858/355553",
+    "https://responsibletourismcompany.com/attraction/volcanoes-national-park-national-parks-in-rwanda/"
+   ],
    "drawing": "volcano kit (twin)",
    "frame": "notch"
   },
@@ -1564,7 +2116,12 @@
    "country": "SAUDI ARABIA",
    "chosen": "Kingdom Centre Tower",
    "where": "Riyadh",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "One of Riyadh's best known landmarks, 302 m tall, and called an icon for the whole country by the architect firm. Not ranked against other Saudi sites.",
+   "sources": [
+    "https://www.lonelyplanet.com/saudi-arabia/riyadh/attractions/kingdom-centre/a/poi-sig/423853/361148",
+    "https://omrania.com/?p=2272"
+   ],
    "drawing": "tower kit (kingdom)",
    "frame": "boxTall"
   },
@@ -1573,7 +2130,12 @@
    "country": "SOLOMON ISLANDS",
    "chosen": "Mount Popomanaseu",
    "where": "Guadalcanal",
-   "confidence": "unverified",
+   "confidence": "not confirmed",
+   "evidence": "The highest peak in the Solomon Islands (about 2,335 m) on Guadalcanal, but no source calls it a famous or symbolic landmark. A weak pick that should be reconsidered.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mount_Popomanaseu",
+    "https://peakvisor.com/peak/mount-popomanaseu.html"
+   ],
    "drawing": "mountain kit (range)",
    "frame": "hexWide"
   },
@@ -1582,7 +2144,12 @@
    "country": "SEYCHELLES",
    "chosen": "Anse Source d'Argent",
    "where": "La Digue",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Lonely Planet calls it one of the most photographed beaches on the planet and travel sites call it the most photographed in Seychelles; no hard data behind the superlative.",
+   "sources": [
+    "https://www.lonelyplanet.com/seychelles/attractions/anse-source-dargent/a/poi-sig/1402802/355593",
+    "https://en.wikipedia.org/wiki/Anse_Source_d%27Argent"
+   ],
    "drawing": "rock formation kit (boulders)",
    "frame": "circle"
   },
@@ -1591,7 +2158,12 @@
    "country": "SUDAN",
    "chosen": "Pyramids of Meroe",
    "where": "Meroe",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "UNESCO listed in 2011 and once called Sudan's most visited heritage site, but sources do not rank it Sudan's most famous. Preservation work has halted because of the current war.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pyramids_of_Mero%C3%AB",
+    "https://www.aljazeera.com/gallery/2026/8/6/sudan-war-threatens-ancient-meroe-pyramids-a-unesco-heritage-site"
+   ],
    "drawing": "pyramid kit (meroe)",
    "frame": "stepWide"
   },
@@ -1600,7 +2172,12 @@
    "country": "SWEDEN",
    "chosen": "Stockholm City Hall",
    "where": "Stockholm",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Called the most famous symbol of Stockholm, with a tower topped by the Three Crowns national emblem and the Nobel dinner venue. Framed around the capital.",
+   "sources": [
+    "https://www.visitstockholm.com/see--do/attractions/the-city-hall/",
+    "https://aviewoncities.com/stockholm/stadshuset"
+   ],
    "drawing": "tower kit (cityHall)",
    "frame": "ogee"
   },
@@ -1609,7 +2186,12 @@
    "country": "SINGAPORE",
    "chosen": "Marina Bay Sands",
    "where": "Singapore",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Travel and blog sources call it Singapore's most recognisable landmark; the Merlion is the frequent rival and no source gives a formal ranking.",
+   "sources": [
+    "https://www.singapore-spirit.com/guides/iconic-landmarks-singapore/",
+    "https://visakanv.com/sg/mbs"
+   ],
    "drawing": "tower kit (mbs)",
    "frame": "circle"
   },
@@ -1618,7 +2200,12 @@
    "country": "SLOVENIA",
    "chosen": "Lake Bled Island Church",
    "where": "Bled",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Called the most recognisable symbol of Bled island and appears on many postcards; the image is a Slovenia icon but sources frame it around Bled.",
+   "sources": [
+    "https://the-slovenia.com/travel-lifestyle/bled-an-alpine-fairytale-come-to-life/",
+    "https://www.inyourpocket.com/slovenia/bled/sightseeing/bled-island"
+   ],
    "drawing": "church kit (islandChurch)",
    "frame": "scallop"
   },
@@ -1627,7 +2214,12 @@
    "country": "SLOVAKIA",
    "chosen": "Bratislava Castle",
    "where": "Bratislava",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Called the most recognisable symbol of Bratislava; framed around the capital.",
+   "sources": [
+    "https://theculturetrip.com/europe/slovakia/articles/architectural-tour-bratislavas-beautiful-landmarks",
+    "https://www.ancient-history-sites.com/?p=23806"
+   ],
    "drawing": "fort kit (keep4)",
    "frame": "circle"
   },
@@ -1663,7 +2255,12 @@
    "country": "SENEGAL",
    "chosen": "African Renaissance Monument",
    "where": "Dakar",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "At 49 m the tallest statue in Africa (inaugurated 2010) and called one of Dakar's most visited sites. A controversial vanity project to critics.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/African_Renaissance_Monument",
+    "https://www.atlasobscura.com/places/african-renaissance-monument"
+   ],
    "drawing": "statue kit (renaissance)",
    "frame": "notch"
   },
@@ -1672,7 +2269,12 @@
    "country": "SOMALIA",
    "chosen": "Arba'a Rukun Mosque",
    "where": "Mogadishu",
-   "confidence": "unverified",
+   "confidence": "not confirmed",
+   "evidence": "A 13th century mosque in Mogadishu, damaged in the civil war and restored since 2017, but no source names it Somalia's best known landmark.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Arba%27a_Rukun_Mosque",
+    "https://www.dailysabah.com/arts/reviving-somalias-vanishing-past-mogadishus-sacred-heritage/news"
+   ],
    "drawing": "mosque kit (grand)",
    "frame": "hexWide"
   },
@@ -1694,7 +2296,12 @@
    "country": "SOUTH SUDAN",
    "chosen": "Imatong Mountains",
    "where": "Eastern Equatoria",
-   "confidence": "unverified",
+   "confidence": "not confirmed",
+   "evidence": "Mount Kinyeti (3,187 m) in the Imatong Mountains is the country's highest point, but no source presents it as a famous or symbolic landmark. A weak pick.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Imatong_Mountains",
+    "https://en.wikipedia.org/wiki/Kinyeti"
+   ],
    "drawing": "mountain kit (range)",
    "frame": "pill"
   },
@@ -1703,7 +2310,12 @@
    "country": "SAO TOME AND PRINCIPE",
    "chosen": "Pico Cao Grande",
    "where": "Sao Tome",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "The CIA World Factbook identifies it as the country's most famous landmark; a 663 m volcanic plug often described as the national emblem.",
+   "sources": [
+    "https://www.cia.gov/the-world-factbook/countries/sao-tome-and-principe/images",
+    "https://www.amusingplanet.com/2013/07/pico-cao-grande-towering-volcanic-plug.html"
+   ],
    "drawing": "rock formation kit (needle)",
    "frame": "boxTall"
   },
@@ -1725,7 +2337,12 @@
    "country": "SYRIA",
    "chosen": "Palmyra Colonnade",
    "where": "Palmyra",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The Great Colonnade is part of the UNESCO listed Site of Palmyra (1980), which is on the Danger list; sources do not rank the colonnade as the most famous feature, and parts of the site were destroyed in the conflict.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Great_Colonnade_at_Palmyra",
+    "https://whc.unesco.org/en/news/1488/"
+   ],
    "drawing": "ruins kit (palmyra)",
    "frame": "pill"
   },
@@ -1734,7 +2351,12 @@
    "country": "ESWATINI",
    "chosen": "Sibebe Rock",
    "where": "Mbabane",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "A major granite landmark near Mbabane, called the world's second largest exposed monolith; the local lager is named after it. No ranking against other national sights.",
+   "sources": [
+    "https://www.lonelyplanet.com/eswatini-swaziland/mbabane/attractions/sibebe-rock/a/poi-sig/1090124/355636",
+    "https://atlasobscura.com/places/sibebe-rock"
+   ],
    "drawing": "rock formation kit (dome)",
    "frame": "pill"
   },
@@ -1743,7 +2365,12 @@
    "country": "CHAD",
    "chosen": "Ennedi Arch",
    "where": "Ennedi Plateau",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The Aloba Arch is described as the best known feature of the UNESCO listed Ennedi Massif (2016). The pick says only Ennedi Arch, which is ambiguous among several arches.",
+   "sources": [
+    "https://www.africanparks.org/the-parks/ennedi",
+    "https://explore.com/1487764/one-largest-natural-arches-chad-aloba-world-isolated-hardly-seen"
+   ],
    "drawing": "rock formation kit (arch)",
    "frame": "roundSquare"
   },
@@ -1765,7 +2392,12 @@
    "country": "THAILAND",
    "chosen": "Wat Arun",
    "where": "Bangkok",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Called one of Bangkok's defining landmarks and shown on the 10 baht coin. Other Thai sights such as the Grand Palace also compete.",
+   "sources": [
+    "https://timeout.com/bangkok/attractions/wat-arun",
+    "https://www.sacred-destinations.com/thailand/bangkok-wat-arun"
+   ],
    "drawing": "Asian temple kit (prang)",
    "frame": "octSquare"
   },
@@ -1774,7 +2406,12 @@
    "country": "TAJIKISTAN",
    "chosen": "Hisor Fortress Gate",
    "where": "Hisor",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Called a famous landmark of Tajikistan and shown on the 20 somoni banknote. The visible fortress has been rebuilt recently.",
+   "sources": [
+    "https://trektajikistan.com/blog/hisor-fortress/",
+    "https://www.timetravelturtle.com/tajikistan/hisor-fortress/"
+   ],
    "drawing": "gate kit (triumph)",
    "frame": "roundSquare"
   },
@@ -1783,7 +2420,12 @@
    "country": "TIMOR-LESTE",
    "chosen": "Cristo Rei of Dili",
    "where": "Dili",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Called the capital's best known landmark: a 27 m statue unveiled 1996 as an Indonesian gift, later kept by the independent state. Its origins are contested.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cristo_Rei_of_Dili",
+    "https://www.thejakartapost.com/news/2016/07/23/the-blessed-hills-dili"
+   ],
    "drawing": "statue kit (christ)",
    "frame": "heater"
   },
@@ -1792,7 +2434,12 @@
    "country": "TURKMENISTAN",
    "chosen": "Arch of Neutrality",
    "where": "Ashgabat",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Presented as a symbol of Turkmen statehood and neutrality (recognised 1995), centre of Neutrality Day celebrations. The monument was moved in 2010.",
+   "sources": [
+    "https://eastroute.com/es/turkmaniston/arch-of-neutrality-turkmen-statehood-symbol/",
+    "https://www.advantour.com/turkmenistan/ashgabat/neutrality-monument.htm"
+   ],
    "drawing": "monument kit (neutrality)",
    "frame": "stepTall"
   },
@@ -1801,7 +2448,12 @@
    "country": "TUNISIA",
    "chosen": "Amphitheatre of El Jem",
    "where": "El Djem",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The Ministry of Cultural Affairs calls it the most accomplished Roman monument of its kind in Tunisia; UNESCO site since 1979. Carthage competes for national fame.",
+   "sources": [
+    "https://www.patrimoinedetunisie.com.tn/en/monuments/the-amphitheatre-of-thysdrus-el-jem/",
+    "https://www.historyhit.com/locations/el-jem-amphitheatre/"
+   ],
    "drawing": "ruins kit (amphitheatre)",
    "frame": "hexWide"
   },
@@ -1841,7 +2493,12 @@
    "country": "TRINIDAD AND TOBAGO",
    "chosen": "Magnificent Seven (Stollmeyer Castle)",
    "where": "Port of Spain",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The first of the Magnificent Seven mansions around Queen's Park Savannah in Port of Spain, a well known group; no source ranks it as the country's top landmark.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Magnificent_Seven_(Port_of_Spain)",
+    "https://visittrinidad.tt/things-to-do/sites-attractions/killarney-stollmeyers-castle/"
+   ],
    "drawing": "fort kit (castle)",
    "frame": "roundSquare"
   },
@@ -1850,7 +2507,12 @@
    "country": "TUVALU",
    "chosen": "Funafuti Atoll",
    "where": "Funafuti",
-   "confidence": "unverified",
+   "confidence": "not confirmed",
+   "evidence": "Funafuti Atoll is a place, not a landmark. Sources name the Fetu Ao Lima (Morning Star Church) as its most prominent building and Government House as a symbol of self-governance; none names a national landmark. The pick should be replaced with a specific structure.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Funafuti",
+    "https://www.mappr.co/capital-cities/tuvalu"
+   ],
    "drawing": "island kit (palms)",
    "frame": "scallop"
   },
@@ -1859,7 +2521,12 @@
    "country": "TANZANIA",
    "chosen": "Mount Kilimanjaro",
    "where": "Kilimanjaro",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Travel sources call Kilimanjaro the most recognisable and iconic landmark in Tanzania and Africa's highest mountain; UNESCO site since 1987. The currency and emblem claim is from secondary sources.",
+   "sources": [
+    "https://demandafrica.com/travel/destinations/iconic-sites-and-landmarks-in-tanzania/",
+    "https://footslopestours.com/blog/why-is-mount-kilimanjaro-so-famous-special"
+   ],
    "drawing": "mountain kit (kili)",
    "frame": "boxWide"
   },
@@ -1868,7 +2535,12 @@
    "country": "UKRAINE",
    "chosen": "Saint Sophia Cathedral",
    "where": "Kyiv",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "A UNESCO site (1990) in Kyiv, on the Danger list since 2023 and damaged by a strike; sources describe its heritage status but do not rank it Ukraine's top landmark.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Saint_Sophia_Cathedral,_Kyiv",
+    "https://theartnewspaper.com/2023/09/15/unesco-adds-kyiv-lviv-sites-world-heritage-danger"
+   ],
    "drawing": "church kit (sophia)",
    "frame": "roundSquare"
   },
@@ -1877,7 +2549,12 @@
    "country": "UGANDA",
    "chosen": "Kasubi Tombs",
    "where": "Kampala",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "UNESCO site (2001) and burial ground of the Buganda kings. The main hall burned in 2010, was restored and the site left the Danger list in 2023. No source ranks it Uganda's top landmark.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Kasubi_Tombs",
+    "https://www.monitor.co.ug/uganda/news/insight/kasubi-tombs-unsolved-mystery-11-years-after-the-fire-3418600"
+   ],
    "drawing": "traditional structure kit (kasubi)",
    "frame": "seal"
   },
@@ -1904,7 +2581,12 @@
    "country": "URUGUAY",
    "chosen": "Palacio Salvo",
    "where": "Montevideo",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The city of Montevideo's own tourism site calls its tower an iconic symbol of the city; travel guides call it the most iconic building. Framed around the capital.",
+   "sources": [
+    "https://mvdaudiovisual.montevideo.gub.uy/en/locations/palacio-salvo",
+    "https://www.nomadotravel.app/en/attractions/palacio-salvo"
+   ],
    "drawing": "tower kit (palacio)",
    "frame": "boxTall"
   },
@@ -1913,7 +2595,12 @@
    "country": "UZBEKISTAN",
    "chosen": "Registan",
    "where": "Samarkand",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "One guide calls it the symbol of Samarkand and, arguably, the most recognisable landmark in Uzbekistan.",
+   "sources": [
+    "https://kalpak-travel.com/blog/registan/",
+    "https://welcome.kz/en/uzbekistan/info-cities-uz/samarkand/registan"
+   ],
    "drawing": "mosque kit (registan)",
    "frame": "stepWide"
   },
@@ -1935,7 +2622,12 @@
    "country": "SAINT VINCENT AND THE GRENADINES",
    "chosen": "La Soufriere",
    "where": "St Vincent",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The highest point of the country and its most prominent natural landmark; erupted in April 2021 and its national park is on the UNESCO tentative list.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/La_Soufri%C3%A8re_(Saint_Vincent)",
+    "https://whc.unesco.org/en/tentativelists/5751"
+   ],
    "drawing": "volcano kit (crater)",
    "frame": "notch"
   },
@@ -1944,7 +2636,12 @@
    "country": "VENEZUELA",
    "chosen": "Angel Falls",
    "where": "Canaima",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Called Venezuela's signature natural landmark and shown on its banknotes; the world's tallest uninterrupted waterfall. In 2009 the president called it the nation's most famous landmark.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Angel_Falls",
+    "https://numisview.com/reference/things/angel-falls"
+   ],
    "drawing": "rock formation kit (tepui)",
    "frame": "octSquare"
   },
@@ -1953,7 +2650,12 @@
    "country": "VIETNAM",
    "chosen": "Ha Long Bay",
    "where": "Quang Ninh",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Vietnam's first natural UNESCO site (1994), named among the world's most beautiful natural wonders in press coverage. Sources do not rank it against other Vietnamese sights.",
+   "sources": [
+    "https://dtinews.dantri.com.vn/vietnam-today/vietnams-ha-long-bay-named-among-worlds-50-most-beautiful-natural-wonders-20200706112940210.htm",
+    "https://vinwonders.com/en/wonderpedia/news/ha-long-attractions/"
+   ],
    "drawing": "rock formation kit (karst)",
    "frame": "boxWide"
   },
@@ -1975,7 +2677,12 @@
    "country": "SAMOA",
    "chosen": "Baha'i House of Worship",
    "where": "Apia",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "A well known landmark at Tiapapata near Apia, dedicated 1984 and called the Mother Temple of the Pacific Islands; no source ranks it Samoa's top landmark.",
+   "sources": [
+    "https://bahaitemplesamoa.org/History.htm",
+    "https://www.sacred-destinations.com/samoa/apia-bahai-temple"
+   ],
    "drawing": "church kit (bahai)",
    "frame": "notch"
   },
@@ -1984,7 +2691,12 @@
    "country": "YEMEN",
    "chosen": "Shibam skyscrapers",
    "where": "Shibam",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Known as the Manhattan of the Desert for its mud brick towers up to 11 stories; UNESCO site, on the Danger list since 2015.",
+   "sources": [
+    "https://www.nationalgeographic.com/travel/article/shibam-mud-skyscraper-yemen",
+    "https://www.africanews.com/2020/11/02/yemen-s-ancient-manhattan-of-the-desert-risks-collapse/"
+   ],
    "drawing": "mud-brick kit (shibam)",
    "frame": "notch"
   },
@@ -1993,7 +2705,12 @@
    "country": "SOUTH AFRICA",
    "chosen": "Table Mountain",
    "where": "Cape Town",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "South African Tourism calls it South Africa's most iconic landmark and one of the New 7 Wonders of Nature.",
+   "sources": [
+    "https://southafrica.net/za/en/travel/article/table-mountain-cape-town-south-africa-s-most-iconic-landmark",
+    "https://www.capetownetc.com/news/telegraph-travel-names-table-mountain-as-one-of-the-most-beautiful-mountains-in-the-world/"
+   ],
    "drawing": "mountain kit (table)",
    "frame": "banner"
   },
@@ -2002,7 +2719,12 @@
    "country": "ZAMBIA",
    "chosen": "Victoria Falls",
    "where": "Livingstone",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Described as Zambia's top attraction and a UNESCO site (1989), shared with Zimbabwe.",
+   "sources": [
+    "https://www.lonelyplanet.com/zambia/livingstone/attractions/victoria-falls-world-heritage-national-monument-site/a/poi-sig/1346639/1329668",
+    "https://secretafrica.com/top-10-tourist-attractions-in-zambia/"
+   ],
    "drawing": "waterfall kit (victoria)",
    "frame": "banner"
   },
@@ -2011,7 +2733,12 @@
    "country": "ZIMBABWE",
    "chosen": "Great Zimbabwe",
    "where": "Masvingo",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "The ruins gave the country its name and the Zimbabwe Bird found there is the national emblem on the flag and arms; shown on currency and UNESCO listed (1986).",
+   "sources": [
+    "https://geographyworlds.com/blog/great-zimbabwe-unesco-world-heritage/",
+    "https://www.banknoteworld.com/blog/great-zimbabwe-from-an-ancient-civilization-to-modern-banknotes-coins/"
+   ],
    "drawing": "traditional structure kit (greatZim)",
    "frame": "pill"
   }

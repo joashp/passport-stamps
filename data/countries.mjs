@@ -94,7 +94,7 @@ export const COUNTRIES = [
 ['AF', 'AFGHANISTAN', 'Minaret of Jam', 'Ghor', 'mosque', 'jam'],
 ['AM', 'ARMENIA', 'Mount Ararat and Khor Virap', 'Ararat plain', 'peak', 'ararat'],
 ['AZ', 'AZERBAIJAN', 'Flame Towers', 'Baku', 'tower', 'flame'],
-['BH', 'BAHRAIN', 'Pearl Monument', 'Manama', 'pillar', 'pearl'],
+['BH', 'BAHRAIN', "Qal'at al-Bahrain (Bahrain Fort)", 'Manama', 'fort', 'bastion'],
 ['BD', 'BANGLADESH', 'Shaheed Minar', 'Dhaka', 'pillar', 'shaheed'],
 ['BT', 'BHUTAN', "Tiger's Nest (Paro Taktsang)", 'Paro', 'cliff', 'monastery'],
 ['BN', 'BRUNEI', 'Omar Ali Saifuddien Mosque', 'Bandar Seri Begawan', 'mosque', 'grand', { minarets: 1, domes: 1 }],

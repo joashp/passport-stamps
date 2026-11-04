@@ -812,11 +812,11 @@
  {
   "code": "BH",
   "name": "BAHRAIN",
-  "landmark": "Pearl Monument",
+  "landmark": "Qal'at al-Bahrain (Bahrain Fort)",
   "where": "Manama",
-  "kit": "pillar",
-  "kind": "pearl",
-  "frame": "octTall"
+  "kit": "fort",
+  "kind": "bastion",
+  "frame": "banner"
  },
  {
   "code": "BD",

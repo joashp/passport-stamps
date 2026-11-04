@@ -12,7 +12,7 @@ const countries = report.sort((a, b) => a.code.localeCompare(b.code)).map((r) =>
   return { code: r.code, country: r.name, chosen: r.landmark, where: r.where, confidence: v ? v.status : 'unverified', ...(v && { evidence: v.note, sources: v.sources }), drawing: `${KIT_NAMES[r.kit]} (${r.kind})`, frame: r.frame };
 });
 const out = {
-  note: "Landmark chosen for each stamp. high/medium: checked in the first research pass. supported: a source named it as the country's best known landmark. partly: a source lists it among the main sights. changed: replaced after checking. not confirmed / unverified: chosen from general knowledge and not checked. Many small countries could not be checked because several list sites were blocked by the session's network allowlist. The set is the 193 UN member states plus the Holy See and Palestine.",
+  note: "Landmark chosen for each stamp. high/medium: checked in the first research pass. supported: a source named it as the country's best known, most iconic or symbolic landmark. partly: sources confirm it as a major landmark or main sight, or frame it as the symbol of the capital or a region rather than the whole country. changed: replaced after checking. not confirmed: searches found no source backing the pick as a national landmark, so it needs review. unverified: not checked yet. Most support comes from travel and tourism sites, not formal rankings. The set is the 193 UN member states plus the Holy See and Palestine.",
   sources: old.sources,
   countries,
 };

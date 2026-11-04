@@ -51,7 +51,9 @@ To add a country: `node stamp.mjs new DE GERMANY navy oval`, then follow the sam
 
 ## Which landmarks are verified
 
-Checked against web sources on 2026-11-04: the 10 hand-built countries, plus 22 more marked **supported** (a source named it as the best known, iconic or symbolic landmark), 16 **partly** supported (a source confirms it as a major landmark or main sight), 1 **changed** (Liberia) and 1 **not confirmed** (Andorra). The other 145 were chosen from general knowledge and have **not** been checked. The search tool answers about one country per query and two list sites are blocked by this session's network allowlist, so coverage is partial. [docs/MONUMENTS.md](docs/MONUMENTS.md) shows the status and evidence for every country.
+Every landmark has now been checked against web sources (2026-11-04, one search per country). Besides the 10 hand-built countries: 77 are **supported** (a source named it as the best known, iconic or symbolic landmark), 98 are **partly** supported (a source confirms it as a major landmark or main sight, or as the symbol of the capital or a region rather than the whole country), 2 were **changed** (Liberia, and Bahrain, whose Pearl Monument was demolished in 2011 and is now the Bahrain Fort) and 8 are **not confirmed**. Most support comes from travel and tourism sites, not formal rankings. [docs/MONUMENTS.md](docs/MONUMENTS.md) shows the status and evidence for every country.
+
+The 8 **not confirmed** picks are the ones to review first: Andorra (no single landmark), Botswana (a "Chobe baobab" is too vague), Marshall Islands and Tuvalu (an atoll, not a structure), Panama (a road bridge rather than the canal), Solomon Islands and South Sudan (just the highest peak) and Somalia (a mosque no source calls well known).
 
 One thing to know: Sierra Leone's Cotton Tree is a confirmed national symbol, but a storm felled it in May 2023.
 
