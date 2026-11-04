@@ -31,30 +31,40 @@ const out = (dir, svg) => { fs.mkdirSync(`countries/${dir}`, { recursive: true }
 
 // ---------- Spain: Sagrada Familia ----------
 {
-  const towers = [[-90, -28, 15], [-65, -62, 16], [-39, -92, 17], [-13, -118, 18], [13, -118, 18], [39, -92, 17], [65, -62, 16], [90, -28, 15]];
+  // Nine spires: the tall central Tower of Jesus Christ (with its cross) and four stepped-down spires either side.
+  const towers = [[-90, -30, 14], [-69, -58, 15], [-47, -86, 16], [-24, -112, 17], [0, -150, 24], [24, -112, 17], [47, -86, 16], [69, -58, 15], [90, -30, 14]];
   let ink = '', holes = '';
   for (const [x, top, w] of towers) {
     const h = w / 2;
-    ink += `<path d="M${x - h},72 V${top + 36} C${x - h},${top + 20} ${x - h / 3},${top + 8} ${x},${top} C${x + h / 3},${top + 8} ${x + h},${top + 20} ${x + h},${top + 36} V72 Z" stroke="none"/><circle cx="${x}" cy="${top - 3.5}" r="2.6" stroke="none"/>`;
-    for (let y = 60; y > top + 38; y -= 14) holes += `<rect x="${x - 1.4}" y="${y - 9}" width="2.8" height="9" rx="1.2" stroke="none"/>`;
+    ink += `<path d="M${x - h},72 V${top + 36} C${x - h},${top + 20} ${x - h / 3},${top + 8} ${x},${top} C${x + h / 3},${top + 8} ${x + h},${top + 20} ${x + h},${top + 36} V72 Z" stroke="none"/>`;
+    ink += `<circle cx="${x}" cy="${top - 4}" r="${x === 0 ? 4 : 3}" stroke="none"/>`;
+    for (let y = 60; y > top + 40; y -= 13) holes += `<rect x="${x - 1.4}" y="${y - 9}" width="2.8" height="9" rx="1.2" stroke="none"/>`;
+    if (x === 0) for (let y = top + 38; y < 56; y += 26) holes += `<rect x="-9" y="${y}" width="18" height="2" stroke="none"/>`;
   }
+  ink += `<path d="M0,-176 V-152 M-7,-168 H7" fill="none" stroke-width="2.6" stroke-linecap="round"/>`;
   ink += `<path d="M-112,100 V62 H112 V100 Z" stroke="none"/><rect x="-116" y="58" width="232" height="5" stroke="none"/>`;
   holes += `<path d="M-17,100 V82 A17,17 0 0 1 17,100 Z M-70,100 V88 A9,9 0 0 1 -52,88 V100 Z M52,100 V88 A9,9 0 0 1 70,88 V100 Z" stroke="none"/><circle cx="0" cy="68" r="5" stroke="none"/>`;
-  out('es', wrap('es', '-125 -135 250 245', ink, holes));
+  out('es', wrap('es', '-125 -180 250 290', ink, holes));
 }
 
 // ---------- China: Great Wall ----------
 {
-  const pts = [[-112, 56], [-64, 28], [-20, -2], [30, -12], [70, -44], [112, -72]];
-  const line = pts.map((p) => p.join(',')).join(' L');
-  const towerAt = ([x, y]) => `<g transform="translate(${x} ${y})"><rect x="-16" y="-34" width="32" height="42" stroke="none"/>${[-16, -5.5, 5.5].map((mx) => `<rect x="${mx}" y="-42" width="10.5" height="9" stroke="none"/>`).join('')}</g>`;
-  const towerHole = ([x, y]) => `<g transform="translate(${x} ${y})"><path d="M-4.5,8 V-6 A4.5,4.5 0 0 1 4.5,-6 V8 Z" stroke="none"/><rect x="-10" y="-24" width="3" height="8" stroke="none"/><rect x="7" y="-24" width="3" height="8" stroke="none"/></g>`;
-  const towers = [pts[1], pts[3], pts[5]];
+  // The wall climbing a ridge: crenellated walkway, banded masonry and three watchtowers.
+  const P = [[-136, 46], [-106, 26], [-76, -8], [-46, -14], [-18, 14], [8, 38], [34, 26], [58, -10], [84, -40], [110, -46], [136, -26]];
+  const H = 34;
+  const body = `M${P.map(([x, y]) => `${x},${y}`).join(' L')} L${[...P].reverse().map(([x, y]) => `${x},${y + H}`).join(' L')} Z`;
+  let merlons = '';
+  for (let i = 0; i < P.length - 1; i++) {
+    const [x0, y0] = P[i], [x1, y1] = P[i + 1], len = Math.hypot(x1 - x0, y1 - y0), ang = (Math.atan2(y1 - y0, x1 - x0) * 180) / Math.PI, n = Math.max(1, Math.floor(len / 10));
+    for (let k = 0; k < n; k++) { const t = (k + 0.5) / n; merlons += `<rect transform="translate(${f(x0 + (x1 - x0) * t)} ${f(y0 + (y1 - y0) * t)}) rotate(${f(ang)})" x="-3.2" y="-8" width="6.4" height="9" stroke="none"/>`; }
+  }
+  const tower = ([x, y]) => `<g transform="translate(${x} ${y})"><rect x="-18" y="-46" width="36" height="${46 + H}" stroke="none"/><rect x="-21" y="-50" width="42" height="5" stroke="none"/>${[-18, -6, 6].map((mx) => `<rect x="${mx}" y="-58" width="12" height="9" stroke="none"/>`).join('')}</g>`;
+  const towerHoles = ([x, y]) => `<g transform="translate(${x} ${y})"><path d="M-5,${H} V${H - 12} A5,5 0 0 1 5,${H - 12} V${H} Z" stroke="none"/><path d="M-11,-30 v10 a3,3 0 0 0 6,0 v-10 a3,3 0 0 0 -6,0 Z M5,-30 v10 a3,3 0 0 0 6,0 v-10 a3,3 0 0 0 -6,0 Z" stroke="none"/></g>`;
+  const towers = [P[2], P[5], P[8]];
   let courses = '';
-  for (const dy of [-4, 3, 10]) courses += `<path d="M${pts.map(([x, y]) => `${x},${y + dy}`).join(' L')}" fill="none" stroke-width="1.5"/>`;
-  const ink = `<path d="M${line}" fill="none" stroke-width="26" stroke-linejoin="miter"/>
-<path d="M${pts.map(([x, y]) => `${x},${y - 17}`).join(' L')}" fill="none" stroke-width="7" stroke-dasharray="8 6"/>${towers.map(towerAt).join('')}`;
-  out('cn', wrap('cn', '-130 -120 260 200', ink, courses + towers.map(towerHole).join('')));
+  for (const dy of [9, 17, 25]) courses += `<path d="M${P.map(([x, y]) => `${x},${y + dy}`).join(' L')}" fill="none" stroke-width="1.5"/>`;
+  const ink = `<path d="${body}" stroke="none"/>${merlons}${towers.map(tower).join('')}`;
+  out('cn', wrap('cn', '-150 -112 300 196', ink, courses + towers.map(towerHoles).join('')));
 }
 
 // ---------- Turkey: Hagia Sophia ----------
@@ -108,14 +118,18 @@ ${[-23, 23].map((x) => `<path d="M${x - 4},-92 L${x},-104 L${x + 4},-92 Z" strok
 
 // ---------- Germany: Brandenburg Gate ----------
 {
-  let ink = `<rect x="-104" y="94" width="208" height="6" stroke="none"/><rect x="-96" y="88" width="192" height="6" stroke="none"/>
-<rect x="-98" y="-6" width="196" height="16" stroke="none"/><rect x="-86" y="-30" width="172" height="24" stroke="none"/><rect x="-90" y="-33" width="180" height="4" stroke="none"/>`;
-  for (const x of [-70, -42, -14, 14, 42, 70]) ink += `<rect x="${x - 5.5}" y="14" width="11" height="74" stroke="none"/><rect x="${x - 8}" y="10" width="16" height="4.5" stroke="none"/><rect x="${x - 8}" y="85" width="16" height="3.5" stroke="none"/>`;
-  ink += `<rect x="-30" y="-40" width="60" height="8" stroke="none"/>`;
-  for (const x of [-36, -12, 12, 36]) ink += `<path d="M${x - 5},-40 C${x - 5},-58 ${x - 3},-68 ${x + 3},-70 L${x + 9},-66 L${x + 5},-62 C${x + 4},-54 ${x + 5},-46 ${x + 5},-40 Z" stroke="none"/>`;
-  ink += `<rect x="-5" y="-66" width="10" height="28" stroke="none"/><circle cx="0" cy="-72" r="4.4" stroke="none"/><path d="M0,-76 V-98" fill="none" stroke-width="1.8"/><circle cx="0" cy="-102" r="6" fill="none" stroke-width="2"/>`;
+  // Six Doric columns, the wide central passage, the attic, and Victoria's quadriga with her wreath staff.
+  const cols = [-80, -50, -18, 18, 50, 80];
+  let ink = `<rect x="-104" y="92" width="208" height="6" stroke="none"/><rect x="-98" y="86" width="196" height="6" stroke="none"/>
+<rect x="-98" y="2" width="196" height="12" stroke="none"/><rect x="-102" y="-4" width="204" height="6" stroke="none"/><rect x="-94" y="-24" width="188" height="20" stroke="none"/><rect x="-98" y="-27" width="196" height="4" stroke="none"/>`;
+  for (const x of cols) ink += `<rect x="${x - 6}" y="14" width="12" height="72" stroke="none"/><rect x="${x - 8.5}" y="10" width="17" height="5" stroke="none"/><rect x="${x - 8.5}" y="83" width="17" height="4" stroke="none"/>`;
   let holes = '';
-  for (let x = -70; x <= 70; x += 28) holes += `<rect x="${x - 0.8}" y="18" width="1.6" height="66" stroke="none"/>`;
-  for (const x of [-64, -32, 0, 32, 64]) holes += `<rect x="${x - 10}" y="-26" width="20" height="14" stroke="none"/>`;
-  out('de', wrap('de', '-115 -112 230 220', ink, holes));
+  for (let x = -90; x <= 90; x += 7.5) holes += `<rect x="${x - 1.2}" y="4" width="2.4" height="8" stroke="none"/>`;
+  for (const x of cols) for (let k = -3; k <= 3; k += 2) holes += `<rect x="${x + k - 0.5}" y="18" width="1" height="62" stroke="none"/>`;
+  for (const x of [-68, -34, 0, 34, 68]) holes += `<rect x="${x - 11}" y="-20" width="22" height="12" stroke="none"/>`;
+  const horse = (dx) => `<g transform="translate(${dx} -28)"><ellipse cx="0" cy="-17" rx="15" ry="7.5" stroke="none"/><path d="M6,-20 C11,-30 12,-36 16,-40 L22,-38 L28,-35 L28,-31 L21,-32 C19,-27 18,-22 15,-16 Z" stroke="none"/><path d="M16,-40 L17,-46 L21,-39 Z" stroke="none"/><path d="M8,-12 L17,-7 L21,-10" fill="none" stroke-width="3.4"/><path d="M-10,-12 L-13,-1 M-5,-12 L-3,-1" fill="none" stroke-width="3.6"/><path d="M-14,-20 C-22,-18 -23,-10 -21,-3" fill="none" stroke-width="2.6"/></g>`;
+  ink += `<rect x="-38" y="-33" width="76" height="6" stroke="none"/>${[-4, 5, 14, 23].map(horse).join('')}`;
+  ink += `<path d="M-36,-52 H-14 L-17,-37 H-34 Z" stroke="none"/><circle cx="-26" cy="-39" r="7.5" fill="none" stroke-width="2.4"/><path d="M-26,-46.5 V-31.5 M-33.5,-39 H-18.5" fill="none" stroke-width="1.2"/>`;
+  ink += `<path d="M-30,-52 L-27,-76 H-21 L-19,-52 Z" stroke="none"/><circle cx="-24" cy="-80" r="3.8" stroke="none"/><path d="M-20,-72 L-16,-98" fill="none" stroke-width="1.8"/><circle cx="-15.5" cy="-103" r="5.5" fill="none" stroke-width="2"/>`;
+  out('de', wrap('de', '-115 -112 230 216', ink, holes));
 }

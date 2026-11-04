@@ -8,5 +8,5 @@ export default function frame({ font, name, month, year }) {
   const art = `<path d="${notchRect(8, 8, 472, 372, 36)}" fill="none" stroke="INK" stroke-width="5" stroke-linejoin="round"/>
 <path d="${notchRect(20, 20, 460, 360, 26)}" fill="none" stroke="INK" stroke-width="2"/>${rule(46, 434, 304, 2.5)}
 <g fill="INK">${n.svg}${d.svg}</g>`;
-  return { width: 480, height: 380, art, monumentAt: { x: 240, y: 205, scale: 1 }, warn };
+  return { width: 480, height: 380, art, monumentAt: { x: 240, y: 208, scale: 0.85 }, warn };
 }

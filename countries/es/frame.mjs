@@ -10,5 +10,5 @@ export default function frame({ font, name, month, year }) {
   const art = `<path d="${outer}" fill="none" stroke="INK" stroke-width="5" stroke-linejoin="round"/>
 <path d="${inner}" fill="none" stroke="INK" stroke-width="2" stroke-linejoin="round"/>${rule(22, 378, 382)}
 <g fill="INK">${n.svg}${d.svg}</g>`;
-  return { width: 400, height: 480, art, monumentAt: { x: 200, y: 252, scale: 1.05 }, warn };
+  return { width: 400, height: 480, art, monumentAt: { x: 200, y: 270, scale: 0.92 }, warn };
 }

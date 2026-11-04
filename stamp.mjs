@@ -94,6 +94,7 @@ const cmds = {
       if (!problems.length) {
         const meta = JSON.parse(fs.readFileSync(`${dir}/country.json`));
         const svg = fs.readFileSync(`${dir}/monument.svg`, 'utf8');
+        if (!meta.landmark) problems.push('country.json has no landmark (name the monument the stamp draws)');
         if (!palette[meta.ink]) problems.push(`ink "${meta.ink}" is not in palette.json`);
         if (svg.includes('PLACEHOLDER')) problems.push('monument.svg is still the placeholder');
         if (!svg.includes('INK')) problems.push('monument.svg never uses the INK colour');
