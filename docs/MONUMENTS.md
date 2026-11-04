@@ -25,7 +25,7 @@ Landmark chosen for each stamp. high/medium: checked in the first research pass.
 | BG | BULGARIA | Alexander Nevsky Cathedral | Sofia | unverified |  | church kit (nevsky) |
 | BH | BAHRAIN | Pearl Monument | Manama | unverified |  | monument kit (pearl) |
 | BI | BURUNDI | Karera Falls | Rutana | unverified |  | waterfall kit (cascade) |
-| BJ | BENIN | Door of No Return | Ouidah | unverified |  | gate kit (gate) |
+| BJ | BENIN | Door of No Return | Ouidah | partly | The Door of No Return in Ouidah is a memorial arch to victims of the Atlantic slave trade, about 17 m tall on the seafront. | gate kit (gate) |
 | BN | BRUNEI | Omar Ali Saifuddien Mosque | Bandar Seri Begawan | unverified |  | mosque kit (grand) |
 | BO | BOLIVIA | Gate of the Sun | Tiwanaku | unverified |  | gate kit (sun) |
 | BR | BRAZIL | Christ the Redeemer | Rio de Janeiro | unverified |  | statue kit (christ) |
@@ -35,18 +35,18 @@ Landmark chosen for each stamp. high/medium: checked in the first research pass.
 | BY | BELARUS | Mir Castle | Mir | unverified |  | fort kit (bran) |
 | BZ | BELIZE | Xunantunich El Castillo | Cayo | unverified |  | pyramid kit (maya) |
 | CA | CANADA | CN Tower | Toronto | unverified |  | tower kit (cn) |
-| CD | DR CONGO | Mount Nyiragongo | Virunga | unverified |  | volcano kit (twin) |
-| CF | CENTRAL AFRICAN REPUBLIC | Boali Falls | Boali | unverified |  | waterfall kit (wide) |
-| CG | CONGO | Basilique Sainte-Anne | Brazzaville | unverified |  | church kit (gothicSpire) |
+| CD | DR CONGO | Mount Nyiragongo | Virunga | partly | Mount Nyiragongo is an active volcano near Goma whose lava lake draws hikers. | volcano kit (twin) |
+| CF | CENTRAL AFRICAN REPUBLIC | Boali Falls | Boali | partly | Boali Falls is a well known landmark near Bangui (about 50 m high), shown on a 1963 stamp. | waterfall kit (wide) |
+| CG | CONGO | Basilique Sainte-Anne | Brazzaville | supported | A travel source calls the Basilique Sainte-Anne one of the most important landmarks of the Republic of the Congo (green tile roof, completed 1943). | church kit (gothicSpire) |
 | CH | SWITZERLAND | Matterhorn | Zermatt | unverified |  | mountain kit (matterhorn) |
-| CI | IVORY COAST | Basilica of Our Lady of Peace | Yamoussoukro | unverified |  | church kit (domeBasilica) |
+| CI | IVORY COAST | Basilica of Our Lady of Peace | Yamoussoukro | partly | The Basilica of Our Lady of Peace is described as the world's largest church (dome about 158 m). A major landmark, not described as a national symbol. | church kit (domeBasilica) |
 | CL | CHILE | Moai of Easter Island | Rapa Nui | unverified |  | statue kit (moai) |
 | CM | CAMEROON | Mount Cameroon | Buea | unverified |  | volcano kit (crater) |
 | CN | China | Great Wall | Badaling and Mutianyu, near Beijing | high | Described as the most celebrated symbol of China. | hand-drawn |
 | CO | COLOMBIA | Torre del Reloj | Cartagena | unverified |  | church kit (clocktower) |
 | CR | COSTA RICA | Arenal Volcano | La Fortuna | unverified |  | volcano kit (cone) |
 | CU | CUBA | El Capitolio | Havana | unverified |  | church kit (capitol) |
-| CV | CABO VERDE | Pico do Fogo | Fogo | unverified |  | volcano kit (cone) |
+| CV | CABO VERDE | Pico do Fogo | Fogo | supported | Pico do Fogo is widely described as the most iconic landmark of Cabo Verde and the country's highest peak. | volcano kit (cone) |
 | CY | CYPRUS | Aphrodite's Rock (Petra tou Romiou) | Paphos | unverified |  | rock formation kit (seastack) |
 | CZ | CZECHIA | St Vitus Cathedral | Prague | unverified |  | church kit (gothicTwin) |
 | DE | Germany | Brandenburg Gate | Berlin | medium | A symbol of reunified Germany. The travel sources more often list the Berlin Wall, Cologne Cathedral and Neuschwanstein Castle. | hand-drawn |
@@ -54,11 +54,11 @@ Landmark chosen for each stamp. high/medium: checked in the first research pass.
 | DK | DENMARK | The Little Mermaid | Copenhagen | unverified |  | statue kit (mermaid) |
 | DM | DOMINICA | Trafalgar Falls | Roseau | partly | Sources lead with Morne Trois Pitons National Park (UNESCO) and the Boiling Lake. Trafalgar Falls was not named in the results. | waterfall kit (twin) |
 | DO | DOMINICAN REPUBLIC | Santo Domingo Cathedral | Santo Domingo | unverified |  | church kit (baroque) |
-| DZ | ALGERIA | Maqam Echahid (Martyrs' Memorial) | Algiers | unverified |  | monument kit (maqam) |
+| DZ | ALGERIA | Maqam Echahid (Martyrs' Memorial) | Algiers | partly | Maqam Echahid is a 92 m concrete monument (opened 1982) of three palm-leaf shapes over an eternal flame, overlooking Algiers. Confirmed as a major landmark; not shown to be the top national one. | monument kit (maqam) |
 | EC | ECUADOR | Mitad del Mundo | Quito | unverified |  | monument kit (globe) |
 | EE | ESTONIA | Tallinn Town Hall | Tallinn | unverified |  | church kit (townHall) |
 | EG | EGYPT | Pyramids of Giza | Giza | unverified |  | pyramid kit (giza) |
-| ER | ERITREA | Fiat Tagliero Building | Asmara | unverified |  | tower kit (tagliero) |
+| ER | ERITREA | Fiat Tagliero Building | Asmara | supported | The Fiat Tagliero Building (1938, aircraft shaped petrol station) is the standout of Asmara, a UNESCO World Heritage city. | tower kit (tagliero) |
 | ES | Spain | Sagrada Familia | Barcelona | high | Spain's most visited monument and the standout pick in the travel sources. | hand-drawn |
 | ET | ETHIOPIA | Rock-hewn Churches of Lalibela | Lalibela | unverified |  | church kit (baroque) |
 | FI | FINLAND | Helsinki Cathedral | Helsinki | unverified |  | church kit (helsinki) |
@@ -70,7 +70,7 @@ Landmark chosen for each stamp. high/medium: checked in the first research pass.
 | GD | GRENADA | Fort George | St George's | unverified |  | fort kit (colonial) |
 | GE | GEORGIA | Gergeti Trinity Church | Kazbegi | unverified |  | church kit (mountainChurch) |
 | GH | GHANA | Cape Coast Castle | Cape Coast | unverified |  | fort kit (colonial) |
-| GM | GAMBIA | Arch 22 | Banjul | unverified |  | gate kit (arch22) |
+| GM | GAMBIA | Arch 22 | Banjul | partly | Arch 22 in Banjul (built 1996, about 35 m) is a well known landmark. One guide calls it a UNESCO site, which looks like a mix up with Kunta Kinteh Island. | gate kit (arch22) |
 | GN | GUINEA | Mount Nimba | Nimba | unverified |  | mountain kit (range) |
 | GQ | EQUATORIAL GUINEA | Malabo Cathedral | Malabo | unverified |  | church kit (gothicTwin) |
 | GR | GREECE | Parthenon | Athens | unverified |  | ruins kit (greek) |
@@ -96,7 +96,7 @@ Landmark chosen for each stamp. high/medium: checked in the first research pass.
 | KG | KYRGYZSTAN | Burana Tower | Chuy Valley | supported | Burana Tower, the minaret stump of a destroyed city. | mosque kit (burana) |
 | KH | CAMBODIA | Angkor Wat | Siem Reap | supported | Angkor Wat appears on the national flag. | one-off drawing (angkor) |
 | KI | KIRIBATI | Maneaba (meeting house) | Tarawa | unverified |  | traditional structure kit (maneaba) |
-| KM | COMOROS | Mount Karthala | Grande Comore | unverified |  | volcano kit (crater) |
+| KM | COMOROS | Mount Karthala | Grande Comore | partly | Mount Karthala is the highest point of the Comoros and an active volcano on Grande Comore. | volcano kit (crater) |
 | KN | SAINT KITTS AND NEVIS | Brimstone Hill Fortress | St Kitts | supported | Brimstone Hill Fortress National Park is a UNESCO site. | fort kit (bastion) |
 | KP | NORTH KOREA | Juche Tower | Pyongyang | unverified |  | monument kit (juche) |
 | KR | SOUTH KOREA | Gwanghwamun Gate | Seoul | unverified |  | Asian temple kit (palaceGate) |
@@ -108,11 +108,11 @@ Landmark chosen for each stamp. high/medium: checked in the first research pass.
 | LI | LIECHTENSTEIN | Vaduz Castle | Vaduz | supported | Vaduz Castle is the most frequently named landmark. | fort kit (hillCastle) |
 | LK | SRI LANKA | Sigiriya Lion Rock | Sigiriya | unverified |  | rock formation kit (sigiriya) |
 | LR | LIBERIA | Joseph Jenkins Roberts Monument | Monrovia | changed | No source supported the lighthouse. Sources name the J.J. Roberts Monument, Centennial Pavilion and Providence Island. Switched to the Roberts Monument; no single agreed landmark. | monument kit (plinth) |
-| LS | LESOTHO | Mokorotlo (Basotho hat) | Thaba Bosiu | unverified |  | traditional structure kit (basotho) |
+| LS | LESOTHO | Mokorotlo (Basotho hat) | Thaba Bosiu | supported | The mokorotlo (Basotho hat) is on the national flag; the Mokorotlo Building in Maseru is described as Lesotho's most striking architectural landmark. | traditional structure kit (basotho) |
 | LT | LITHUANIA | Trakai Island Castle | Trakai | unverified |  | fort kit (islandCastle) |
 | LU | LUXEMBOURG | Adolphe Bridge | Luxembourg City | partly | Sources named Vianden Castle as a picturesque landmark; the Adolphe Bridge was not mentioned. Vianden Castle is the likely alternative. | bridge kit (twoArch) |
 | LV | LATVIA | Freedom Monument | Riga | unverified |  | monument kit (freedom) |
-| LY | LIBYA | Arch of Septimius Severus | Leptis Magna | unverified |  | gate kit (triumph) |
+| LY | LIBYA | Arch of Septimius Severus | Leptis Magna | partly | The Arch of Septimius Severus is a key landmark of Leptis Magna, a UNESCO World Heritage Site since 1982. | gate kit (triumph) |
 | MA | MOROCCO | Hassan II Mosque | Casablanca | unverified |  | mosque kit (squareMinaret) |
 | MC | MONACO | Casino de Monte-Carlo | Monte Carlo | supported | Monte Carlo Casino is the most cited attraction. | church kit (casino) |
 | MD | MOLDOVA | Orheiul Vechi monastery | Orhei | supported | Reported as the most visited site in Moldova outside the capital; the cave monastery is its centrepiece. | cliff kit (monastery) |
@@ -211,17 +211,29 @@ Landmark chosen for each stamp. high/medium: checked in the first research pass.
 - AG: https://seeker.io/seeker/world-heritage-sites-in-the-caribbean
 - BB: https://visitbarbados.org/landmarks-and-monuments
 - BF: https://en.wikipedia.org/wiki/Grand_Mosque_of_Bobo-Dioulasso
+- BJ: https://en.wikipedia.org/wiki/Door_of_No_Return,_Ouidah
 - BT: https://wondermondo.com/wonders-of-asia
+- CD: https://www.britannica.com/print/article/423132
+- CF: https://wondermondo.com/boali-falls
+- CG: https://en.wikipedia.org/wiki/Basilica_of_Sainte-Anne-du-Congo_in_Brazzaville
+- CI: https://en.wikipedia.org/wiki/Basilica_of_Our_Lady_of_Peace, https://britannica.com/topic/Yamoussoukro-Basilica
+- CV: https://www.lonelyplanet.com/points-of-interest/pico-do-fogo/1014980, https://outlooktravelmag.com/travel-guides/africa/cape-verde/cabo-verde-landmark-attractions
 - DM: https://seeker.io/seeker/world-heritage-sites-in-the-caribbean
+- DZ: https://www.lonelyplanet.com/points-of-interest/makam-echahid/457593, https://thisisafrica.me/lifestyle/the-maqam-echahid-algeria/
+- ER: https://en.wikipedia.org/wiki/Fiat_Tagliero_Building, https://www.atlasobscura.com/places/fiat-tagliero-service-station-asmara-eritrea
+- GM: https://en.wikipedia.org/wiki/Arch_22
 - GY: https://www.banknoteworld.com/blog/kaieteur-falls-a-guyanese-natural-wonder-on-banknotes/, https://worldfootprints.com/compass/central-and-south-america/kaieteur-falls/
 - HN: https://wondermondo.com/Honduras.htm
 - KG: https://wondermondo.com/wonders-of-asia
 - KH: https://thetravelscribes.com/famous-landmarks-from-around-the-world/
+- KM: https://en.wikipedia.org/wiki/Mount_Karthala
 - KN: https://worldatlas.com/articles/the-20-unesco-world-heritage-sites-to-visit-in-the-caribbean.html
 - LC: https://seeker.io/seeker/world-heritage-sites-in-the-caribbean
 - LI: https://www.worldatlas.com/articles/the-microstates-of-europe.html
 - LR: https://www.lonelyplanet.com/liberia/monrovia/attractions, https://enjoyliberia.travel/blog/post/tracing-liberias-past-through-monrovias-must-see-h/
+- LS: https://superscout.co/innovation/mokorotlo, https://www.worldatlas.com/webimage/countrys/africa/lesotho/lssymbols.htm
 - LU: https://www.travelawaits.com/2992004/europe-micro-states/
+- LY: https://en.wikipedia.org/wiki/Arch_of_Septimius_Severus_(Leptis_Magna)
 - MC: https://www.travelawaits.com/2992004/europe-micro-states/
 - MD: https://www.lonelyplanet.com/pois/1548859, https://worldheritagesite.org/tentative/id/6220
 - MT: https://www.worldatlas.com/articles/the-microstates-of-europe.html

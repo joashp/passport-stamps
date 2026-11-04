@@ -51,7 +51,7 @@ To add a country: `node stamp.mjs new DE GERMANY navy oval`, then follow the sam
 
 ## Which landmarks are verified
 
-Checked against web sources on 2026-11-04, so far: 10 hand-built countries, 18 more marked **supported** (a source named it as the best known landmark), 8 **partly** supported, and 1 **changed** (Liberia, whose lighthouse pick was replaced). The other 157 were chosen from general knowledge and have **not** been checked. Several list sites were blocked by the session's network allowlist, which is why coverage is partial. [docs/MONUMENTS.md](docs/MONUMENTS.md) shows the status and evidence for every country.
+Checked against web sources on 2026-11-04: the 10 hand-built countries, plus 23 more marked **supported** (a source named it as the best known, iconic or symbolic landmark), 17 **partly** supported (a source confirms it as a major landmark or main sight), and 1 **changed** (Liberia). The other 144 were chosen from general knowledge and have **not** been checked. The search tool answers about one country per query and two list sites are blocked by this session's network allowlist, so coverage is partial. [docs/MONUMENTS.md](docs/MONUMENTS.md) shows the status and evidence for every country.
 
 One thing to know: Sierra Leone's Cotton Tree is a confirmed national symbol, but a storm felled it in May 2023.
 

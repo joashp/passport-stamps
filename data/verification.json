@@ -1,34 +1,293 @@
 {
-  "checkedOn": "2026-11-04",
-  "method": "Web search. Several list sites were blocked by the session's network allowlist, so many small countries could not be checked. Status 'supported' means a source named this landmark as the country's best known or most iconic; 'partly' means a source lists it among the country's main sights; 'changed' means the pick was replaced after checking; countries not listed here were not checked.",
-  "entries": {
-    "TG": { "status": "supported", "note": "UNESCO describes the Batammariba tower houses (takienta) as a symbol of Togo.", "sources": ["https://whc.unesco.org/en/list/1140/"] },
-    "GY": { "status": "supported", "note": "Called Guyana's most iconic landmark; featured on banknotes.", "sources": ["https://www.banknoteworld.com/blog/kaieteur-falls-a-guyanese-natural-wonder-on-banknotes/", "https://worldfootprints.com/compass/central-and-south-america/kaieteur-falls/"] },
-    "SR": { "status": "supported", "note": "Major landmark of Paramaribo's UNESCO listed historic inner city; an all wooden cathedral.", "sources": ["https://en.wikipedia.org/wiki/Saint_Peter_and_Paul_Cathedral,_Paramaribo"] },
-    "MD": { "status": "supported", "note": "Reported as the most visited site in Moldova outside the capital; the cave monastery is its centrepiece.", "sources": ["https://www.lonelyplanet.com/pois/1548859", "https://worldheritagesite.org/tentative/id/6220"] },
-    "BF": { "status": "partly", "note": "The Bobo-Dioulasso mosque is a major mud-brick landmark and is on UNESCO's tentative list. The Ruins of Loropeni is the country's inscribed World Heritage Site.", "sources": ["https://en.wikipedia.org/wiki/Grand_Mosque_of_Bobo-Dioulasso"] },
-    "TO": { "status": "supported", "note": "Tonga's best known monument, a coral limestone trilithon at Niutoua on Tongatapu. Location corrected.", "sources": ["https://en.wikipedia.org/wiki/Ha%CA%BBamonga_%CA%BBa_Maui"] },
-    "SL": { "status": "supported", "note": "A confirmed national symbol, on banknotes and stamps. It was felled by a storm on 24 May 2023, so the stamp shows a landmark that no longer stands.", "sources": ["https://en.wikipedia.org/wiki/Cotton_Tree_(Sierra_Leone)", "https://www.aljazeera.com/news/2023/5/25/storm-fells-symbolic-400-year-old-cotton-tree-in-sierra-leone"] },
-    "LR": { "status": "changed", "note": "No source supported the lighthouse. Sources name the J.J. Roberts Monument, Centennial Pavilion and Providence Island. Switched to the Roberts Monument; no single agreed landmark.", "sources": ["https://www.lonelyplanet.com/liberia/monrovia/attractions", "https://enjoyliberia.travel/blog/post/tracing-liberias-past-through-monrovias-must-see-h/"] },
-    "VU": { "status": "supported", "note": "Mount Yasur described as the most iconic landmark of Tanna.", "sources": ["https://southpacificislands.travel/volcanic-fireworks/"] },
-    "AG": { "status": "supported", "note": "Devil's Bridge National Park showcases the natural limestone arches.", "sources": ["https://seeker.io/seeker/world-heritage-sites-in-the-caribbean"] },
-    "KN": { "status": "supported", "note": "Brimstone Hill Fortress National Park is a UNESCO site.", "sources": ["https://worldatlas.com/articles/the-20-unesco-world-heritage-sites-to-visit-in-the-caribbean.html"] },
-    "LC": { "status": "supported", "note": "The Pitons Management Area near Soufriere.", "sources": ["https://seeker.io/seeker/world-heritage-sites-in-the-caribbean"] },
-    "DM": { "status": "partly", "note": "Sources lead with Morne Trois Pitons National Park (UNESCO) and the Boiling Lake. Trafalgar Falls was not named in the results.", "sources": ["https://seeker.io/seeker/world-heritage-sites-in-the-caribbean"] },
-    "BB": { "status": "partly", "note": "Main UNESCO site is the Bridgetown Historic Centre and Garrison; the Parliament Buildings sit inside it.", "sources": ["https://visitbarbados.org/landmarks-and-monuments"] },
-    "MC": { "status": "supported", "note": "Monte Carlo Casino is the most cited attraction.", "sources": ["https://www.travelawaits.com/2992004/europe-micro-states/"] },
-    "LI": { "status": "supported", "note": "Vaduz Castle is the most frequently named landmark.", "sources": ["https://www.worldatlas.com/articles/the-microstates-of-europe.html"] },
-    "SM": { "status": "supported", "note": "The Three Towers are the iconic sight.", "sources": ["https://www.worldatlas.com/articles/the-microstates-of-europe.html"] },
-    "VA": { "status": "supported", "note": "St Peter's Basilica is the main landmark.", "sources": ["https://www.worldatlas.com/articles/the-microstates-of-europe.html"] },
-    "LU": { "status": "partly", "note": "Sources named Vianden Castle as a picturesque landmark; the Adolphe Bridge was not mentioned. Vianden Castle is the likely alternative.", "sources": ["https://www.travelawaits.com/2992004/europe-micro-states/"] },
-    "MT": { "status": "partly", "note": "The Azure Window, Malta's best known rock formation, collapsed. Valletta skyline kept as a stand-in.", "sources": ["https://www.worldatlas.com/articles/the-microstates-of-europe.html"] },
-    "AD": { "status": "not confirmed", "note": "Sources say Andorra's profile rests on skiing rather than a single landmark.", "sources": [] },
-    "HN": { "status": "supported", "note": "Copan Ruins is the top listed landmark in the guide found.", "sources": ["https://wondermondo.com/Honduras.htm"] },
-    "KG": { "status": "supported", "note": "Burana Tower, the minaret stump of a destroyed city.", "sources": ["https://wondermondo.com/wonders-of-asia"] },
-    "PY": { "status": "partly", "note": "One list named Itaipu Dam as Paraguay's landmark. The Jesuit Missions of Trinidad (UNESCO) is kept.", "sources": ["https://bergen.edu/wp-content/uploads/LANDMARKS-AND-LANDSCARPES-OF-LATIN-AMERICA-STUDY-GUIDE.pdf"] },
-    "BT": { "status": "supported", "note": "Tiger's Nest is described as a national icon of Bhutan. Trongsa Dzong was also named as its most scenic fortress.", "sources": ["https://wondermondo.com/wonders-of-asia"] },
-    "KH": { "status": "supported", "note": "Angkor Wat appears on the national flag.", "sources": ["https://thetravelscribes.com/famous-landmarks-from-around-the-world/"] },
-    "NI": { "status": "partly", "note": "Results named the Isletas of Granada and Mombacho Volcano; Momotombo was not mentioned.", "sources": ["https://wondermondo.com/wonders-of-asia"] },
-    "SV": { "status": "partly", "note": "Results named Joya de Ceren and Tazumal; Izalco volcano was not mentioned.", "sources": ["https://wondermondo.com/wonders-of-asia"] }
+ "checkedOn": "2026-11-04",
+ "method": "Web search. Several list sites were blocked by the session's network allowlist, so many small countries could not be checked. Status 'supported' means a source named this landmark as the country's best known or most iconic; 'partly' means a source lists it among the country's main sights; 'changed' means the pick was replaced after checking; countries not listed here were not checked.",
+ "entries": {
+  "TG": {
+   "status": "supported",
+   "note": "UNESCO describes the Batammariba tower houses (takienta) as a symbol of Togo.",
+   "sources": [
+    "https://whc.unesco.org/en/list/1140/"
+   ]
+  },
+  "GY": {
+   "status": "supported",
+   "note": "Called Guyana's most iconic landmark; featured on banknotes.",
+   "sources": [
+    "https://www.banknoteworld.com/blog/kaieteur-falls-a-guyanese-natural-wonder-on-banknotes/",
+    "https://worldfootprints.com/compass/central-and-south-america/kaieteur-falls/"
+   ]
+  },
+  "SR": {
+   "status": "supported",
+   "note": "Major landmark of Paramaribo's UNESCO listed historic inner city; an all wooden cathedral.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Saint_Peter_and_Paul_Cathedral,_Paramaribo"
+   ]
+  },
+  "MD": {
+   "status": "supported",
+   "note": "Reported as the most visited site in Moldova outside the capital; the cave monastery is its centrepiece.",
+   "sources": [
+    "https://www.lonelyplanet.com/pois/1548859",
+    "https://worldheritagesite.org/tentative/id/6220"
+   ]
+  },
+  "BF": {
+   "status": "partly",
+   "note": "The Bobo-Dioulasso mosque is a major mud-brick landmark and is on UNESCO's tentative list. The Ruins of Loropeni is the country's inscribed World Heritage Site.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Grand_Mosque_of_Bobo-Dioulasso"
+   ]
+  },
+  "TO": {
+   "status": "supported",
+   "note": "Tonga's best known monument, a coral limestone trilithon at Niutoua on Tongatapu. Location corrected.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ha%CA%BBamonga_%CA%BBa_Maui"
+   ]
+  },
+  "SL": {
+   "status": "supported",
+   "note": "A confirmed national symbol, on banknotes and stamps. It was felled by a storm on 24 May 2023, so the stamp shows a landmark that no longer stands.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cotton_Tree_(Sierra_Leone)",
+    "https://www.aljazeera.com/news/2023/5/25/storm-fells-symbolic-400-year-old-cotton-tree-in-sierra-leone"
+   ]
+  },
+  "LR": {
+   "status": "changed",
+   "note": "No source supported the lighthouse. Sources name the J.J. Roberts Monument, Centennial Pavilion and Providence Island. Switched to the Roberts Monument; no single agreed landmark.",
+   "sources": [
+    "https://www.lonelyplanet.com/liberia/monrovia/attractions",
+    "https://enjoyliberia.travel/blog/post/tracing-liberias-past-through-monrovias-must-see-h/"
+   ]
+  },
+  "VU": {
+   "status": "supported",
+   "note": "Mount Yasur described as the most iconic landmark of Tanna.",
+   "sources": [
+    "https://southpacificislands.travel/volcanic-fireworks/"
+   ]
+  },
+  "AG": {
+   "status": "supported",
+   "note": "Devil's Bridge National Park showcases the natural limestone arches.",
+   "sources": [
+    "https://seeker.io/seeker/world-heritage-sites-in-the-caribbean"
+   ]
+  },
+  "KN": {
+   "status": "supported",
+   "note": "Brimstone Hill Fortress National Park is a UNESCO site.",
+   "sources": [
+    "https://worldatlas.com/articles/the-20-unesco-world-heritage-sites-to-visit-in-the-caribbean.html"
+   ]
+  },
+  "LC": {
+   "status": "supported",
+   "note": "The Pitons Management Area near Soufriere.",
+   "sources": [
+    "https://seeker.io/seeker/world-heritage-sites-in-the-caribbean"
+   ]
+  },
+  "DM": {
+   "status": "partly",
+   "note": "Sources lead with Morne Trois Pitons National Park (UNESCO) and the Boiling Lake. Trafalgar Falls was not named in the results.",
+   "sources": [
+    "https://seeker.io/seeker/world-heritage-sites-in-the-caribbean"
+   ]
+  },
+  "BB": {
+   "status": "partly",
+   "note": "Main UNESCO site is the Bridgetown Historic Centre and Garrison; the Parliament Buildings sit inside it.",
+   "sources": [
+    "https://visitbarbados.org/landmarks-and-monuments"
+   ]
+  },
+  "MC": {
+   "status": "supported",
+   "note": "Monte Carlo Casino is the most cited attraction.",
+   "sources": [
+    "https://www.travelawaits.com/2992004/europe-micro-states/"
+   ]
+  },
+  "LI": {
+   "status": "supported",
+   "note": "Vaduz Castle is the most frequently named landmark.",
+   "sources": [
+    "https://www.worldatlas.com/articles/the-microstates-of-europe.html"
+   ]
+  },
+  "SM": {
+   "status": "supported",
+   "note": "The Three Towers are the iconic sight.",
+   "sources": [
+    "https://www.worldatlas.com/articles/the-microstates-of-europe.html"
+   ]
+  },
+  "VA": {
+   "status": "supported",
+   "note": "St Peter's Basilica is the main landmark.",
+   "sources": [
+    "https://www.worldatlas.com/articles/the-microstates-of-europe.html"
+   ]
+  },
+  "LU": {
+   "status": "partly",
+   "note": "Sources named Vianden Castle as a picturesque landmark; the Adolphe Bridge was not mentioned. Vianden Castle is the likely alternative.",
+   "sources": [
+    "https://www.travelawaits.com/2992004/europe-micro-states/"
+   ]
+  },
+  "MT": {
+   "status": "partly",
+   "note": "The Azure Window, Malta's best known rock formation, collapsed. Valletta skyline kept as a stand-in.",
+   "sources": [
+    "https://www.worldatlas.com/articles/the-microstates-of-europe.html"
+   ]
+  },
+  "AD": {
+   "status": "not confirmed",
+   "note": "Sources say Andorra's profile rests on skiing rather than a single landmark.",
+   "sources": []
+  },
+  "HN": {
+   "status": "supported",
+   "note": "Copan Ruins is the top listed landmark in the guide found.",
+   "sources": [
+    "https://wondermondo.com/Honduras.htm"
+   ]
+  },
+  "KG": {
+   "status": "supported",
+   "note": "Burana Tower, the minaret stump of a destroyed city.",
+   "sources": [
+    "https://wondermondo.com/wonders-of-asia"
+   ]
+  },
+  "PY": {
+   "status": "partly",
+   "note": "One list named Itaipu Dam as Paraguay's landmark. The Jesuit Missions of Trinidad (UNESCO) is kept.",
+   "sources": [
+    "https://bergen.edu/wp-content/uploads/LANDMARKS-AND-LANDSCARPES-OF-LATIN-AMERICA-STUDY-GUIDE.pdf"
+   ]
+  },
+  "BT": {
+   "status": "supported",
+   "note": "Tiger's Nest is described as a national icon of Bhutan. Trongsa Dzong was also named as its most scenic fortress.",
+   "sources": [
+    "https://wondermondo.com/wonders-of-asia"
+   ]
+  },
+  "KH": {
+   "status": "supported",
+   "note": "Angkor Wat appears on the national flag.",
+   "sources": [
+    "https://thetravelscribes.com/famous-landmarks-from-around-the-world/"
+   ]
+  },
+  "NI": {
+   "status": "partly",
+   "note": "Results named the Isletas of Granada and Mombacho Volcano; Momotombo was not mentioned.",
+   "sources": [
+    "https://wondermondo.com/wonders-of-asia"
+   ]
+  },
+  "SV": {
+   "status": "partly",
+   "note": "Results named Joya de Ceren and Tazumal; Izalco volcano was not mentioned.",
+   "sources": [
+    "https://wondermondo.com/wonders-of-asia"
+   ]
+  },
+  "CV": {
+   "status": "supported",
+   "note": "Pico do Fogo is widely described as the most iconic landmark of Cabo Verde and the country's highest peak.",
+   "sources": [
+    "https://www.lonelyplanet.com/points-of-interest/pico-do-fogo/1014980",
+    "https://outlooktravelmag.com/travel-guides/africa/cape-verde/cabo-verde-landmark-attractions"
+   ]
+  },
+  "CG": {
+   "status": "supported",
+   "note": "A travel source calls the Basilique Sainte-Anne one of the most important landmarks of the Republic of the Congo (green tile roof, completed 1943).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Basilica_of_Sainte-Anne-du-Congo_in_Brazzaville"
+   ]
+  },
+  "ER": {
+   "status": "supported",
+   "note": "The Fiat Tagliero Building (1938, aircraft shaped petrol station) is the standout of Asmara, a UNESCO World Heritage city.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Fiat_Tagliero_Building",
+    "https://www.atlasobscura.com/places/fiat-tagliero-service-station-asmara-eritrea"
+   ]
+  },
+  "LS": {
+   "status": "supported",
+   "note": "The mokorotlo (Basotho hat) is on the national flag; the Mokorotlo Building in Maseru is described as Lesotho's most striking architectural landmark.",
+   "sources": [
+    "https://superscout.co/innovation/mokorotlo",
+    "https://www.worldatlas.com/webimage/countrys/africa/lesotho/lssymbols.htm"
+   ]
+  },
+  "DZ": {
+   "status": "partly",
+   "note": "Maqam Echahid is a 92 m concrete monument (opened 1982) of three palm-leaf shapes over an eternal flame, overlooking Algiers. Confirmed as a major landmark; not shown to be the top national one.",
+   "sources": [
+    "https://www.lonelyplanet.com/points-of-interest/makam-echahid/457593",
+    "https://thisisafrica.me/lifestyle/the-maqam-echahid-algeria/"
+   ]
+  },
+  "BJ": {
+   "status": "partly",
+   "note": "The Door of No Return in Ouidah is a memorial arch to victims of the Atlantic slave trade, about 17 m tall on the seafront.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Door_of_No_Return,_Ouidah"
+   ]
+  },
+  "CF": {
+   "status": "partly",
+   "note": "Boali Falls is a well known landmark near Bangui (about 50 m high), shown on a 1963 stamp.",
+   "sources": [
+    "https://wondermondo.com/boali-falls"
+   ]
+  },
+  "CI": {
+   "status": "partly",
+   "note": "The Basilica of Our Lady of Peace is described as the world's largest church (dome about 158 m). A major landmark, not described as a national symbol.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Basilica_of_Our_Lady_of_Peace",
+    "https://britannica.com/topic/Yamoussoukro-Basilica"
+   ]
+  },
+  "KM": {
+   "status": "partly",
+   "note": "Mount Karthala is the highest point of the Comoros and an active volcano on Grande Comore.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mount_Karthala"
+   ]
+  },
+  "CD": {
+   "status": "partly",
+   "note": "Mount Nyiragongo is an active volcano near Goma whose lava lake draws hikers.",
+   "sources": [
+    "https://www.britannica.com/print/article/423132"
+   ]
+  },
+  "GM": {
+   "status": "partly",
+   "note": "Arch 22 in Banjul (built 1996, about 35 m) is a well known landmark. One guide calls it a UNESCO site, which looks like a mix up with Kunta Kinteh Island.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Arch_22"
+   ]
+  },
+  "LY": {
+   "status": "partly",
+   "note": "The Arch of Septimius Severus is a key landmark of Leptis Magna, a UNESCO World Heritage Site since 1982.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Arch_of_Septimius_Severus_(Leptis_Magna)"
+   ]
   }
+ }
 }

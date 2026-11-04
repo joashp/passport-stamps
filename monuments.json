@@ -197,7 +197,11 @@
    "country": "BENIN",
    "chosen": "Door of No Return",
    "where": "Ouidah",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The Door of No Return in Ouidah is a memorial arch to victims of the Atlantic slave trade, about 17 m tall on the seafront.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Door_of_No_Return,_Ouidah"
+   ],
    "drawing": "gate kit (gate)",
    "frame": "circle"
   },
@@ -291,7 +295,11 @@
    "country": "DR CONGO",
    "chosen": "Mount Nyiragongo",
    "where": "Virunga",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Mount Nyiragongo is an active volcano near Goma whose lava lake draws hikers.",
+   "sources": [
+    "https://www.britannica.com/print/article/423132"
+   ],
    "drawing": "volcano kit (twin)",
    "frame": "notch"
   },
@@ -300,7 +308,11 @@
    "country": "CENTRAL AFRICAN REPUBLIC",
    "chosen": "Boali Falls",
    "where": "Boali",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Boali Falls is a well known landmark near Bangui (about 50 m high), shown on a 1963 stamp.",
+   "sources": [
+    "https://wondermondo.com/boali-falls"
+   ],
    "drawing": "waterfall kit (wide)",
    "frame": "stepWide"
   },
@@ -309,7 +321,11 @@
    "country": "CONGO",
    "chosen": "Basilique Sainte-Anne",
    "where": "Brazzaville",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "A travel source calls the Basilique Sainte-Anne one of the most important landmarks of the Republic of the Congo (green tile roof, completed 1943).",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Basilica_of_Sainte-Anne-du-Congo_in_Brazzaville"
+   ],
    "drawing": "church kit (gothicSpire)",
    "frame": "stepTall"
   },
@@ -327,7 +343,12 @@
    "country": "IVORY COAST",
    "chosen": "Basilica of Our Lady of Peace",
    "where": "Yamoussoukro",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The Basilica of Our Lady of Peace is described as the world's largest church (dome about 158 m). A major landmark, not described as a national symbol.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Basilica_of_Our_Lady_of_Peace",
+    "https://britannica.com/topic/Yamoussoukro-Basilica"
+   ],
    "drawing": "church kit (domeBasilica)",
    "frame": "octSquare"
   },
@@ -399,7 +420,12 @@
    "country": "CABO VERDE",
    "chosen": "Pico do Fogo",
    "where": "Fogo",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Pico do Fogo is widely described as the most iconic landmark of Cabo Verde and the country's highest peak.",
+   "sources": [
+    "https://www.lonelyplanet.com/points-of-interest/pico-do-fogo/1014980",
+    "https://outlooktravelmag.com/travel-guides/africa/cape-verde/cabo-verde-landmark-attractions"
+   ],
    "drawing": "volcano kit (cone)",
    "frame": "seal"
   },
@@ -484,7 +510,12 @@
    "country": "ALGERIA",
    "chosen": "Maqam Echahid (Martyrs' Memorial)",
    "where": "Algiers",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Maqam Echahid is a 92 m concrete monument (opened 1982) of three palm-leaf shapes over an eternal flame, overlooking Algiers. Confirmed as a major landmark; not shown to be the top national one.",
+   "sources": [
+    "https://www.lonelyplanet.com/points-of-interest/makam-echahid/457593",
+    "https://thisisafrica.me/lifestyle/the-maqam-echahid-algeria/"
+   ],
    "drawing": "monument kit (maqam)",
    "frame": "shield"
   },
@@ -520,7 +551,12 @@
    "country": "ERITREA",
    "chosen": "Fiat Tagliero Building",
    "where": "Asmara",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "The Fiat Tagliero Building (1938, aircraft shaped petrol station) is the standout of Asmara, a UNESCO World Heritage city.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Fiat_Tagliero_Building",
+    "https://www.atlasobscura.com/places/fiat-tagliero-service-station-asmara-eritrea"
+   ],
    "drawing": "tower kit (tagliero)",
    "frame": "heater"
   },
@@ -654,7 +690,11 @@
    "country": "GAMBIA",
    "chosen": "Arch 22",
    "where": "Banjul",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Arch 22 in Banjul (built 1996, about 35 m) is a well known landmark. One guide calls it a UNESCO site, which looks like a mix up with Kunta Kinteh Island.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Arch_22"
+   ],
    "drawing": "gate kit (arch22)",
    "frame": "roundArch"
   },
@@ -921,7 +961,11 @@
    "country": "COMOROS",
    "chosen": "Mount Karthala",
    "where": "Grande Comore",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Mount Karthala is the highest point of the Comoros and an active volcano on Grande Comore.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mount_Karthala"
+   ],
    "drawing": "volcano kit (crater)",
    "frame": "boxWide"
   },
@@ -1046,7 +1090,12 @@
    "country": "LESOTHO",
    "chosen": "Mokorotlo (Basotho hat)",
    "where": "Thaba Bosiu",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "The mokorotlo (Basotho hat) is on the national flag; the Mokorotlo Building in Maseru is described as Lesotho's most striking architectural landmark.",
+   "sources": [
+    "https://superscout.co/innovation/mokorotlo",
+    "https://www.worldatlas.com/webimage/countrys/africa/lesotho/lssymbols.htm"
+   ],
    "drawing": "traditional structure kit (basotho)",
    "frame": "circle"
   },
@@ -1086,7 +1135,11 @@
    "country": "LIBYA",
    "chosen": "Arch of Septimius Severus",
    "where": "Leptis Magna",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The Arch of Septimius Severus is a key landmark of Leptis Magna, a UNESCO World Heritage Site since 1982.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Arch_of_Septimius_Severus_(Leptis_Magna)"
+   ],
    "drawing": "gate kit (triumph)",
    "frame": "scallop"
   },
