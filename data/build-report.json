@@ -1,0 +1,1757 @@
+[
+ {
+  "code": "DZ",
+  "name": "ALGERIA",
+  "landmark": "Maqam Echahid (Martyrs' Memorial)",
+  "where": "Algiers",
+  "kit": "pillar",
+  "kind": "maqam",
+  "frame": "shield"
+ },
+ {
+  "code": "AO",
+  "name": "ANGOLA",
+  "landmark": "Kalandula Falls",
+  "where": "Malanje",
+  "kit": "falls",
+  "kind": "wide",
+  "frame": "notch"
+ },
+ {
+  "code": "BJ",
+  "name": "BENIN",
+  "landmark": "Door of No Return",
+  "where": "Ouidah",
+  "kit": "gate",
+  "kind": "gate",
+  "frame": "circle"
+ },
+ {
+  "code": "BW",
+  "name": "BOTSWANA",
+  "landmark": "Chobe baobab",
+  "where": "Chobe",
+  "kit": "tree",
+  "kind": "baobab",
+  "frame": "octTall"
+ },
+ {
+  "code": "BF",
+  "name": "BURKINA FASO",
+  "landmark": "Great Mosque of Bobo-Dioulasso",
+  "where": "Bobo-Dioulasso",
+  "kit": "mud",
+  "kind": "djenne",
+  "frame": "scallop"
+ },
+ {
+  "code": "BI",
+  "name": "BURUNDI",
+  "landmark": "Karera Falls",
+  "where": "Rutana",
+  "kit": "falls",
+  "kind": "cascade",
+  "frame": "hexWide"
+ },
+ {
+  "code": "CV",
+  "name": "CABO VERDE",
+  "landmark": "Pico do Fogo",
+  "where": "Fogo",
+  "kit": "volcano",
+  "kind": "cone",
+  "frame": "seal"
+ },
+ {
+  "code": "CM",
+  "name": "CAMEROON",
+  "landmark": "Mount Cameroon",
+  "where": "Buea",
+  "kit": "volcano",
+  "kind": "crater",
+  "frame": "banner"
+ },
+ {
+  "code": "CF",
+  "name": "CENTRAL AFRICAN REPUBLIC",
+  "landmark": "Boali Falls",
+  "where": "Boali",
+  "kit": "falls",
+  "kind": "wide",
+  "frame": "stepWide"
+ },
+ {
+  "code": "TD",
+  "name": "CHAD",
+  "landmark": "Ennedi Arch",
+  "where": "Ennedi Plateau",
+  "kit": "rock",
+  "kind": "arch",
+  "frame": "roundSquare"
+ },
+ {
+  "code": "KM",
+  "name": "COMOROS",
+  "landmark": "Mount Karthala",
+  "where": "Grande Comore",
+  "kit": "volcano",
+  "kind": "crater",
+  "frame": "boxWide"
+ },
+ {
+  "code": "CD",
+  "name": "DR CONGO",
+  "landmark": "Mount Nyiragongo",
+  "where": "Virunga",
+  "kit": "volcano",
+  "kind": "twin",
+  "frame": "notch"
+ },
+ {
+  "code": "CG",
+  "name": "CONGO",
+  "landmark": "Basilique Sainte-Anne",
+  "where": "Brazzaville",
+  "kit": "church",
+  "kind": "gothicSpire",
+  "frame": "stepTall"
+ },
+ {
+  "code": "CI",
+  "name": "IVORY COAST",
+  "landmark": "Basilica of Our Lady of Peace",
+  "where": "Yamoussoukro",
+  "kit": "church",
+  "kind": "domeBasilica",
+  "frame": "octSquare"
+ },
+ {
+  "code": "DJ",
+  "name": "DJIBOUTI",
+  "landmark": "Lake Abbe limestone chimneys",
+  "where": "Lake Abbe",
+  "kit": "rock",
+  "kind": "chimneys",
+  "frame": "hexWide"
+ },
+ {
+  "code": "EG",
+  "name": "EGYPT",
+  "landmark": "Pyramids of Giza",
+  "where": "Giza",
+  "kit": "pyramid",
+  "kind": "giza",
+  "frame": "banner"
+ },
+ {
+  "code": "GQ",
+  "name": "EQUATORIAL GUINEA",
+  "landmark": "Malabo Cathedral",
+  "where": "Malabo",
+  "kit": "church",
+  "kind": "gothicTwin",
+  "frame": "ogee"
+ },
+ {
+  "code": "ER",
+  "name": "ERITREA",
+  "landmark": "Fiat Tagliero Building",
+  "where": "Asmara",
+  "kit": "tower",
+  "kind": "tagliero",
+  "frame": "heater"
+ },
+ {
+  "code": "SZ",
+  "name": "ESWATINI",
+  "landmark": "Sibebe Rock",
+  "where": "Mbabane",
+  "kit": "rock",
+  "kind": "dome",
+  "frame": "pill"
+ },
+ {
+  "code": "ET",
+  "name": "ETHIOPIA",
+  "landmark": "Rock-hewn Churches of Lalibela",
+  "where": "Lalibela",
+  "kit": "church",
+  "kind": "baroque",
+  "frame": "boxTall"
+ },
+ {
+  "code": "GA",
+  "name": "GABON",
+  "landmark": "Kongou Falls",
+  "where": "Ivindo",
+  "kit": "falls",
+  "kind": "wide",
+  "frame": "stepWide"
+ },
+ {
+  "code": "GM",
+  "name": "GAMBIA",
+  "landmark": "Arch 22",
+  "where": "Banjul",
+  "kit": "gate",
+  "kind": "arch22",
+  "frame": "roundArch"
+ },
+ {
+  "code": "GH",
+  "name": "GHANA",
+  "landmark": "Cape Coast Castle",
+  "where": "Cape Coast",
+  "kit": "fort",
+  "kind": "colonial",
+  "frame": "boxWide"
+ },
+ {
+  "code": "GN",
+  "name": "GUINEA",
+  "landmark": "Mount Nimba",
+  "where": "Nimba",
+  "kit": "peak",
+  "kind": "range",
+  "frame": "notch"
+ },
+ {
+  "code": "GW",
+  "name": "GUINEA-BISSAU",
+  "landmark": "Fortaleza de Sao Jose da Amura",
+  "where": "Bissau",
+  "kit": "fort",
+  "kind": "bastion",
+  "frame": "hexWide"
+ },
+ {
+  "code": "KE",
+  "name": "KENYA",
+  "landmark": "Mount Kenya",
+  "where": "Central Kenya",
+  "kit": "peak",
+  "kind": "twin",
+  "frame": "notch"
+ },
+ {
+  "code": "LS",
+  "name": "LESOTHO",
+  "landmark": "Mokorotlo (Basotho hat)",
+  "where": "Thaba Bosiu",
+  "kit": "hut",
+  "kind": "basotho",
+  "frame": "circle"
+ },
+ {
+  "code": "LR",
+  "name": "LIBERIA",
+  "landmark": "Cape Mesurado Lighthouse",
+  "where": "Monrovia",
+  "kit": "icon",
+  "kind": "lighthouse",
+  "frame": "octTall"
+ },
+ {
+  "code": "LY",
+  "name": "LIBYA",
+  "landmark": "Arch of Septimius Severus",
+  "where": "Leptis Magna",
+  "kit": "gate",
+  "kind": "triumph",
+  "frame": "scallop"
+ },
+ {
+  "code": "MG",
+  "name": "MADAGASCAR",
+  "landmark": "Avenue of the Baobabs",
+  "where": "Morondava",
+  "kit": "tree",
+  "kind": "avenue",
+  "frame": "banner"
+ },
+ {
+  "code": "MW",
+  "name": "MALAWI",
+  "landmark": "Mount Mulanje",
+  "where": "Mulanje",
+  "kit": "peak",
+  "kind": "range",
+  "frame": "pill"
+ },
+ {
+  "code": "ML",
+  "name": "MALI",
+  "landmark": "Great Mosque of Djenne",
+  "where": "Djenne",
+  "kit": "mud",
+  "kind": "djenne",
+  "frame": "seal"
+ },
+ {
+  "code": "MR",
+  "name": "MAURITANIA",
+  "landmark": "Chinguetti Mosque",
+  "where": "Chinguetti",
+  "kit": "mud",
+  "kind": "chinguetti",
+  "frame": "roundSquare"
+ },
+ {
+  "code": "MU",
+  "name": "MAURITIUS",
+  "landmark": "Le Morne Brabant",
+  "where": "Le Morne",
+  "kit": "rock",
+  "kind": "leMorne",
+  "frame": "stepWide"
+ },
+ {
+  "code": "MA",
+  "name": "MOROCCO",
+  "landmark": "Hassan II Mosque",
+  "where": "Casablanca",
+  "kit": "mosque",
+  "kind": "squareMinaret",
+  "frame": "boxTall"
+ },
+ {
+  "code": "MZ",
+  "name": "MOZAMBIQUE",
+  "landmark": "Maputo Central Railway Station",
+  "where": "Maputo",
+  "kit": "church",
+  "kind": "station",
+  "frame": "octSquare"
+ },
+ {
+  "code": "NA",
+  "name": "NAMIBIA",
+  "landmark": "Sossusvlei dunes",
+  "where": "Namib Desert",
+  "kit": "rock",
+  "kind": "dune",
+  "frame": "boxWide"
+ },
+ {
+  "code": "NE",
+  "name": "NIGER",
+  "landmark": "Agadez Grand Mosque",
+  "where": "Agadez",
+  "kit": "mud",
+  "kind": "agadez",
+  "frame": "roundArch"
+ },
+ {
+  "code": "NG",
+  "name": "NIGERIA",
+  "landmark": "Zuma Rock",
+  "where": "Abuja",
+  "kit": "rock",
+  "kind": "monolith",
+  "frame": "heater"
+ },
+ {
+  "code": "RW",
+  "name": "RWANDA",
+  "landmark": "Virunga volcanoes",
+  "where": "Volcanoes NP",
+  "kit": "volcano",
+  "kind": "twin",
+  "frame": "notch"
+ },
+ {
+  "code": "ST",
+  "name": "SAO TOME AND PRINCIPE",
+  "landmark": "Pico Cao Grande",
+  "where": "Sao Tome",
+  "kit": "rock",
+  "kind": "needle",
+  "frame": "boxTall"
+ },
+ {
+  "code": "SN",
+  "name": "SENEGAL",
+  "landmark": "African Renaissance Monument",
+  "where": "Dakar",
+  "kit": "statue",
+  "kind": "renaissance",
+  "frame": "notch"
+ },
+ {
+  "code": "SC",
+  "name": "SEYCHELLES",
+  "landmark": "Anse Source d'Argent",
+  "where": "La Digue",
+  "kit": "rock",
+  "kind": "boulders",
+  "frame": "circle"
+ },
+ {
+  "code": "SL",
+  "name": "SIERRA LEONE",
+  "landmark": "Cotton Tree",
+  "where": "Freetown",
+  "kit": "tree",
+  "kind": "cotton",
+  "frame": "scallop"
+ },
+ {
+  "code": "SO",
+  "name": "SOMALIA",
+  "landmark": "Arba'a Rukun Mosque",
+  "where": "Mogadishu",
+  "kit": "mosque",
+  "kind": "grand",
+  "frame": "hexWide"
+ },
+ {
+  "code": "ZA",
+  "name": "SOUTH AFRICA",
+  "landmark": "Table Mountain",
+  "where": "Cape Town",
+  "kit": "peak",
+  "kind": "table",
+  "frame": "banner"
+ },
+ {
+  "code": "SS",
+  "name": "SOUTH SUDAN",
+  "landmark": "Imatong Mountains",
+  "where": "Eastern Equatoria",
+  "kit": "peak",
+  "kind": "range",
+  "frame": "pill"
+ },
+ {
+  "code": "SD",
+  "name": "SUDAN",
+  "landmark": "Pyramids of Meroe",
+  "where": "Meroe",
+  "kit": "pyramid",
+  "kind": "meroe",
+  "frame": "stepWide"
+ },
+ {
+  "code": "TZ",
+  "name": "TANZANIA",
+  "landmark": "Mount Kilimanjaro",
+  "where": "Kilimanjaro",
+  "kit": "peak",
+  "kind": "kili",
+  "frame": "boxWide"
+ },
+ {
+  "code": "TG",
+  "name": "TOGO",
+  "landmark": "Koutammakou tower houses",
+  "where": "Kara",
+  "kit": "mud",
+  "kind": "takienta",
+  "frame": "notch"
+ },
+ {
+  "code": "TN",
+  "name": "TUNISIA",
+  "landmark": "Amphitheatre of El Jem",
+  "where": "El Djem",
+  "kit": "ruins",
+  "kind": "amphitheatre",
+  "frame": "hexWide"
+ },
+ {
+  "code": "UG",
+  "name": "UGANDA",
+  "landmark": "Kasubi Tombs",
+  "where": "Kampala",
+  "kit": "hut",
+  "kind": "kasubi",
+  "frame": "seal"
+ },
+ {
+  "code": "ZM",
+  "name": "ZAMBIA",
+  "landmark": "Victoria Falls",
+  "where": "Livingstone",
+  "kit": "falls",
+  "kind": "victoria",
+  "frame": "banner"
+ },
+ {
+  "code": "ZW",
+  "name": "ZIMBABWE",
+  "landmark": "Great Zimbabwe",
+  "where": "Masvingo",
+  "kit": "hut",
+  "kind": "greatZim",
+  "frame": "pill"
+ },
+ {
+  "code": "AG",
+  "name": "ANTIGUA AND BARBUDA",
+  "landmark": "Devil's Bridge",
+  "where": "Antigua",
+  "kit": "rock",
+  "kind": "arch",
+  "frame": "roundSquare"
+ },
+ {
+  "code": "AR",
+  "name": "ARGENTINA",
+  "landmark": "Obelisco de Buenos Aires",
+  "where": "Buenos Aires",
+  "kit": "pillar",
+  "kind": "obelisk",
+  "frame": "boxTall"
+ },
+ {
+  "code": "BS",
+  "name": "BAHAMAS",
+  "landmark": "Atlantis Paradise Island",
+  "where": "Nassau",
+  "kit": "tower",
+  "kind": "atlantis",
+  "frame": "octSquare"
+ },
+ {
+  "code": "BB",
+  "name": "BARBADOS",
+  "landmark": "Parliament Buildings",
+  "where": "Bridgetown",
+  "kit": "church",
+  "kind": "clocktower",
+  "frame": "stepTall"
+ },
+ {
+  "code": "BZ",
+  "name": "BELIZE",
+  "landmark": "Xunantunich El Castillo",
+  "where": "Cayo",
+  "kit": "pyramid",
+  "kind": "maya",
+  "frame": "stepWide"
+ },
+ {
+  "code": "BO",
+  "name": "BOLIVIA",
+  "landmark": "Gate of the Sun",
+  "where": "Tiwanaku",
+  "kit": "gate",
+  "kind": "sun",
+  "frame": "heater"
+ },
+ {
+  "code": "BR",
+  "name": "BRAZIL",
+  "landmark": "Christ the Redeemer",
+  "where": "Rio de Janeiro",
+  "kit": "statue",
+  "kind": "christ",
+  "frame": "boxTall"
+ },
+ {
+  "code": "CA",
+  "name": "CANADA",
+  "landmark": "CN Tower",
+  "where": "Toronto",
+  "kit": "tower",
+  "kind": "cn",
+  "frame": "octTall"
+ },
+ {
+  "code": "CL",
+  "name": "CHILE",
+  "landmark": "Moai of Easter Island",
+  "where": "Rapa Nui",
+  "kit": "statue",
+  "kind": "moai",
+  "frame": "notch"
+ },
+ {
+  "code": "CO",
+  "name": "COLOMBIA",
+  "landmark": "Torre del Reloj",
+  "where": "Cartagena",
+  "kit": "church",
+  "kind": "clocktower",
+  "frame": "roundArch"
+ },
+ {
+  "code": "CR",
+  "name": "COSTA RICA",
+  "landmark": "Arenal Volcano",
+  "where": "La Fortuna",
+  "kit": "volcano",
+  "kind": "cone",
+  "frame": "circle"
+ },
+ {
+  "code": "CU",
+  "name": "CUBA",
+  "landmark": "El Capitolio",
+  "where": "Havana",
+  "kit": "church",
+  "kind": "capitol",
+  "frame": "scallop"
+ },
+ {
+  "code": "DM",
+  "name": "DOMINICA",
+  "landmark": "Trafalgar Falls",
+  "where": "Roseau",
+  "kit": "falls",
+  "kind": "twin",
+  "frame": "boxWide"
+ },
+ {
+  "code": "DO",
+  "name": "DOMINICAN REPUBLIC",
+  "landmark": "Santo Domingo Cathedral",
+  "where": "Santo Domingo",
+  "kit": "church",
+  "kind": "baroque",
+  "frame": "roundSquare"
+ },
+ {
+  "code": "EC",
+  "name": "ECUADOR",
+  "landmark": "Mitad del Mundo",
+  "where": "Quito",
+  "kit": "pillar",
+  "kind": "globe",
+  "frame": "boxTall"
+ },
+ {
+  "code": "SV",
+  "name": "EL SALVADOR",
+  "landmark": "Izalco Volcano",
+  "where": "Sonsonate",
+  "kit": "volcano",
+  "kind": "cone",
+  "frame": "octSquare"
+ },
+ {
+  "code": "GD",
+  "name": "GRENADA",
+  "landmark": "Fort George",
+  "where": "St George's",
+  "kit": "fort",
+  "kind": "colonial",
+  "frame": "notch"
+ },
+ {
+  "code": "GT",
+  "name": "GUATEMALA",
+  "landmark": "Tikal Temple I",
+  "where": "Tikal",
+  "kit": "pyramid",
+  "kind": "tikal",
+  "frame": "heater"
+ },
+ {
+  "code": "GY",
+  "name": "GUYANA",
+  "landmark": "Kaieteur Falls",
+  "where": "Potaro",
+  "kit": "falls",
+  "kind": "plunge",
+  "frame": "hexWide"
+ },
+ {
+  "code": "HT",
+  "name": "HAITI",
+  "landmark": "Citadelle Laferriere",
+  "where": "Milot",
+  "kit": "fort",
+  "kind": "citadelle",
+  "frame": "boxTall"
+ },
+ {
+  "code": "HN",
+  "name": "HONDURAS",
+  "landmark": "Copan Ruins",
+  "where": "Copan",
+  "kit": "pyramid",
+  "kind": "copan",
+  "frame": "banner"
+ },
+ {
+  "code": "JM",
+  "name": "JAMAICA",
+  "landmark": "Dunn's River Falls",
+  "where": "Ocho Rios",
+  "kit": "falls",
+  "kind": "cascade",
+  "frame": "pill"
+ },
+ {
+  "code": "NI",
+  "name": "NICARAGUA",
+  "landmark": "Momotombo Volcano",
+  "where": "Leon",
+  "kit": "volcano",
+  "kind": "cone",
+  "frame": "notch"
+ },
+ {
+  "code": "PA",
+  "name": "PANAMA",
+  "landmark": "Bridge of the Americas",
+  "where": "Panama Canal",
+  "kit": "bridge",
+  "kind": "steelArch",
+  "frame": "stepWide"
+ },
+ {
+  "code": "PY",
+  "name": "PARAGUAY",
+  "landmark": "Jesuit Missions of Trinidad",
+  "where": "Trinidad",
+  "kit": "ruins",
+  "kind": "facade",
+  "frame": "circle"
+ },
+ {
+  "code": "PE",
+  "name": "PERU",
+  "landmark": "Machu Picchu",
+  "where": "Cusco",
+  "kit": "icon",
+  "kind": "machu",
+  "frame": "scallop"
+ },
+ {
+  "code": "KN",
+  "name": "SAINT KITTS AND NEVIS",
+  "landmark": "Brimstone Hill Fortress",
+  "where": "St Kitts",
+  "kit": "fort",
+  "kind": "bastion",
+  "frame": "boxWide"
+ },
+ {
+  "code": "LC",
+  "name": "SAINT LUCIA",
+  "landmark": "The Pitons",
+  "where": "Soufriere",
+  "kit": "rock",
+  "kind": "pitons",
+  "frame": "seal"
+ },
+ {
+  "code": "VC",
+  "name": "SAINT VINCENT AND THE GRENADINES",
+  "landmark": "La Soufriere",
+  "where": "St Vincent",
+  "kit": "volcano",
+  "kind": "crater",
+  "frame": "notch"
+ },
+ {
+  "code": "SR",
+  "name": "SURINAME",
+  "landmark": "St Peter and Paul Cathedral",
+  "where": "Paramaribo",
+  "kit": "church",
+  "kind": "gothicTwin",
+  "frame": "house"
+ },
+ {
+  "code": "TT",
+  "name": "TRINIDAD AND TOBAGO",
+  "landmark": "Magnificent Seven (Stollmeyer Castle)",
+  "where": "Port of Spain",
+  "kit": "fort",
+  "kind": "castle",
+  "frame": "roundSquare"
+ },
+ {
+  "code": "UY",
+  "name": "URUGUAY",
+  "landmark": "Palacio Salvo",
+  "where": "Montevideo",
+  "kit": "tower",
+  "kind": "palacio",
+  "frame": "stepTall"
+ },
+ {
+  "code": "VE",
+  "name": "VENEZUELA",
+  "landmark": "Angel Falls",
+  "where": "Canaima",
+  "kit": "rock",
+  "kind": "tepui",
+  "frame": "octSquare"
+ },
+ {
+  "code": "AF",
+  "name": "AFGHANISTAN",
+  "landmark": "Minaret of Jam",
+  "where": "Ghor",
+  "kit": "mosque",
+  "kind": "jam",
+  "frame": "octTall"
+ },
+ {
+  "code": "AM",
+  "name": "ARMENIA",
+  "landmark": "Mount Ararat and Khor Virap",
+  "where": "Ararat plain",
+  "kit": "peak",
+  "kind": "ararat",
+  "frame": "hexWide"
+ },
+ {
+  "code": "AZ",
+  "name": "AZERBAIJAN",
+  "landmark": "Flame Towers",
+  "where": "Baku",
+  "kit": "tower",
+  "kind": "flame",
+  "frame": "heater"
+ },
+ {
+  "code": "BH",
+  "name": "BAHRAIN",
+  "landmark": "Pearl Monument",
+  "where": "Manama",
+  "kit": "pillar",
+  "kind": "pearl",
+  "frame": "roundArch"
+ },
+ {
+  "code": "BD",
+  "name": "BANGLADESH",
+  "landmark": "Shaheed Minar",
+  "where": "Dhaka",
+  "kit": "pillar",
+  "kind": "shaheed",
+  "frame": "boxTall"
+ },
+ {
+  "code": "BT",
+  "name": "BHUTAN",
+  "landmark": "Tiger's Nest (Paro Taktsang)",
+  "where": "Paro",
+  "kit": "cliff",
+  "kind": "monastery",
+  "frame": "notch"
+ },
+ {
+  "code": "BN",
+  "name": "BRUNEI",
+  "landmark": "Omar Ali Saifuddien Mosque",
+  "where": "Bandar Seri Begawan",
+  "kit": "mosque",
+  "kind": "grand",
+  "frame": "banner"
+ },
+ {
+  "code": "KH",
+  "name": "CAMBODIA",
+  "landmark": "Angkor Wat",
+  "where": "Siem Reap",
+  "kit": "icon",
+  "kind": "angkor",
+  "frame": "pill"
+ },
+ {
+  "code": "CY",
+  "name": "CYPRUS",
+  "landmark": "Aphrodite's Rock (Petra tou Romiou)",
+  "where": "Paphos",
+  "kit": "rock",
+  "kind": "seastack",
+  "frame": "circle"
+ },
+ {
+  "code": "GE",
+  "name": "GEORGIA",
+  "landmark": "Gergeti Trinity Church",
+  "where": "Kazbegi",
+  "kit": "church",
+  "kind": "mountainChurch",
+  "frame": "scallop"
+ },
+ {
+  "code": "IN",
+  "name": "INDIA",
+  "landmark": "Taj Mahal",
+  "where": "Agra",
+  "kit": "icon",
+  "kind": "taj",
+  "frame": "seal"
+ },
+ {
+  "code": "ID",
+  "name": "INDONESIA",
+  "landmark": "Borobudur",
+  "where": "Java",
+  "kit": "buddhist",
+  "kind": "borobudur",
+  "frame": "stepWide"
+ },
+ {
+  "code": "IR",
+  "name": "IRAN",
+  "landmark": "Azadi Tower",
+  "where": "Tehran",
+  "kit": "pillar",
+  "kind": "azadi",
+  "frame": "stepTall"
+ },
+ {
+  "code": "IQ",
+  "name": "IRAQ",
+  "landmark": "Malwiya Minaret",
+  "where": "Samarra",
+  "kit": "mosque",
+  "kind": "samarra",
+  "frame": "roundSquare"
+ },
+ {
+  "code": "IL",
+  "name": "ISRAEL",
+  "landmark": "Masada",
+  "where": "Dead Sea",
+  "kit": "rock",
+  "kind": "mesa",
+  "frame": "boxWide"
+ },
+ {
+  "code": "JO",
+  "name": "JORDAN",
+  "landmark": "Petra, the Treasury",
+  "where": "Petra",
+  "kit": "icon",
+  "kind": "petra",
+  "frame": "octSquare"
+ },
+ {
+  "code": "KZ",
+  "name": "KAZAKHSTAN",
+  "landmark": "Bayterek Tower",
+  "where": "Astana",
+  "kit": "pillar",
+  "kind": "bayterek",
+  "frame": "boxTall"
+ },
+ {
+  "code": "KW",
+  "name": "KUWAIT",
+  "landmark": "Kuwait Towers",
+  "where": "Kuwait City",
+  "kit": "tower",
+  "kind": "kuwait",
+  "frame": "hexTall"
+ },
+ {
+  "code": "KG",
+  "name": "KYRGYZSTAN",
+  "landmark": "Burana Tower",
+  "where": "Chuy Valley",
+  "kit": "mosque",
+  "kind": "burana",
+  "frame": "stepTall"
+ },
+ {
+  "code": "LA",
+  "name": "LAOS",
+  "landmark": "Pha That Luang",
+  "where": "Vientiane",
+  "kit": "buddhist",
+  "kind": "thatluang",
+  "frame": "heater"
+ },
+ {
+  "code": "LB",
+  "name": "LEBANON",
+  "landmark": "Baalbek, Temple of Jupiter",
+  "where": "Baalbek",
+  "kit": "ruins",
+  "kind": "baalbek",
+  "frame": "heater"
+ },
+ {
+  "code": "MY",
+  "name": "MALAYSIA",
+  "landmark": "Petronas Twin Towers",
+  "where": "Kuala Lumpur",
+  "kit": "tower",
+  "kind": "petronas",
+  "frame": "octTall"
+ },
+ {
+  "code": "MV",
+  "name": "MALDIVES",
+  "landmark": "Islamic Centre",
+  "where": "Male",
+  "kit": "mosque",
+  "kind": "grand",
+  "frame": "notch"
+ },
+ {
+  "code": "MN",
+  "name": "MONGOLIA",
+  "landmark": "Genghis Khan Equestrian Statue",
+  "where": "Tsonjin Boldog",
+  "kit": "statue",
+  "kind": "rider",
+  "frame": "shield"
+ },
+ {
+  "code": "MM",
+  "name": "MYANMAR",
+  "landmark": "Shwedagon Pagoda",
+  "where": "Yangon",
+  "kit": "buddhist",
+  "kind": "shwe",
+  "frame": "boxTall"
+ },
+ {
+  "code": "NP",
+  "name": "NEPAL",
+  "landmark": "Boudhanath Stupa",
+  "where": "Kathmandu",
+  "kit": "buddhist",
+  "kind": "boudha",
+  "frame": "octTall"
+ },
+ {
+  "code": "KP",
+  "name": "NORTH KOREA",
+  "landmark": "Juche Tower",
+  "where": "Pyongyang",
+  "kit": "pillar",
+  "kind": "juche",
+  "frame": "roundArch"
+ },
+ {
+  "code": "OM",
+  "name": "OMAN",
+  "landmark": "Sultan Qaboos Grand Mosque",
+  "where": "Muscat",
+  "kit": "mosque",
+  "kind": "grand",
+  "frame": "hexWide"
+ },
+ {
+  "code": "PK",
+  "name": "PAKISTAN",
+  "landmark": "Badshahi Mosque",
+  "where": "Lahore",
+  "kit": "mosque",
+  "kind": "grand",
+  "frame": "banner"
+ },
+ {
+  "code": "PH",
+  "name": "PHILIPPINES",
+  "landmark": "Mayon Volcano",
+  "where": "Albay",
+  "kit": "volcano",
+  "kind": "cone",
+  "frame": "notch"
+ },
+ {
+  "code": "QA",
+  "name": "QATAR",
+  "landmark": "Aspire Tower",
+  "where": "Doha",
+  "kit": "tower",
+  "kind": "aspire",
+  "frame": "boxTall"
+ },
+ {
+  "code": "SA",
+  "name": "SAUDI ARABIA",
+  "landmark": "Kingdom Centre Tower",
+  "where": "Riyadh",
+  "kit": "tower",
+  "kind": "kingdom",
+  "frame": "stepTall"
+ },
+ {
+  "code": "SG",
+  "name": "SINGAPORE",
+  "landmark": "Marina Bay Sands",
+  "where": "Singapore",
+  "kit": "tower",
+  "kind": "mbs",
+  "frame": "circle"
+ },
+ {
+  "code": "KR",
+  "name": "SOUTH KOREA",
+  "landmark": "Gwanghwamun Gate",
+  "where": "Seoul",
+  "kit": "buddhist",
+  "kind": "palaceGate",
+  "frame": "scallop"
+ },
+ {
+  "code": "LK",
+  "name": "SRI LANKA",
+  "landmark": "Sigiriya Lion Rock",
+  "where": "Sigiriya",
+  "kit": "rock",
+  "kind": "sigiriya",
+  "frame": "seal"
+ },
+ {
+  "code": "SY",
+  "name": "SYRIA",
+  "landmark": "Palmyra Colonnade",
+  "where": "Palmyra",
+  "kit": "ruins",
+  "kind": "palmyra",
+  "frame": "pill"
+ },
+ {
+  "code": "TJ",
+  "name": "TAJIKISTAN",
+  "landmark": "Hisor Fortress Gate",
+  "where": "Hisor",
+  "kit": "gate",
+  "kind": "triumph",
+  "frame": "roundSquare"
+ },
+ {
+  "code": "TH",
+  "name": "THAILAND",
+  "landmark": "Wat Arun",
+  "where": "Bangkok",
+  "kit": "buddhist",
+  "kind": "prang",
+  "frame": "octSquare"
+ },
+ {
+  "code": "TL",
+  "name": "TIMOR-LESTE",
+  "landmark": "Cristo Rei of Dili",
+  "where": "Dili",
+  "kit": "statue",
+  "kind": "christ",
+  "frame": "heater"
+ },
+ {
+  "code": "TM",
+  "name": "TURKMENISTAN",
+  "landmark": "Arch of Neutrality",
+  "where": "Ashgabat",
+  "kit": "pillar",
+  "kind": "neutrality",
+  "frame": "octTall"
+ },
+ {
+  "code": "AE",
+  "name": "UNITED ARAB EMIRATES",
+  "landmark": "Burj Khalifa",
+  "where": "Dubai",
+  "kit": "tower",
+  "kind": "burj",
+  "frame": "roundArch"
+ },
+ {
+  "code": "UZ",
+  "name": "UZBEKISTAN",
+  "landmark": "Registan",
+  "where": "Samarkand",
+  "kit": "mosque",
+  "kind": "registan",
+  "frame": "stepWide"
+ },
+ {
+  "code": "VN",
+  "name": "VIETNAM",
+  "landmark": "Ha Long Bay",
+  "where": "Quang Ninh",
+  "kit": "rock",
+  "kind": "karst",
+  "frame": "boxWide"
+ },
+ {
+  "code": "YE",
+  "name": "YEMEN",
+  "landmark": "Shibam skyscrapers",
+  "where": "Shibam",
+  "kit": "mud",
+  "kind": "shibam",
+  "frame": "notch"
+ },
+ {
+  "code": "PS",
+  "name": "PALESTINE",
+  "landmark": "Dome of the Rock",
+  "where": "Jerusalem",
+  "kit": "mosque",
+  "kind": "octagon",
+  "frame": "boxTall"
+ },
+ {
+  "code": "AL",
+  "name": "ALBANIA",
+  "landmark": "Skanderbeg Monument",
+  "where": "Tirana",
+  "kit": "statue",
+  "kind": "rider",
+  "frame": "ogee"
+ },
+ {
+  "code": "AD",
+  "name": "ANDORRA",
+  "landmark": "Sant Joan de Caselles",
+  "where": "Canillo",
+  "kit": "church",
+  "kind": "romanesqueTower",
+  "frame": "notch"
+ },
+ {
+  "code": "AT",
+  "name": "AUSTRIA",
+  "landmark": "St Stephen's Cathedral",
+  "where": "Vienna",
+  "kit": "church",
+  "kind": "gothicSpire",
+  "frame": "boxTall"
+ },
+ {
+  "code": "BY",
+  "name": "BELARUS",
+  "landmark": "Mir Castle",
+  "where": "Mir",
+  "kit": "fort",
+  "kind": "bran",
+  "frame": "circle"
+ },
+ {
+  "code": "BE",
+  "name": "BELGIUM",
+  "landmark": "Atomium",
+  "where": "Brussels",
+  "kit": "tower",
+  "kind": "atomium",
+  "frame": "roundArch"
+ },
+ {
+  "code": "BA",
+  "name": "BOSNIA AND HERZEGOVINA",
+  "landmark": "Stari Most",
+  "where": "Mostar",
+  "kit": "bridge",
+  "kind": "stari",
+  "frame": "banner"
+ },
+ {
+  "code": "BG",
+  "name": "BULGARIA",
+  "landmark": "Alexander Nevsky Cathedral",
+  "where": "Sofia",
+  "kit": "church",
+  "kind": "nevsky",
+  "frame": "scallop"
+ },
+ {
+  "code": "HR",
+  "name": "CROATIA",
+  "landmark": "Walls of Dubrovnik",
+  "where": "Dubrovnik",
+  "kit": "fort",
+  "kind": "wallTowers",
+  "frame": "pill"
+ },
+ {
+  "code": "CZ",
+  "name": "CZECHIA",
+  "landmark": "St Vitus Cathedral",
+  "where": "Prague",
+  "kit": "church",
+  "kind": "gothicTwin",
+  "frame": "boxTall"
+ },
+ {
+  "code": "DK",
+  "name": "DENMARK",
+  "landmark": "The Little Mermaid",
+  "where": "Copenhagen",
+  "kit": "statue",
+  "kind": "mermaid",
+  "frame": "seal"
+ },
+ {
+  "code": "EE",
+  "name": "ESTONIA",
+  "landmark": "Tallinn Town Hall",
+  "where": "Tallinn",
+  "kit": "church",
+  "kind": "townHall",
+  "frame": "house"
+ },
+ {
+  "code": "FI",
+  "name": "FINLAND",
+  "landmark": "Helsinki Cathedral",
+  "where": "Helsinki",
+  "kit": "church",
+  "kind": "helsinki",
+  "frame": "roundSquare"
+ },
+ {
+  "code": "GR",
+  "name": "GREECE",
+  "landmark": "Parthenon",
+  "where": "Athens",
+  "kit": "ruins",
+  "kind": "greek",
+  "frame": "stepWide"
+ },
+ {
+  "code": "HU",
+  "name": "HUNGARY",
+  "landmark": "Hungarian Parliament Building",
+  "where": "Budapest",
+  "kit": "church",
+  "kind": "parliament",
+  "frame": "octSquare"
+ },
+ {
+  "code": "IS",
+  "name": "ICELAND",
+  "landmark": "Hallgrimskirkja",
+  "where": "Reykjavik",
+  "kit": "church",
+  "kind": "hallgrim",
+  "frame": "stepTall"
+ },
+ {
+  "code": "IE",
+  "name": "IRELAND",
+  "landmark": "Cliffs of Moher",
+  "where": "County Clare",
+  "kit": "cliff",
+  "kind": "moher",
+  "frame": "heater"
+ },
+ {
+  "code": "LV",
+  "name": "LATVIA",
+  "landmark": "Freedom Monument",
+  "where": "Riga",
+  "kit": "pillar",
+  "kind": "freedom",
+  "frame": "octTall"
+ },
+ {
+  "code": "LI",
+  "name": "LIECHTENSTEIN",
+  "landmark": "Vaduz Castle",
+  "where": "Vaduz",
+  "kit": "fort",
+  "kind": "hillCastle",
+  "frame": "boxTall"
+ },
+ {
+  "code": "LT",
+  "name": "LITHUANIA",
+  "landmark": "Trakai Island Castle",
+  "where": "Trakai",
+  "kit": "fort",
+  "kind": "islandCastle",
+  "frame": "notch"
+ },
+ {
+  "code": "LU",
+  "name": "LUXEMBOURG",
+  "landmark": "Adolphe Bridge",
+  "where": "Luxembourg City",
+  "kit": "bridge",
+  "kind": "twoArch",
+  "frame": "boxWide"
+ },
+ {
+  "code": "MT",
+  "name": "MALTA",
+  "landmark": "Valletta skyline",
+  "where": "Valletta",
+  "kit": "church",
+  "kind": "domeBasilica",
+  "frame": "circle"
+ },
+ {
+  "code": "MD",
+  "name": "MOLDOVA",
+  "landmark": "Orheiul Vechi monastery",
+  "where": "Orhei",
+  "kit": "cliff",
+  "kind": "monastery",
+  "frame": "scallop"
+ },
+ {
+  "code": "MC",
+  "name": "MONACO",
+  "landmark": "Casino de Monte-Carlo",
+  "where": "Monte Carlo",
+  "kit": "church",
+  "kind": "casino",
+  "frame": "seal"
+ },
+ {
+  "code": "ME",
+  "name": "MONTENEGRO",
+  "landmark": "Fortress of Kotor",
+  "where": "Kotor",
+  "kit": "fort",
+  "kind": "hillCastle",
+  "frame": "roundSquare"
+ },
+ {
+  "code": "NL",
+  "name": "NETHERLANDS",
+  "landmark": "Dutch windmill",
+  "where": "Kinderdijk",
+  "kit": "icon",
+  "kind": "windmill",
+  "frame": "stepTall"
+ },
+ {
+  "code": "MK",
+  "name": "NORTH MACEDONIA",
+  "landmark": "Millennium Cross",
+  "where": "Skopje",
+  "kit": "pillar",
+  "kind": "cross",
+  "frame": "octSquare"
+ },
+ {
+  "code": "NO",
+  "name": "NORWAY",
+  "landmark": "Urnes Stave Church",
+  "where": "Luster",
+  "kit": "church",
+  "kind": "stave",
+  "frame": "heater"
+ },
+ {
+  "code": "PL",
+  "name": "POLAND",
+  "landmark": "Palace of Culture and Science",
+  "where": "Warsaw",
+  "kit": "tower",
+  "kind": "stepped",
+  "frame": "hexTall"
+ },
+ {
+  "code": "PT",
+  "name": "PORTUGAL",
+  "landmark": "Belem Tower",
+  "where": "Lisbon",
+  "kit": "fort",
+  "kind": "belem",
+  "frame": "heater"
+ },
+ {
+  "code": "RO",
+  "name": "ROMANIA",
+  "landmark": "Bran Castle",
+  "where": "Bran",
+  "kit": "fort",
+  "kind": "bran",
+  "frame": "boxTall"
+ },
+ {
+  "code": "RU",
+  "name": "RUSSIA",
+  "landmark": "Saint Basil's Cathedral",
+  "where": "Moscow",
+  "kit": "church",
+  "kind": "basil",
+  "frame": "shield"
+ },
+ {
+  "code": "SM",
+  "name": "SAN MARINO",
+  "landmark": "Three Towers of San Marino",
+  "where": "Monte Titano",
+  "kit": "fort",
+  "kind": "threeTowers",
+  "frame": "notch"
+ },
+ {
+  "code": "RS",
+  "name": "SERBIA",
+  "landmark": "Church of Saint Sava",
+  "where": "Belgrade",
+  "kit": "church",
+  "kind": "sava",
+  "frame": "notch"
+ },
+ {
+  "code": "SK",
+  "name": "SLOVAKIA",
+  "landmark": "Bratislava Castle",
+  "where": "Bratislava",
+  "kit": "fort",
+  "kind": "keep4",
+  "frame": "circle"
+ },
+ {
+  "code": "SI",
+  "name": "SLOVENIA",
+  "landmark": "Lake Bled Island Church",
+  "where": "Bled",
+  "kit": "church",
+  "kind": "islandChurch",
+  "frame": "scallop"
+ },
+ {
+  "code": "SE",
+  "name": "SWEDEN",
+  "landmark": "Stockholm City Hall",
+  "where": "Stockholm",
+  "kit": "tower",
+  "kind": "cityHall",
+  "frame": "octTall"
+ },
+ {
+  "code": "CH",
+  "name": "SWITZERLAND",
+  "landmark": "Matterhorn",
+  "where": "Zermatt",
+  "kit": "peak",
+  "kind": "matterhorn",
+  "frame": "seal"
+ },
+ {
+  "code": "UA",
+  "name": "UKRAINE",
+  "landmark": "Saint Sophia Cathedral",
+  "where": "Kyiv",
+  "kit": "church",
+  "kind": "sophia",
+  "frame": "roundSquare"
+ },
+ {
+  "code": "VA",
+  "name": "VATICAN CITY",
+  "landmark": "St Peter's Basilica",
+  "where": "Vatican City",
+  "kit": "church",
+  "kind": "domeBasilica",
+  "frame": "octSquare"
+ },
+ {
+  "code": "AU",
+  "name": "AUSTRALIA",
+  "landmark": "Sydney Opera House",
+  "where": "Sydney",
+  "kit": "icon",
+  "kind": "opera",
+  "frame": "hexWide"
+ },
+ {
+  "code": "FJ",
+  "name": "FIJI",
+  "landmark": "Sri Siva Subramaniya Temple",
+  "where": "Nadi",
+  "kit": "buddhist",
+  "kind": "gopuram",
+  "frame": "ogee"
+ },
+ {
+  "code": "KI",
+  "name": "KIRIBATI",
+  "landmark": "Maneaba (meeting house)",
+  "where": "Tarawa",
+  "kit": "hut",
+  "kind": "maneaba",
+  "frame": "banner"
+ },
+ {
+  "code": "MH",
+  "name": "MARSHALL ISLANDS",
+  "landmark": "Majuro Atoll",
+  "where": "Majuro",
+  "kit": "island",
+  "kind": "palms",
+  "frame": "heater"
+ },
+ {
+  "code": "FM",
+  "name": "MICRONESIA",
+  "landmark": "Nan Madol",
+  "where": "Pohnpei",
+  "kit": "hut",
+  "kind": "nanMadol",
+  "frame": "pill"
+ },
+ {
+  "code": "NR",
+  "name": "NAURU",
+  "landmark": "Phosphate pinnacles",
+  "where": "Nauru",
+  "kit": "rock",
+  "kind": "pinnacles",
+  "frame": "stepWide"
+ },
+ {
+  "code": "NZ",
+  "name": "NEW ZEALAND",
+  "landmark": "Aoraki Mount Cook",
+  "where": "Canterbury",
+  "kit": "peak",
+  "kind": "range",
+  "frame": "boxWide"
+ },
+ {
+  "code": "PW",
+  "name": "PALAU",
+  "landmark": "Rock Islands",
+  "where": "Koror",
+  "kit": "rock",
+  "kind": "mushroom",
+  "frame": "notch"
+ },
+ {
+  "code": "PG",
+  "name": "PAPUA NEW GUINEA",
+  "landmark": "Haus Tambaran (spirit house)",
+  "where": "Sepik",
+  "kit": "hut",
+  "kind": "tambaran",
+  "frame": "boxTall"
+ },
+ {
+  "code": "WS",
+  "name": "SAMOA",
+  "landmark": "Baha'i House of Worship",
+  "where": "Apia",
+  "kit": "church",
+  "kind": "bahai",
+  "frame": "notch"
+ },
+ {
+  "code": "SB",
+  "name": "SOLOMON ISLANDS",
+  "landmark": "Mount Popomanaseu",
+  "where": "Guadalcanal",
+  "kit": "peak",
+  "kind": "range",
+  "frame": "hexWide"
+ },
+ {
+  "code": "TO",
+  "name": "TONGA",
+  "landmark": "Ha'amonga 'a Maui",
+  "where": "Niutoputapu",
+  "kit": "ruins",
+  "kind": "trilithon",
+  "frame": "circle"
+ },
+ {
+  "code": "TV",
+  "name": "TUVALU",
+  "landmark": "Funafuti Atoll",
+  "where": "Funafuti",
+  "kit": "island",
+  "kind": "palms",
+  "frame": "scallop"
+ },
+ {
+  "code": "VU",
+  "name": "VANUATU",
+  "landmark": "Mount Yasur",
+  "where": "Tanna",
+  "kit": "volcano",
+  "kind": "crater",
+  "frame": "banner"
+ },
+ {
+  "code": "FR",
+  "name": "FRANCE",
+  "landmark": "Eiffel Tower",
+  "where": "Paris",
+  "kit": "custom",
+  "kind": "hand-built",
+  "frame": "hand-built"
+ },
+ {
+  "code": "ES",
+  "name": "SPAIN",
+  "landmark": "Sagrada Familia",
+  "where": "Barcelona",
+  "kit": "custom",
+  "kind": "hand-built",
+  "frame": "hand-built"
+ },
+ {
+  "code": "US",
+  "name": "UNITED STATES",
+  "landmark": "Statue of Liberty",
+  "where": "New York",
+  "kit": "custom",
+  "kind": "hand-built",
+  "frame": "hand-built"
+ },
+ {
+  "code": "CN",
+  "name": "CHINA",
+  "landmark": "Great Wall",
+  "where": "Badaling",
+  "kit": "custom",
+  "kind": "hand-built",
+  "frame": "hand-built"
+ },
+ {
+  "code": "IT",
+  "name": "ITALY",
+  "landmark": "Leaning Tower of Pisa",
+  "where": "Pisa",
+  "kit": "custom",
+  "kind": "hand-built",
+  "frame": "hand-built"
+ },
+ {
+  "code": "TR",
+  "name": "TURKEY",
+  "landmark": "Hagia Sophia",
+  "where": "Istanbul",
+  "kit": "custom",
+  "kind": "hand-built",
+  "frame": "hand-built"
+ },
+ {
+  "code": "MX",
+  "name": "MEXICO",
+  "landmark": "Chichen Itza",
+  "where": "Yucatan",
+  "kit": "custom",
+  "kind": "hand-built",
+  "frame": "hand-built"
+ },
+ {
+  "code": "GB",
+  "name": "UNITED KINGDOM",
+  "landmark": "Elizabeth Tower (Big Ben)",
+  "where": "London",
+  "kit": "custom",
+  "kind": "hand-built",
+  "frame": "hand-built"
+ },
+ {
+  "code": "JP",
+  "name": "JAPAN",
+  "landmark": "Torii gate and Mount Fuji",
+  "where": "Itsukushima",
+  "kit": "custom",
+  "kind": "hand-built",
+  "frame": "hand-built"
+ },
+ {
+  "code": "DE",
+  "name": "GERMANY",
+  "landmark": "Brandenburg Gate",
+  "where": "Berlin",
+  "kit": "custom",
+  "kind": "hand-built",
+  "frame": "hand-built"
+ }
+]

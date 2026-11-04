@@ -90,7 +90,8 @@ const cmds = {
     for (const c of listCountries()) {
       const dir = here(`./countries/${c.toLowerCase()}`);
       const problems = [];
-      for (const f of ['country.json', 'frame.mjs', 'monument.svg']) if (!fs.existsSync(`${dir}/${f}`)) problems.push(`missing ${f}`);
+      for (const f of ['country.json', 'monument.svg']) if (!fs.existsSync(`${dir}/${f}`)) problems.push(`missing ${f}`);
+      if (!fs.existsSync(`${dir}/frame.mjs`) && !(fs.existsSync(`${dir}/country.json`) && JSON.parse(fs.readFileSync(`${dir}/country.json`)).frame)) problems.push('needs frame.mjs or a "frame" family in country.json');
       if (!problems.length) {
         const meta = JSON.parse(fs.readFileSync(`${dir}/country.json`));
         const svg = fs.readFileSync(`${dir}/monument.svg`, 'utf8');

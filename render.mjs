@@ -39,18 +39,22 @@ async function loadCountry(code) {
   if (!cache[dir]) {
     if (!fs.existsSync(here(`./countries/${dir}/country.json`))) throw new Error(`No country "${code}". Available: ${listCountries().join(', ')}`);
     const meta = JSON.parse(fs.readFileSync(here(`./countries/${dir}/country.json`)));
-    const { default: frame } = await import(here(`./countries/${dir}/frame.mjs`));
+    const frameFile = here(`./countries/${dir}/frame.mjs`);
+    let frame;
+    if (fs.existsSync(frameFile)) frame = (await import(frameFile)).default;
+    else { const { familyFrame } = await import(here('./lib/families.mjs')); frame = (ctx) => familyFrame(meta.frame, ctx); }
     const mono = fs.readFileSync(here(`./countries/${dir}/monument.svg`), 'utf8');
-    cache[dir] = { meta, frame, monument: mono.replace(/^[\s\S]*?<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '') };
+    const monumentVB = mono.match(/viewBox="([^"]+)"/)[1].split(/\s+/).map(Number);
+    cache[dir] = { meta, frame, monumentVB, monument: mono.replace(/^[\s\S]*?<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '') };
   }
   return cache[dir];
 }
 
 // Stamp artwork in ink. No texture. Size comes from the country's own frame.
 async function stampBody(code, month, year) {
-  const { meta, frame, monument } = await loadCountry(code);
+  const { meta, frame, monument, monumentVB } = await loadCountry(code);
   const ink = palette[meta.ink] ?? meta.ink;
-  const f = frame({ font, name: meta.name, month: monthLabel(month), year: String(year) });
+  const f = frame({ font, name: meta.name, month: monthLabel(month), year: String(year), monumentVB });
   f.warn.forEach((w) => console.warn(`fit warning (${meta.code}):`, w));
   const body = `${f.art}<g transform="translate(${f.monumentAt.x} ${f.monumentAt.y}) scale(${f.monumentAt.scale ?? 1})">${monument}</g>`;
   return { body: body.replaceAll('INK', ink), width: f.width, height: f.height };

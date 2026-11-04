@@ -1,51 +1,1852 @@
 {
-  "note": "Research notes for the stamp artwork. 'chosen' is what the stamp draws. 'cues' are the features that make the landmark recognisable at stamp size. 'alternates' are other strong candidates if you prefer a different pick. Country list: the ten most visited countries by international arrivals (UN Tourism, 2024).",
-  "sources": [
-    "https://www.worldatlas.com/articles/10-most-visited-countries-in-the-world.html",
-    "https://www.statista.com/statistics/261726/most-visited-countries-in-the-world/",
-    "https://nationsonline.org/oneworld/most_famous_landmarks.htm",
-    "https://www.travelawaits.com/2753256/best-things-to-do-worlds-most-visited-countries/"
-  ],
-  "countries": [
-    { "code": "FR", "country": "France", "chosen": "Eiffel Tower", "where": "Paris", "confidence": "high",
-      "why": "The best known symbol of France, named as such across the sources.",
-      "cues": ["tall tapering lattice", "arch between the legs", "two platforms", "thin spire"],
-      "alternates": ["Arc de Triomphe", "Mont Saint-Michel"] },
-    { "code": "ES", "country": "Spain", "chosen": "Sagrada Familia", "where": "Barcelona", "confidence": "high",
-      "why": "Spain's most visited monument and the standout pick in the travel sources.",
-      "cues": ["cluster of slender spires", "tall central tower topped with a cross", "ribbed finials"],
-      "alternates": ["Alhambra", "Park Guell"] },
-    { "code": "US", "country": "United States", "chosen": "Statue of Liberty", "where": "New York", "confidence": "high",
-      "why": "Ranked first in a worldwide recognition survey (98.7 percent could identify it).",
-      "cues": ["raised torch", "seven ray crown", "tablet", "stepped pedestal"],
-      "alternates": ["Golden Gate Bridge", "Mount Rushmore"] },
-    { "code": "CN", "country": "China", "chosen": "Great Wall", "where": "Badaling and Mutianyu, near Beijing", "confidence": "high",
-      "why": "Described as the most celebrated symbol of China.",
-      "cues": ["wall that rises and dips along a ridge", "crenellated walkway", "square watchtowers"],
-      "alternates": ["Temple of Heaven", "Terracotta Army", "Forbidden City"] },
-    { "code": "IT", "country": "Italy", "chosen": "Leaning Tower of Pisa", "where": "Pisa", "confidence": "medium",
-      "why": "Used in your reference image. The Colosseum ranks higher in recognition surveys (4th worldwide), so it is the main alternative.",
-      "cues": ["visible lean", "stacked arcaded tiers", "narrower bell chamber"],
-      "alternates": ["Colosseum", "St Peter's Basilica"] },
-    { "code": "TR", "country": "Turkey", "chosen": "Hagia Sophia", "where": "Istanbul", "confidence": "medium",
-      "why": "Istanbul is the headline destination. The sources name Istanbul, Pamukkale, Cappadocia and Ephesus, with no single national symbol.",
-      "cues": ["large central dome", "two half domes", "four pencil minarets"],
-      "alternates": ["Blue Mosque (six minarets)", "Cappadocia fairy chimneys", "Pamukkale terraces"] },
-    { "code": "MX", "country": "Mexico", "chosen": "Chichen Itza, El Castillo", "where": "Yucatan", "confidence": "high",
-      "why": "A New Seven Wonders site. The Teotihuacan pyramids lead one source, with Chichen Itza close behind.",
-      "cues": ["nine stepped terraces", "central staircase on each face", "small temple on top"],
-      "alternates": ["Pyramid of the Sun, Teotihuacan", "Angel of Independence"] },
-    { "code": "GB", "country": "United Kingdom", "chosen": "Elizabeth Tower (Big Ben)", "where": "London", "confidence": "medium",
-      "why": "The sources gave the weakest evidence for the UK. Big Ben only appeared in a photo caption, so this pick rests on general recognition.",
-      "cues": ["tall square clock tower", "large clock face", "pointed roof and spire"],
-      "alternates": ["Tower Bridge", "Stonehenge", "Tower of London"] },
-    { "code": "JP", "country": "Japan", "chosen": "Torii gate with Mount Fuji", "where": "Itsukushima and Fuji", "confidence": "high",
-      "why": "Matches your reference image. Mount Fuji appears in the sources as an iconic landmark.",
-      "cues": ["two pillars with curved top beam", "snow capped cone behind"],
-      "alternates": ["Kinkaku-ji", "Himeji Castle", "Tokyo Tower"] },
-    { "code": "DE", "country": "Germany", "chosen": "Brandenburg Gate", "where": "Berlin", "confidence": "medium",
-      "why": "A symbol of reunified Germany. The travel sources more often list the Berlin Wall, Cologne Cathedral and Neuschwanstein Castle.",
-      "cues": ["row of six Doric columns", "flat attic", "quadriga with Victoria on top"],
-      "alternates": ["Neuschwanstein Castle", "Cologne Cathedral", "Reichstag dome"] }
-  ]
+ "note": "Landmark chosen for each stamp. 'confidence: high/medium' entries were checked against the sources listed. 'unverified' entries were chosen from general knowledge of each country's best known landmark and have NOT been checked individually. Review them and tell us which to swap. The set is the 193 UN member states plus the Holy See and Palestine.",
+ "sources": [
+  "https://www.worldatlas.com/articles/10-most-visited-countries-in-the-world.html",
+  "https://www.statista.com/statistics/261726/most-visited-countries-in-the-world/",
+  "https://nationsonline.org/oneworld/most_famous_landmarks.htm",
+  "https://www.travelawaits.com/2753256/best-things-to-do-worlds-most-visited-countries/"
+ ],
+ "countries": [
+  {
+   "code": "AD",
+   "country": "ANDORRA",
+   "chosen": "Sant Joan de Caselles",
+   "where": "Canillo",
+   "confidence": "unverified",
+   "drawing": "church kit (romanesqueTower)",
+   "frame": "notch"
+  },
+  {
+   "code": "AE",
+   "country": "UNITED ARAB EMIRATES",
+   "chosen": "Burj Khalifa",
+   "where": "Dubai",
+   "confidence": "unverified",
+   "drawing": "tower kit (burj)",
+   "frame": "roundArch"
+  },
+  {
+   "code": "AF",
+   "country": "AFGHANISTAN",
+   "chosen": "Minaret of Jam",
+   "where": "Ghor",
+   "confidence": "unverified",
+   "drawing": "mosque kit (jam)",
+   "frame": "octTall"
+  },
+  {
+   "code": "AG",
+   "country": "ANTIGUA AND BARBUDA",
+   "chosen": "Devil's Bridge",
+   "where": "Antigua",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (arch)",
+   "frame": "roundSquare"
+  },
+  {
+   "code": "AL",
+   "country": "ALBANIA",
+   "chosen": "Skanderbeg Monument",
+   "where": "Tirana",
+   "confidence": "unverified",
+   "drawing": "statue kit (rider)",
+   "frame": "ogee"
+  },
+  {
+   "code": "AM",
+   "country": "ARMENIA",
+   "chosen": "Mount Ararat and Khor Virap",
+   "where": "Ararat plain",
+   "confidence": "unverified",
+   "drawing": "mountain kit (ararat)",
+   "frame": "hexWide"
+  },
+  {
+   "code": "AO",
+   "country": "ANGOLA",
+   "chosen": "Kalandula Falls",
+   "where": "Malanje",
+   "confidence": "unverified",
+   "drawing": "waterfall kit (wide)",
+   "frame": "notch"
+  },
+  {
+   "code": "AR",
+   "country": "ARGENTINA",
+   "chosen": "Obelisco de Buenos Aires",
+   "where": "Buenos Aires",
+   "confidence": "unverified",
+   "drawing": "monument kit (obelisk)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "AT",
+   "country": "AUSTRIA",
+   "chosen": "St Stephen's Cathedral",
+   "where": "Vienna",
+   "confidence": "unverified",
+   "drawing": "church kit (gothicSpire)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "AU",
+   "country": "AUSTRALIA",
+   "chosen": "Sydney Opera House",
+   "where": "Sydney",
+   "confidence": "unverified",
+   "drawing": "one-off drawing (opera)",
+   "frame": "hexWide"
+  },
+  {
+   "code": "AZ",
+   "country": "AZERBAIJAN",
+   "chosen": "Flame Towers",
+   "where": "Baku",
+   "confidence": "unverified",
+   "drawing": "tower kit (flame)",
+   "frame": "heater"
+  },
+  {
+   "code": "BA",
+   "country": "BOSNIA AND HERZEGOVINA",
+   "chosen": "Stari Most",
+   "where": "Mostar",
+   "confidence": "unverified",
+   "drawing": "bridge kit (stari)",
+   "frame": "banner"
+  },
+  {
+   "code": "BB",
+   "country": "BARBADOS",
+   "chosen": "Parliament Buildings",
+   "where": "Bridgetown",
+   "confidence": "unverified",
+   "drawing": "church kit (clocktower)",
+   "frame": "stepTall"
+  },
+  {
+   "code": "BD",
+   "country": "BANGLADESH",
+   "chosen": "Shaheed Minar",
+   "where": "Dhaka",
+   "confidence": "unverified",
+   "drawing": "monument kit (shaheed)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "BE",
+   "country": "BELGIUM",
+   "chosen": "Atomium",
+   "where": "Brussels",
+   "confidence": "unverified",
+   "drawing": "tower kit (atomium)",
+   "frame": "roundArch"
+  },
+  {
+   "code": "BF",
+   "country": "BURKINA FASO",
+   "chosen": "Great Mosque of Bobo-Dioulasso",
+   "where": "Bobo-Dioulasso",
+   "confidence": "unverified",
+   "drawing": "mud-brick kit (djenne)",
+   "frame": "scallop"
+  },
+  {
+   "code": "BG",
+   "country": "BULGARIA",
+   "chosen": "Alexander Nevsky Cathedral",
+   "where": "Sofia",
+   "confidence": "unverified",
+   "drawing": "church kit (nevsky)",
+   "frame": "scallop"
+  },
+  {
+   "code": "BH",
+   "country": "BAHRAIN",
+   "chosen": "Pearl Monument",
+   "where": "Manama",
+   "confidence": "unverified",
+   "drawing": "monument kit (pearl)",
+   "frame": "roundArch"
+  },
+  {
+   "code": "BI",
+   "country": "BURUNDI",
+   "chosen": "Karera Falls",
+   "where": "Rutana",
+   "confidence": "unverified",
+   "drawing": "waterfall kit (cascade)",
+   "frame": "hexWide"
+  },
+  {
+   "code": "BJ",
+   "country": "BENIN",
+   "chosen": "Door of No Return",
+   "where": "Ouidah",
+   "confidence": "unverified",
+   "drawing": "gate kit (gate)",
+   "frame": "circle"
+  },
+  {
+   "code": "BN",
+   "country": "BRUNEI",
+   "chosen": "Omar Ali Saifuddien Mosque",
+   "where": "Bandar Seri Begawan",
+   "confidence": "unverified",
+   "drawing": "mosque kit (grand)",
+   "frame": "banner"
+  },
+  {
+   "code": "BO",
+   "country": "BOLIVIA",
+   "chosen": "Gate of the Sun",
+   "where": "Tiwanaku",
+   "confidence": "unverified",
+   "drawing": "gate kit (sun)",
+   "frame": "heater"
+  },
+  {
+   "code": "BR",
+   "country": "BRAZIL",
+   "chosen": "Christ the Redeemer",
+   "where": "Rio de Janeiro",
+   "confidence": "unverified",
+   "drawing": "statue kit (christ)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "BS",
+   "country": "BAHAMAS",
+   "chosen": "Atlantis Paradise Island",
+   "where": "Nassau",
+   "confidence": "unverified",
+   "drawing": "tower kit (atlantis)",
+   "frame": "octSquare"
+  },
+  {
+   "code": "BT",
+   "country": "BHUTAN",
+   "chosen": "Tiger's Nest (Paro Taktsang)",
+   "where": "Paro",
+   "confidence": "unverified",
+   "drawing": "cliff kit (monastery)",
+   "frame": "notch"
+  },
+  {
+   "code": "BW",
+   "country": "BOTSWANA",
+   "chosen": "Chobe baobab",
+   "where": "Chobe",
+   "confidence": "unverified",
+   "drawing": "tree kit (baobab)",
+   "frame": "octTall"
+  },
+  {
+   "code": "BY",
+   "country": "BELARUS",
+   "chosen": "Mir Castle",
+   "where": "Mir",
+   "confidence": "unverified",
+   "drawing": "fort kit (bran)",
+   "frame": "circle"
+  },
+  {
+   "code": "BZ",
+   "country": "BELIZE",
+   "chosen": "Xunantunich El Castillo",
+   "where": "Cayo",
+   "confidence": "unverified",
+   "drawing": "pyramid kit (maya)",
+   "frame": "stepWide"
+  },
+  {
+   "code": "CA",
+   "country": "CANADA",
+   "chosen": "CN Tower",
+   "where": "Toronto",
+   "confidence": "unverified",
+   "drawing": "tower kit (cn)",
+   "frame": "octTall"
+  },
+  {
+   "code": "CD",
+   "country": "DR CONGO",
+   "chosen": "Mount Nyiragongo",
+   "where": "Virunga",
+   "confidence": "unverified",
+   "drawing": "volcano kit (twin)",
+   "frame": "notch"
+  },
+  {
+   "code": "CF",
+   "country": "CENTRAL AFRICAN REPUBLIC",
+   "chosen": "Boali Falls",
+   "where": "Boali",
+   "confidence": "unverified",
+   "drawing": "waterfall kit (wide)",
+   "frame": "stepWide"
+  },
+  {
+   "code": "CG",
+   "country": "CONGO",
+   "chosen": "Basilique Sainte-Anne",
+   "where": "Brazzaville",
+   "confidence": "unverified",
+   "drawing": "church kit (gothicSpire)",
+   "frame": "stepTall"
+  },
+  {
+   "code": "CH",
+   "country": "SWITZERLAND",
+   "chosen": "Matterhorn",
+   "where": "Zermatt",
+   "confidence": "unverified",
+   "drawing": "mountain kit (matterhorn)",
+   "frame": "seal"
+  },
+  {
+   "code": "CI",
+   "country": "IVORY COAST",
+   "chosen": "Basilica of Our Lady of Peace",
+   "where": "Yamoussoukro",
+   "confidence": "unverified",
+   "drawing": "church kit (domeBasilica)",
+   "frame": "octSquare"
+  },
+  {
+   "code": "CL",
+   "country": "CHILE",
+   "chosen": "Moai of Easter Island",
+   "where": "Rapa Nui",
+   "confidence": "unverified",
+   "drawing": "statue kit (moai)",
+   "frame": "notch"
+  },
+  {
+   "code": "CM",
+   "country": "CAMEROON",
+   "chosen": "Mount Cameroon",
+   "where": "Buea",
+   "confidence": "unverified",
+   "drawing": "volcano kit (crater)",
+   "frame": "banner"
+  },
+  {
+   "code": "CN",
+   "country": "China",
+   "chosen": "Great Wall",
+   "where": "Badaling and Mutianyu, near Beijing",
+   "confidence": "high",
+   "why": "Described as the most celebrated symbol of China.",
+   "cues": [
+    "wall that rises and dips along a ridge",
+    "crenellated walkway",
+    "square watchtowers"
+   ],
+   "alternates": [
+    "Temple of Heaven",
+    "Terracotta Army",
+    "Forbidden City"
+   ]
+  },
+  {
+   "code": "CO",
+   "country": "COLOMBIA",
+   "chosen": "Torre del Reloj",
+   "where": "Cartagena",
+   "confidence": "unverified",
+   "drawing": "church kit (clocktower)",
+   "frame": "roundArch"
+  },
+  {
+   "code": "CR",
+   "country": "COSTA RICA",
+   "chosen": "Arenal Volcano",
+   "where": "La Fortuna",
+   "confidence": "unverified",
+   "drawing": "volcano kit (cone)",
+   "frame": "circle"
+  },
+  {
+   "code": "CU",
+   "country": "CUBA",
+   "chosen": "El Capitolio",
+   "where": "Havana",
+   "confidence": "unverified",
+   "drawing": "church kit (capitol)",
+   "frame": "scallop"
+  },
+  {
+   "code": "CV",
+   "country": "CABO VERDE",
+   "chosen": "Pico do Fogo",
+   "where": "Fogo",
+   "confidence": "unverified",
+   "drawing": "volcano kit (cone)",
+   "frame": "seal"
+  },
+  {
+   "code": "CY",
+   "country": "CYPRUS",
+   "chosen": "Aphrodite's Rock (Petra tou Romiou)",
+   "where": "Paphos",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (seastack)",
+   "frame": "circle"
+  },
+  {
+   "code": "CZ",
+   "country": "CZECHIA",
+   "chosen": "St Vitus Cathedral",
+   "where": "Prague",
+   "confidence": "unverified",
+   "drawing": "church kit (gothicTwin)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "DE",
+   "country": "Germany",
+   "chosen": "Brandenburg Gate",
+   "where": "Berlin",
+   "confidence": "medium",
+   "why": "A symbol of reunified Germany. The travel sources more often list the Berlin Wall, Cologne Cathedral and Neuschwanstein Castle.",
+   "cues": [
+    "row of six Doric columns",
+    "flat attic",
+    "quadriga with Victoria on top"
+   ],
+   "alternates": [
+    "Neuschwanstein Castle",
+    "Cologne Cathedral",
+    "Reichstag dome"
+   ]
+  },
+  {
+   "code": "DJ",
+   "country": "DJIBOUTI",
+   "chosen": "Lake Abbe limestone chimneys",
+   "where": "Lake Abbe",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (chimneys)",
+   "frame": "hexWide"
+  },
+  {
+   "code": "DK",
+   "country": "DENMARK",
+   "chosen": "The Little Mermaid",
+   "where": "Copenhagen",
+   "confidence": "unverified",
+   "drawing": "statue kit (mermaid)",
+   "frame": "seal"
+  },
+  {
+   "code": "DM",
+   "country": "DOMINICA",
+   "chosen": "Trafalgar Falls",
+   "where": "Roseau",
+   "confidence": "unverified",
+   "drawing": "waterfall kit (twin)",
+   "frame": "boxWide"
+  },
+  {
+   "code": "DO",
+   "country": "DOMINICAN REPUBLIC",
+   "chosen": "Santo Domingo Cathedral",
+   "where": "Santo Domingo",
+   "confidence": "unverified",
+   "drawing": "church kit (baroque)",
+   "frame": "roundSquare"
+  },
+  {
+   "code": "DZ",
+   "country": "ALGERIA",
+   "chosen": "Maqam Echahid (Martyrs' Memorial)",
+   "where": "Algiers",
+   "confidence": "unverified",
+   "drawing": "monument kit (maqam)",
+   "frame": "shield"
+  },
+  {
+   "code": "EC",
+   "country": "ECUADOR",
+   "chosen": "Mitad del Mundo",
+   "where": "Quito",
+   "confidence": "unverified",
+   "drawing": "monument kit (globe)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "EE",
+   "country": "ESTONIA",
+   "chosen": "Tallinn Town Hall",
+   "where": "Tallinn",
+   "confidence": "unverified",
+   "drawing": "church kit (townHall)",
+   "frame": "house"
+  },
+  {
+   "code": "EG",
+   "country": "EGYPT",
+   "chosen": "Pyramids of Giza",
+   "where": "Giza",
+   "confidence": "unverified",
+   "drawing": "pyramid kit (giza)",
+   "frame": "banner"
+  },
+  {
+   "code": "ER",
+   "country": "ERITREA",
+   "chosen": "Fiat Tagliero Building",
+   "where": "Asmara",
+   "confidence": "unverified",
+   "drawing": "tower kit (tagliero)",
+   "frame": "heater"
+  },
+  {
+   "code": "ES",
+   "country": "Spain",
+   "chosen": "Sagrada Familia",
+   "where": "Barcelona",
+   "confidence": "high",
+   "why": "Spain's most visited monument and the standout pick in the travel sources.",
+   "cues": [
+    "cluster of slender spires",
+    "tall central tower topped with a cross",
+    "ribbed finials"
+   ],
+   "alternates": [
+    "Alhambra",
+    "Park Guell"
+   ]
+  },
+  {
+   "code": "ET",
+   "country": "ETHIOPIA",
+   "chosen": "Rock-hewn Churches of Lalibela",
+   "where": "Lalibela",
+   "confidence": "unverified",
+   "drawing": "church kit (baroque)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "FI",
+   "country": "FINLAND",
+   "chosen": "Helsinki Cathedral",
+   "where": "Helsinki",
+   "confidence": "unverified",
+   "drawing": "church kit (helsinki)",
+   "frame": "roundSquare"
+  },
+  {
+   "code": "FJ",
+   "country": "FIJI",
+   "chosen": "Sri Siva Subramaniya Temple",
+   "where": "Nadi",
+   "confidence": "unverified",
+   "drawing": "Asian temple kit (gopuram)",
+   "frame": "ogee"
+  },
+  {
+   "code": "FM",
+   "country": "MICRONESIA",
+   "chosen": "Nan Madol",
+   "where": "Pohnpei",
+   "confidence": "unverified",
+   "drawing": "traditional structure kit (nanMadol)",
+   "frame": "pill"
+  },
+  {
+   "code": "FR",
+   "country": "France",
+   "chosen": "Eiffel Tower",
+   "where": "Paris",
+   "confidence": "high",
+   "why": "The best known symbol of France, named as such across the sources.",
+   "cues": [
+    "tall tapering lattice",
+    "arch between the legs",
+    "two platforms",
+    "thin spire"
+   ],
+   "alternates": [
+    "Arc de Triomphe",
+    "Mont Saint-Michel"
+   ]
+  },
+  {
+   "code": "GA",
+   "country": "GABON",
+   "chosen": "Kongou Falls",
+   "where": "Ivindo",
+   "confidence": "unverified",
+   "drawing": "waterfall kit (wide)",
+   "frame": "stepWide"
+  },
+  {
+   "code": "GB",
+   "country": "United Kingdom",
+   "chosen": "Elizabeth Tower (Big Ben)",
+   "where": "London",
+   "confidence": "medium",
+   "why": "The sources gave the weakest evidence for the UK. Big Ben only appeared in a photo caption, so this pick rests on general recognition.",
+   "cues": [
+    "tall square clock tower",
+    "large clock face",
+    "pointed roof and spire"
+   ],
+   "alternates": [
+    "Tower Bridge",
+    "Stonehenge",
+    "Tower of London"
+   ]
+  },
+  {
+   "code": "GD",
+   "country": "GRENADA",
+   "chosen": "Fort George",
+   "where": "St George's",
+   "confidence": "unverified",
+   "drawing": "fort kit (colonial)",
+   "frame": "notch"
+  },
+  {
+   "code": "GE",
+   "country": "GEORGIA",
+   "chosen": "Gergeti Trinity Church",
+   "where": "Kazbegi",
+   "confidence": "unverified",
+   "drawing": "church kit (mountainChurch)",
+   "frame": "scallop"
+  },
+  {
+   "code": "GH",
+   "country": "GHANA",
+   "chosen": "Cape Coast Castle",
+   "where": "Cape Coast",
+   "confidence": "unverified",
+   "drawing": "fort kit (colonial)",
+   "frame": "boxWide"
+  },
+  {
+   "code": "GM",
+   "country": "GAMBIA",
+   "chosen": "Arch 22",
+   "where": "Banjul",
+   "confidence": "unverified",
+   "drawing": "gate kit (arch22)",
+   "frame": "roundArch"
+  },
+  {
+   "code": "GN",
+   "country": "GUINEA",
+   "chosen": "Mount Nimba",
+   "where": "Nimba",
+   "confidence": "unverified",
+   "drawing": "mountain kit (range)",
+   "frame": "notch"
+  },
+  {
+   "code": "GQ",
+   "country": "EQUATORIAL GUINEA",
+   "chosen": "Malabo Cathedral",
+   "where": "Malabo",
+   "confidence": "unverified",
+   "drawing": "church kit (gothicTwin)",
+   "frame": "ogee"
+  },
+  {
+   "code": "GR",
+   "country": "GREECE",
+   "chosen": "Parthenon",
+   "where": "Athens",
+   "confidence": "unverified",
+   "drawing": "ruins kit (greek)",
+   "frame": "stepWide"
+  },
+  {
+   "code": "GT",
+   "country": "GUATEMALA",
+   "chosen": "Tikal Temple I",
+   "where": "Tikal",
+   "confidence": "unverified",
+   "drawing": "pyramid kit (tikal)",
+   "frame": "heater"
+  },
+  {
+   "code": "GW",
+   "country": "GUINEA-BISSAU",
+   "chosen": "Fortaleza de Sao Jose da Amura",
+   "where": "Bissau",
+   "confidence": "unverified",
+   "drawing": "fort kit (bastion)",
+   "frame": "hexWide"
+  },
+  {
+   "code": "GY",
+   "country": "GUYANA",
+   "chosen": "Kaieteur Falls",
+   "where": "Potaro",
+   "confidence": "unverified",
+   "drawing": "waterfall kit (plunge)",
+   "frame": "hexWide"
+  },
+  {
+   "code": "HN",
+   "country": "HONDURAS",
+   "chosen": "Copan Ruins",
+   "where": "Copan",
+   "confidence": "unverified",
+   "drawing": "pyramid kit (copan)",
+   "frame": "banner"
+  },
+  {
+   "code": "HR",
+   "country": "CROATIA",
+   "chosen": "Walls of Dubrovnik",
+   "where": "Dubrovnik",
+   "confidence": "unverified",
+   "drawing": "fort kit (wallTowers)",
+   "frame": "pill"
+  },
+  {
+   "code": "HT",
+   "country": "HAITI",
+   "chosen": "Citadelle Laferriere",
+   "where": "Milot",
+   "confidence": "unverified",
+   "drawing": "fort kit (citadelle)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "HU",
+   "country": "HUNGARY",
+   "chosen": "Hungarian Parliament Building",
+   "where": "Budapest",
+   "confidence": "unverified",
+   "drawing": "church kit (parliament)",
+   "frame": "octSquare"
+  },
+  {
+   "code": "ID",
+   "country": "INDONESIA",
+   "chosen": "Borobudur",
+   "where": "Java",
+   "confidence": "unverified",
+   "drawing": "Asian temple kit (borobudur)",
+   "frame": "stepWide"
+  },
+  {
+   "code": "IE",
+   "country": "IRELAND",
+   "chosen": "Cliffs of Moher",
+   "where": "County Clare",
+   "confidence": "unverified",
+   "drawing": "cliff kit (moher)",
+   "frame": "heater"
+  },
+  {
+   "code": "IL",
+   "country": "ISRAEL",
+   "chosen": "Masada",
+   "where": "Dead Sea",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (mesa)",
+   "frame": "boxWide"
+  },
+  {
+   "code": "IN",
+   "country": "INDIA",
+   "chosen": "Taj Mahal",
+   "where": "Agra",
+   "confidence": "unverified",
+   "drawing": "one-off drawing (taj)",
+   "frame": "seal"
+  },
+  {
+   "code": "IQ",
+   "country": "IRAQ",
+   "chosen": "Malwiya Minaret",
+   "where": "Samarra",
+   "confidence": "unverified",
+   "drawing": "mosque kit (samarra)",
+   "frame": "roundSquare"
+  },
+  {
+   "code": "IR",
+   "country": "IRAN",
+   "chosen": "Azadi Tower",
+   "where": "Tehran",
+   "confidence": "unverified",
+   "drawing": "monument kit (azadi)",
+   "frame": "stepTall"
+  },
+  {
+   "code": "IS",
+   "country": "ICELAND",
+   "chosen": "Hallgrimskirkja",
+   "where": "Reykjavik",
+   "confidence": "unverified",
+   "drawing": "church kit (hallgrim)",
+   "frame": "stepTall"
+  },
+  {
+   "code": "IT",
+   "country": "Italy",
+   "chosen": "Leaning Tower of Pisa",
+   "where": "Pisa",
+   "confidence": "medium",
+   "why": "Used in your reference image. The Colosseum ranks higher in recognition surveys (4th worldwide), so it is the main alternative.",
+   "cues": [
+    "visible lean",
+    "stacked arcaded tiers",
+    "narrower bell chamber"
+   ],
+   "alternates": [
+    "Colosseum",
+    "St Peter's Basilica"
+   ]
+  },
+  {
+   "code": "JM",
+   "country": "JAMAICA",
+   "chosen": "Dunn's River Falls",
+   "where": "Ocho Rios",
+   "confidence": "unverified",
+   "drawing": "waterfall kit (cascade)",
+   "frame": "pill"
+  },
+  {
+   "code": "JO",
+   "country": "JORDAN",
+   "chosen": "Petra, the Treasury",
+   "where": "Petra",
+   "confidence": "unverified",
+   "drawing": "one-off drawing (petra)",
+   "frame": "octSquare"
+  },
+  {
+   "code": "JP",
+   "country": "Japan",
+   "chosen": "Torii gate with Mount Fuji",
+   "where": "Itsukushima and Fuji",
+   "confidence": "high",
+   "why": "Matches your reference image. Mount Fuji appears in the sources as an iconic landmark.",
+   "cues": [
+    "two pillars with curved top beam",
+    "snow capped cone behind"
+   ],
+   "alternates": [
+    "Kinkaku-ji",
+    "Himeji Castle",
+    "Tokyo Tower"
+   ]
+  },
+  {
+   "code": "KE",
+   "country": "KENYA",
+   "chosen": "Mount Kenya",
+   "where": "Central Kenya",
+   "confidence": "unverified",
+   "drawing": "mountain kit (twin)",
+   "frame": "notch"
+  },
+  {
+   "code": "KG",
+   "country": "KYRGYZSTAN",
+   "chosen": "Burana Tower",
+   "where": "Chuy Valley",
+   "confidence": "unverified",
+   "drawing": "mosque kit (burana)",
+   "frame": "stepTall"
+  },
+  {
+   "code": "KH",
+   "country": "CAMBODIA",
+   "chosen": "Angkor Wat",
+   "where": "Siem Reap",
+   "confidence": "unverified",
+   "drawing": "one-off drawing (angkor)",
+   "frame": "pill"
+  },
+  {
+   "code": "KI",
+   "country": "KIRIBATI",
+   "chosen": "Maneaba (meeting house)",
+   "where": "Tarawa",
+   "confidence": "unverified",
+   "drawing": "traditional structure kit (maneaba)",
+   "frame": "banner"
+  },
+  {
+   "code": "KM",
+   "country": "COMOROS",
+   "chosen": "Mount Karthala",
+   "where": "Grande Comore",
+   "confidence": "unverified",
+   "drawing": "volcano kit (crater)",
+   "frame": "boxWide"
+  },
+  {
+   "code": "KN",
+   "country": "SAINT KITTS AND NEVIS",
+   "chosen": "Brimstone Hill Fortress",
+   "where": "St Kitts",
+   "confidence": "unverified",
+   "drawing": "fort kit (bastion)",
+   "frame": "boxWide"
+  },
+  {
+   "code": "KP",
+   "country": "NORTH KOREA",
+   "chosen": "Juche Tower",
+   "where": "Pyongyang",
+   "confidence": "unverified",
+   "drawing": "monument kit (juche)",
+   "frame": "roundArch"
+  },
+  {
+   "code": "KR",
+   "country": "SOUTH KOREA",
+   "chosen": "Gwanghwamun Gate",
+   "where": "Seoul",
+   "confidence": "unverified",
+   "drawing": "Asian temple kit (palaceGate)",
+   "frame": "scallop"
+  },
+  {
+   "code": "KW",
+   "country": "KUWAIT",
+   "chosen": "Kuwait Towers",
+   "where": "Kuwait City",
+   "confidence": "unverified",
+   "drawing": "tower kit (kuwait)",
+   "frame": "hexTall"
+  },
+  {
+   "code": "KZ",
+   "country": "KAZAKHSTAN",
+   "chosen": "Bayterek Tower",
+   "where": "Astana",
+   "confidence": "unverified",
+   "drawing": "monument kit (bayterek)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "LA",
+   "country": "LAOS",
+   "chosen": "Pha That Luang",
+   "where": "Vientiane",
+   "confidence": "unverified",
+   "drawing": "Asian temple kit (thatluang)",
+   "frame": "heater"
+  },
+  {
+   "code": "LB",
+   "country": "LEBANON",
+   "chosen": "Baalbek, Temple of Jupiter",
+   "where": "Baalbek",
+   "confidence": "unverified",
+   "drawing": "ruins kit (baalbek)",
+   "frame": "heater"
+  },
+  {
+   "code": "LC",
+   "country": "SAINT LUCIA",
+   "chosen": "The Pitons",
+   "where": "Soufriere",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (pitons)",
+   "frame": "seal"
+  },
+  {
+   "code": "LI",
+   "country": "LIECHTENSTEIN",
+   "chosen": "Vaduz Castle",
+   "where": "Vaduz",
+   "confidence": "unverified",
+   "drawing": "fort kit (hillCastle)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "LK",
+   "country": "SRI LANKA",
+   "chosen": "Sigiriya Lion Rock",
+   "where": "Sigiriya",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (sigiriya)",
+   "frame": "seal"
+  },
+  {
+   "code": "LR",
+   "country": "LIBERIA",
+   "chosen": "Cape Mesurado Lighthouse",
+   "where": "Monrovia",
+   "confidence": "unverified",
+   "drawing": "one-off drawing (lighthouse)",
+   "frame": "octTall"
+  },
+  {
+   "code": "LS",
+   "country": "LESOTHO",
+   "chosen": "Mokorotlo (Basotho hat)",
+   "where": "Thaba Bosiu",
+   "confidence": "unverified",
+   "drawing": "traditional structure kit (basotho)",
+   "frame": "circle"
+  },
+  {
+   "code": "LT",
+   "country": "LITHUANIA",
+   "chosen": "Trakai Island Castle",
+   "where": "Trakai",
+   "confidence": "unverified",
+   "drawing": "fort kit (islandCastle)",
+   "frame": "notch"
+  },
+  {
+   "code": "LU",
+   "country": "LUXEMBOURG",
+   "chosen": "Adolphe Bridge",
+   "where": "Luxembourg City",
+   "confidence": "unverified",
+   "drawing": "bridge kit (twoArch)",
+   "frame": "boxWide"
+  },
+  {
+   "code": "LV",
+   "country": "LATVIA",
+   "chosen": "Freedom Monument",
+   "where": "Riga",
+   "confidence": "unverified",
+   "drawing": "monument kit (freedom)",
+   "frame": "octTall"
+  },
+  {
+   "code": "LY",
+   "country": "LIBYA",
+   "chosen": "Arch of Septimius Severus",
+   "where": "Leptis Magna",
+   "confidence": "unverified",
+   "drawing": "gate kit (triumph)",
+   "frame": "scallop"
+  },
+  {
+   "code": "MA",
+   "country": "MOROCCO",
+   "chosen": "Hassan II Mosque",
+   "where": "Casablanca",
+   "confidence": "unverified",
+   "drawing": "mosque kit (squareMinaret)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "MC",
+   "country": "MONACO",
+   "chosen": "Casino de Monte-Carlo",
+   "where": "Monte Carlo",
+   "confidence": "unverified",
+   "drawing": "church kit (casino)",
+   "frame": "seal"
+  },
+  {
+   "code": "MD",
+   "country": "MOLDOVA",
+   "chosen": "Orheiul Vechi monastery",
+   "where": "Orhei",
+   "confidence": "unverified",
+   "drawing": "cliff kit (monastery)",
+   "frame": "scallop"
+  },
+  {
+   "code": "ME",
+   "country": "MONTENEGRO",
+   "chosen": "Fortress of Kotor",
+   "where": "Kotor",
+   "confidence": "unverified",
+   "drawing": "fort kit (hillCastle)",
+   "frame": "roundSquare"
+  },
+  {
+   "code": "MG",
+   "country": "MADAGASCAR",
+   "chosen": "Avenue of the Baobabs",
+   "where": "Morondava",
+   "confidence": "unverified",
+   "drawing": "tree kit (avenue)",
+   "frame": "banner"
+  },
+  {
+   "code": "MH",
+   "country": "MARSHALL ISLANDS",
+   "chosen": "Majuro Atoll",
+   "where": "Majuro",
+   "confidence": "unverified",
+   "drawing": "island kit (palms)",
+   "frame": "heater"
+  },
+  {
+   "code": "MK",
+   "country": "NORTH MACEDONIA",
+   "chosen": "Millennium Cross",
+   "where": "Skopje",
+   "confidence": "unverified",
+   "drawing": "monument kit (cross)",
+   "frame": "octSquare"
+  },
+  {
+   "code": "ML",
+   "country": "MALI",
+   "chosen": "Great Mosque of Djenne",
+   "where": "Djenne",
+   "confidence": "unverified",
+   "drawing": "mud-brick kit (djenne)",
+   "frame": "seal"
+  },
+  {
+   "code": "MM",
+   "country": "MYANMAR",
+   "chosen": "Shwedagon Pagoda",
+   "where": "Yangon",
+   "confidence": "unverified",
+   "drawing": "Asian temple kit (shwe)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "MN",
+   "country": "MONGOLIA",
+   "chosen": "Genghis Khan Equestrian Statue",
+   "where": "Tsonjin Boldog",
+   "confidence": "unverified",
+   "drawing": "statue kit (rider)",
+   "frame": "shield"
+  },
+  {
+   "code": "MR",
+   "country": "MAURITANIA",
+   "chosen": "Chinguetti Mosque",
+   "where": "Chinguetti",
+   "confidence": "unverified",
+   "drawing": "mud-brick kit (chinguetti)",
+   "frame": "roundSquare"
+  },
+  {
+   "code": "MT",
+   "country": "MALTA",
+   "chosen": "Valletta skyline",
+   "where": "Valletta",
+   "confidence": "unverified",
+   "drawing": "church kit (domeBasilica)",
+   "frame": "circle"
+  },
+  {
+   "code": "MU",
+   "country": "MAURITIUS",
+   "chosen": "Le Morne Brabant",
+   "where": "Le Morne",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (leMorne)",
+   "frame": "stepWide"
+  },
+  {
+   "code": "MV",
+   "country": "MALDIVES",
+   "chosen": "Islamic Centre",
+   "where": "Male",
+   "confidence": "unverified",
+   "drawing": "mosque kit (grand)",
+   "frame": "notch"
+  },
+  {
+   "code": "MW",
+   "country": "MALAWI",
+   "chosen": "Mount Mulanje",
+   "where": "Mulanje",
+   "confidence": "unverified",
+   "drawing": "mountain kit (range)",
+   "frame": "pill"
+  },
+  {
+   "code": "MX",
+   "country": "Mexico",
+   "chosen": "Chichen Itza, El Castillo",
+   "where": "Yucatan",
+   "confidence": "high",
+   "why": "A New Seven Wonders site. The Teotihuacan pyramids lead one source, with Chichen Itza close behind.",
+   "cues": [
+    "nine stepped terraces",
+    "central staircase on each face",
+    "small temple on top"
+   ],
+   "alternates": [
+    "Pyramid of the Sun, Teotihuacan",
+    "Angel of Independence"
+   ]
+  },
+  {
+   "code": "MY",
+   "country": "MALAYSIA",
+   "chosen": "Petronas Twin Towers",
+   "where": "Kuala Lumpur",
+   "confidence": "unverified",
+   "drawing": "tower kit (petronas)",
+   "frame": "octTall"
+  },
+  {
+   "code": "MZ",
+   "country": "MOZAMBIQUE",
+   "chosen": "Maputo Central Railway Station",
+   "where": "Maputo",
+   "confidence": "unverified",
+   "drawing": "church kit (station)",
+   "frame": "octSquare"
+  },
+  {
+   "code": "NA",
+   "country": "NAMIBIA",
+   "chosen": "Sossusvlei dunes",
+   "where": "Namib Desert",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (dune)",
+   "frame": "boxWide"
+  },
+  {
+   "code": "NE",
+   "country": "NIGER",
+   "chosen": "Agadez Grand Mosque",
+   "where": "Agadez",
+   "confidence": "unverified",
+   "drawing": "mud-brick kit (agadez)",
+   "frame": "roundArch"
+  },
+  {
+   "code": "NG",
+   "country": "NIGERIA",
+   "chosen": "Zuma Rock",
+   "where": "Abuja",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (monolith)",
+   "frame": "heater"
+  },
+  {
+   "code": "NI",
+   "country": "NICARAGUA",
+   "chosen": "Momotombo Volcano",
+   "where": "Leon",
+   "confidence": "unverified",
+   "drawing": "volcano kit (cone)",
+   "frame": "notch"
+  },
+  {
+   "code": "NL",
+   "country": "NETHERLANDS",
+   "chosen": "Dutch windmill",
+   "where": "Kinderdijk",
+   "confidence": "unverified",
+   "drawing": "one-off drawing (windmill)",
+   "frame": "stepTall"
+  },
+  {
+   "code": "NO",
+   "country": "NORWAY",
+   "chosen": "Urnes Stave Church",
+   "where": "Luster",
+   "confidence": "unverified",
+   "drawing": "church kit (stave)",
+   "frame": "heater"
+  },
+  {
+   "code": "NP",
+   "country": "NEPAL",
+   "chosen": "Boudhanath Stupa",
+   "where": "Kathmandu",
+   "confidence": "unverified",
+   "drawing": "Asian temple kit (boudha)",
+   "frame": "octTall"
+  },
+  {
+   "code": "NR",
+   "country": "NAURU",
+   "chosen": "Phosphate pinnacles",
+   "where": "Nauru",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (pinnacles)",
+   "frame": "stepWide"
+  },
+  {
+   "code": "NZ",
+   "country": "NEW ZEALAND",
+   "chosen": "Aoraki Mount Cook",
+   "where": "Canterbury",
+   "confidence": "unverified",
+   "drawing": "mountain kit (range)",
+   "frame": "boxWide"
+  },
+  {
+   "code": "OM",
+   "country": "OMAN",
+   "chosen": "Sultan Qaboos Grand Mosque",
+   "where": "Muscat",
+   "confidence": "unverified",
+   "drawing": "mosque kit (grand)",
+   "frame": "hexWide"
+  },
+  {
+   "code": "PA",
+   "country": "PANAMA",
+   "chosen": "Bridge of the Americas",
+   "where": "Panama Canal",
+   "confidence": "unverified",
+   "drawing": "bridge kit (steelArch)",
+   "frame": "stepWide"
+  },
+  {
+   "code": "PE",
+   "country": "PERU",
+   "chosen": "Machu Picchu",
+   "where": "Cusco",
+   "confidence": "unverified",
+   "drawing": "one-off drawing (machu)",
+   "frame": "scallop"
+  },
+  {
+   "code": "PG",
+   "country": "PAPUA NEW GUINEA",
+   "chosen": "Haus Tambaran (spirit house)",
+   "where": "Sepik",
+   "confidence": "unverified",
+   "drawing": "traditional structure kit (tambaran)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "PH",
+   "country": "PHILIPPINES",
+   "chosen": "Mayon Volcano",
+   "where": "Albay",
+   "confidence": "unverified",
+   "drawing": "volcano kit (cone)",
+   "frame": "notch"
+  },
+  {
+   "code": "PK",
+   "country": "PAKISTAN",
+   "chosen": "Badshahi Mosque",
+   "where": "Lahore",
+   "confidence": "unverified",
+   "drawing": "mosque kit (grand)",
+   "frame": "banner"
+  },
+  {
+   "code": "PL",
+   "country": "POLAND",
+   "chosen": "Palace of Culture and Science",
+   "where": "Warsaw",
+   "confidence": "unverified",
+   "drawing": "tower kit (stepped)",
+   "frame": "hexTall"
+  },
+  {
+   "code": "PS",
+   "country": "PALESTINE",
+   "chosen": "Dome of the Rock",
+   "where": "Jerusalem",
+   "confidence": "unverified",
+   "drawing": "mosque kit (octagon)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "PT",
+   "country": "PORTUGAL",
+   "chosen": "Belem Tower",
+   "where": "Lisbon",
+   "confidence": "unverified",
+   "drawing": "fort kit (belem)",
+   "frame": "heater"
+  },
+  {
+   "code": "PW",
+   "country": "PALAU",
+   "chosen": "Rock Islands",
+   "where": "Koror",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (mushroom)",
+   "frame": "notch"
+  },
+  {
+   "code": "PY",
+   "country": "PARAGUAY",
+   "chosen": "Jesuit Missions of Trinidad",
+   "where": "Trinidad",
+   "confidence": "unverified",
+   "drawing": "ruins kit (facade)",
+   "frame": "circle"
+  },
+  {
+   "code": "QA",
+   "country": "QATAR",
+   "chosen": "Aspire Tower",
+   "where": "Doha",
+   "confidence": "unverified",
+   "drawing": "tower kit (aspire)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "RO",
+   "country": "ROMANIA",
+   "chosen": "Bran Castle",
+   "where": "Bran",
+   "confidence": "unverified",
+   "drawing": "fort kit (bran)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "RS",
+   "country": "SERBIA",
+   "chosen": "Church of Saint Sava",
+   "where": "Belgrade",
+   "confidence": "unverified",
+   "drawing": "church kit (sava)",
+   "frame": "notch"
+  },
+  {
+   "code": "RU",
+   "country": "RUSSIA",
+   "chosen": "Saint Basil's Cathedral",
+   "where": "Moscow",
+   "confidence": "unverified",
+   "drawing": "church kit (basil)",
+   "frame": "shield"
+  },
+  {
+   "code": "RW",
+   "country": "RWANDA",
+   "chosen": "Virunga volcanoes",
+   "where": "Volcanoes NP",
+   "confidence": "unverified",
+   "drawing": "volcano kit (twin)",
+   "frame": "notch"
+  },
+  {
+   "code": "SA",
+   "country": "SAUDI ARABIA",
+   "chosen": "Kingdom Centre Tower",
+   "where": "Riyadh",
+   "confidence": "unverified",
+   "drawing": "tower kit (kingdom)",
+   "frame": "stepTall"
+  },
+  {
+   "code": "SB",
+   "country": "SOLOMON ISLANDS",
+   "chosen": "Mount Popomanaseu",
+   "where": "Guadalcanal",
+   "confidence": "unverified",
+   "drawing": "mountain kit (range)",
+   "frame": "hexWide"
+  },
+  {
+   "code": "SC",
+   "country": "SEYCHELLES",
+   "chosen": "Anse Source d'Argent",
+   "where": "La Digue",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (boulders)",
+   "frame": "circle"
+  },
+  {
+   "code": "SD",
+   "country": "SUDAN",
+   "chosen": "Pyramids of Meroe",
+   "where": "Meroe",
+   "confidence": "unverified",
+   "drawing": "pyramid kit (meroe)",
+   "frame": "stepWide"
+  },
+  {
+   "code": "SE",
+   "country": "SWEDEN",
+   "chosen": "Stockholm City Hall",
+   "where": "Stockholm",
+   "confidence": "unverified",
+   "drawing": "tower kit (cityHall)",
+   "frame": "octTall"
+  },
+  {
+   "code": "SG",
+   "country": "SINGAPORE",
+   "chosen": "Marina Bay Sands",
+   "where": "Singapore",
+   "confidence": "unverified",
+   "drawing": "tower kit (mbs)",
+   "frame": "circle"
+  },
+  {
+   "code": "SI",
+   "country": "SLOVENIA",
+   "chosen": "Lake Bled Island Church",
+   "where": "Bled",
+   "confidence": "unverified",
+   "drawing": "church kit (islandChurch)",
+   "frame": "scallop"
+  },
+  {
+   "code": "SK",
+   "country": "SLOVAKIA",
+   "chosen": "Bratislava Castle",
+   "where": "Bratislava",
+   "confidence": "unverified",
+   "drawing": "fort kit (keep4)",
+   "frame": "circle"
+  },
+  {
+   "code": "SL",
+   "country": "SIERRA LEONE",
+   "chosen": "Cotton Tree",
+   "where": "Freetown",
+   "confidence": "unverified",
+   "drawing": "tree kit (cotton)",
+   "frame": "scallop"
+  },
+  {
+   "code": "SM",
+   "country": "SAN MARINO",
+   "chosen": "Three Towers of San Marino",
+   "where": "Monte Titano",
+   "confidence": "unverified",
+   "drawing": "fort kit (threeTowers)",
+   "frame": "notch"
+  },
+  {
+   "code": "SN",
+   "country": "SENEGAL",
+   "chosen": "African Renaissance Monument",
+   "where": "Dakar",
+   "confidence": "unverified",
+   "drawing": "statue kit (renaissance)",
+   "frame": "notch"
+  },
+  {
+   "code": "SO",
+   "country": "SOMALIA",
+   "chosen": "Arba'a Rukun Mosque",
+   "where": "Mogadishu",
+   "confidence": "unverified",
+   "drawing": "mosque kit (grand)",
+   "frame": "hexWide"
+  },
+  {
+   "code": "SR",
+   "country": "SURINAME",
+   "chosen": "St Peter and Paul Cathedral",
+   "where": "Paramaribo",
+   "confidence": "unverified",
+   "drawing": "church kit (gothicTwin)",
+   "frame": "house"
+  },
+  {
+   "code": "SS",
+   "country": "SOUTH SUDAN",
+   "chosen": "Imatong Mountains",
+   "where": "Eastern Equatoria",
+   "confidence": "unverified",
+   "drawing": "mountain kit (range)",
+   "frame": "pill"
+  },
+  {
+   "code": "ST",
+   "country": "SAO TOME AND PRINCIPE",
+   "chosen": "Pico Cao Grande",
+   "where": "Sao Tome",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (needle)",
+   "frame": "boxTall"
+  },
+  {
+   "code": "SV",
+   "country": "EL SALVADOR",
+   "chosen": "Izalco Volcano",
+   "where": "Sonsonate",
+   "confidence": "unverified",
+   "drawing": "volcano kit (cone)",
+   "frame": "octSquare"
+  },
+  {
+   "code": "SY",
+   "country": "SYRIA",
+   "chosen": "Palmyra Colonnade",
+   "where": "Palmyra",
+   "confidence": "unverified",
+   "drawing": "ruins kit (palmyra)",
+   "frame": "pill"
+  },
+  {
+   "code": "SZ",
+   "country": "ESWATINI",
+   "chosen": "Sibebe Rock",
+   "where": "Mbabane",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (dome)",
+   "frame": "pill"
+  },
+  {
+   "code": "TD",
+   "country": "CHAD",
+   "chosen": "Ennedi Arch",
+   "where": "Ennedi Plateau",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (arch)",
+   "frame": "roundSquare"
+  },
+  {
+   "code": "TG",
+   "country": "TOGO",
+   "chosen": "Koutammakou tower houses",
+   "where": "Kara",
+   "confidence": "unverified",
+   "drawing": "mud-brick kit (takienta)",
+   "frame": "notch"
+  },
+  {
+   "code": "TH",
+   "country": "THAILAND",
+   "chosen": "Wat Arun",
+   "where": "Bangkok",
+   "confidence": "unverified",
+   "drawing": "Asian temple kit (prang)",
+   "frame": "octSquare"
+  },
+  {
+   "code": "TJ",
+   "country": "TAJIKISTAN",
+   "chosen": "Hisor Fortress Gate",
+   "where": "Hisor",
+   "confidence": "unverified",
+   "drawing": "gate kit (triumph)",
+   "frame": "roundSquare"
+  },
+  {
+   "code": "TL",
+   "country": "TIMOR-LESTE",
+   "chosen": "Cristo Rei of Dili",
+   "where": "Dili",
+   "confidence": "unverified",
+   "drawing": "statue kit (christ)",
+   "frame": "heater"
+  },
+  {
+   "code": "TM",
+   "country": "TURKMENISTAN",
+   "chosen": "Arch of Neutrality",
+   "where": "Ashgabat",
+   "confidence": "unverified",
+   "drawing": "monument kit (neutrality)",
+   "frame": "octTall"
+  },
+  {
+   "code": "TN",
+   "country": "TUNISIA",
+   "chosen": "Amphitheatre of El Jem",
+   "where": "El Djem",
+   "confidence": "unverified",
+   "drawing": "ruins kit (amphitheatre)",
+   "frame": "hexWide"
+  },
+  {
+   "code": "TO",
+   "country": "TONGA",
+   "chosen": "Ha'amonga 'a Maui",
+   "where": "Niutoputapu",
+   "confidence": "unverified",
+   "drawing": "ruins kit (trilithon)",
+   "frame": "circle"
+  },
+  {
+   "code": "TR",
+   "country": "Turkey",
+   "chosen": "Hagia Sophia",
+   "where": "Istanbul",
+   "confidence": "medium",
+   "why": "Istanbul is the headline destination. The sources name Istanbul, Pamukkale, Cappadocia and Ephesus, with no single national symbol.",
+   "cues": [
+    "large central dome",
+    "two half domes",
+    "four pencil minarets"
+   ],
+   "alternates": [
+    "Blue Mosque (six minarets)",
+    "Cappadocia fairy chimneys",
+    "Pamukkale terraces"
+   ]
+  },
+  {
+   "code": "TT",
+   "country": "TRINIDAD AND TOBAGO",
+   "chosen": "Magnificent Seven (Stollmeyer Castle)",
+   "where": "Port of Spain",
+   "confidence": "unverified",
+   "drawing": "fort kit (castle)",
+   "frame": "roundSquare"
+  },
+  {
+   "code": "TV",
+   "country": "TUVALU",
+   "chosen": "Funafuti Atoll",
+   "where": "Funafuti",
+   "confidence": "unverified",
+   "drawing": "island kit (palms)",
+   "frame": "scallop"
+  },
+  {
+   "code": "TZ",
+   "country": "TANZANIA",
+   "chosen": "Mount Kilimanjaro",
+   "where": "Kilimanjaro",
+   "confidence": "unverified",
+   "drawing": "mountain kit (kili)",
+   "frame": "boxWide"
+  },
+  {
+   "code": "UA",
+   "country": "UKRAINE",
+   "chosen": "Saint Sophia Cathedral",
+   "where": "Kyiv",
+   "confidence": "unverified",
+   "drawing": "church kit (sophia)",
+   "frame": "roundSquare"
+  },
+  {
+   "code": "UG",
+   "country": "UGANDA",
+   "chosen": "Kasubi Tombs",
+   "where": "Kampala",
+   "confidence": "unverified",
+   "drawing": "traditional structure kit (kasubi)",
+   "frame": "seal"
+  },
+  {
+   "code": "US",
+   "country": "United States",
+   "chosen": "Statue of Liberty",
+   "where": "New York",
+   "confidence": "high",
+   "why": "Ranked first in a worldwide recognition survey (98.7 percent could identify it).",
+   "cues": [
+    "raised torch",
+    "seven ray crown",
+    "tablet",
+    "stepped pedestal"
+   ],
+   "alternates": [
+    "Golden Gate Bridge",
+    "Mount Rushmore"
+   ]
+  },
+  {
+   "code": "UY",
+   "country": "URUGUAY",
+   "chosen": "Palacio Salvo",
+   "where": "Montevideo",
+   "confidence": "unverified",
+   "drawing": "tower kit (palacio)",
+   "frame": "stepTall"
+  },
+  {
+   "code": "UZ",
+   "country": "UZBEKISTAN",
+   "chosen": "Registan",
+   "where": "Samarkand",
+   "confidence": "unverified",
+   "drawing": "mosque kit (registan)",
+   "frame": "stepWide"
+  },
+  {
+   "code": "VA",
+   "country": "VATICAN CITY",
+   "chosen": "St Peter's Basilica",
+   "where": "Vatican City",
+   "confidence": "unverified",
+   "drawing": "church kit (domeBasilica)",
+   "frame": "octSquare"
+  },
+  {
+   "code": "VC",
+   "country": "SAINT VINCENT AND THE GRENADINES",
+   "chosen": "La Soufriere",
+   "where": "St Vincent",
+   "confidence": "unverified",
+   "drawing": "volcano kit (crater)",
+   "frame": "notch"
+  },
+  {
+   "code": "VE",
+   "country": "VENEZUELA",
+   "chosen": "Angel Falls",
+   "where": "Canaima",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (tepui)",
+   "frame": "octSquare"
+  },
+  {
+   "code": "VN",
+   "country": "VIETNAM",
+   "chosen": "Ha Long Bay",
+   "where": "Quang Ninh",
+   "confidence": "unverified",
+   "drawing": "rock formation kit (karst)",
+   "frame": "boxWide"
+  },
+  {
+   "code": "VU",
+   "country": "VANUATU",
+   "chosen": "Mount Yasur",
+   "where": "Tanna",
+   "confidence": "unverified",
+   "drawing": "volcano kit (crater)",
+   "frame": "banner"
+  },
+  {
+   "code": "WS",
+   "country": "SAMOA",
+   "chosen": "Baha'i House of Worship",
+   "where": "Apia",
+   "confidence": "unverified",
+   "drawing": "church kit (bahai)",
+   "frame": "notch"
+  },
+  {
+   "code": "YE",
+   "country": "YEMEN",
+   "chosen": "Shibam skyscrapers",
+   "where": "Shibam",
+   "confidence": "unverified",
+   "drawing": "mud-brick kit (shibam)",
+   "frame": "notch"
+  },
+  {
+   "code": "ZA",
+   "country": "SOUTH AFRICA",
+   "chosen": "Table Mountain",
+   "where": "Cape Town",
+   "confidence": "unverified",
+   "drawing": "mountain kit (table)",
+   "frame": "banner"
+  },
+  {
+   "code": "ZM",
+   "country": "ZAMBIA",
+   "chosen": "Victoria Falls",
+   "where": "Livingstone",
+   "confidence": "unverified",
+   "drawing": "waterfall kit (victoria)",
+   "frame": "banner"
+  },
+  {
+   "code": "ZW",
+   "country": "ZIMBABWE",
+   "chosen": "Great Zimbabwe",
+   "where": "Masvingo",
+   "confidence": "unverified",
+   "drawing": "traditional structure kit (greatZim)",
+   "frame": "pill"
+  }
+ ]
 }
