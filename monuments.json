@@ -1,5 +1,5 @@
 {
- "note": "Landmark chosen for each stamp. 'confidence: high/medium' entries were checked against the sources listed. 'unverified' entries were chosen from general knowledge of each country's best known landmark and have NOT been checked individually. Review them and tell us which to swap. The set is the 193 UN member states plus the Holy See and Palestine.",
+ "note": "Landmark chosen for each stamp. high/medium: checked in the first research pass. supported: a source named it as the country's best known landmark. partly: a source lists it among the main sights. changed: replaced after checking. not confirmed / unverified: chosen from general knowledge and not checked. Many small countries could not be checked because several list sites were blocked by the session's network allowlist. The set is the 193 UN member states plus the Holy See and Palestine.",
  "sources": [
   "https://www.worldatlas.com/articles/10-most-visited-countries-in-the-world.html",
   "https://www.statista.com/statistics/261726/most-visited-countries-in-the-world/",
@@ -12,7 +12,9 @@
    "country": "ANDORRA",
    "chosen": "Sant Joan de Caselles",
    "where": "Canillo",
-   "confidence": "unverified",
+   "confidence": "not confirmed",
+   "evidence": "Sources say Andorra's profile rests on skiing rather than a single landmark.",
+   "sources": [],
    "drawing": "church kit (romanesqueTower)",
    "frame": "notch"
   },
@@ -23,7 +25,7 @@
    "where": "Dubai",
    "confidence": "unverified",
    "drawing": "tower kit (burj)",
-   "frame": "roundArch"
+   "frame": "octTall"
   },
   {
    "code": "AF",
@@ -32,14 +34,18 @@
    "where": "Ghor",
    "confidence": "unverified",
    "drawing": "mosque kit (jam)",
-   "frame": "octTall"
+   "frame": "stepTall"
   },
   {
    "code": "AG",
    "country": "ANTIGUA AND BARBUDA",
    "chosen": "Devil's Bridge",
    "where": "Antigua",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Devil's Bridge National Park showcases the natural limestone arches.",
+   "sources": [
+    "https://seeker.io/seeker/world-heritage-sites-in-the-caribbean"
+   ],
    "drawing": "rock formation kit (arch)",
    "frame": "roundSquare"
   },
@@ -50,7 +56,7 @@
    "where": "Tirana",
    "confidence": "unverified",
    "drawing": "statue kit (rider)",
-   "frame": "ogee"
+   "frame": "roundArch"
   },
   {
    "code": "AM",
@@ -77,7 +83,7 @@
    "where": "Buenos Aires",
    "confidence": "unverified",
    "drawing": "monument kit (obelisk)",
-   "frame": "boxTall"
+   "frame": "roundArch"
   },
   {
    "code": "AT",
@@ -86,7 +92,7 @@
    "where": "Vienna",
    "confidence": "unverified",
    "drawing": "church kit (gothicSpire)",
-   "frame": "boxTall"
+   "frame": "roundArch"
   },
   {
    "code": "AU",
@@ -120,9 +126,13 @@
    "country": "BARBADOS",
    "chosen": "Parliament Buildings",
    "where": "Bridgetown",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Main UNESCO site is the Bridgetown Historic Centre and Garrison; the Parliament Buildings sit inside it.",
+   "sources": [
+    "https://visitbarbados.org/landmarks-and-monuments"
+   ],
    "drawing": "church kit (clocktower)",
-   "frame": "stepTall"
+   "frame": "boxTall"
   },
   {
    "code": "BD",
@@ -140,14 +150,18 @@
    "where": "Brussels",
    "confidence": "unverified",
    "drawing": "tower kit (atomium)",
-   "frame": "roundArch"
+   "frame": "boxTall"
   },
   {
    "code": "BF",
    "country": "BURKINA FASO",
    "chosen": "Great Mosque of Bobo-Dioulasso",
    "where": "Bobo-Dioulasso",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The Bobo-Dioulasso mosque is a major mud-brick landmark and is on UNESCO's tentative list. The Ruins of Loropeni is the country's inscribed World Heritage Site.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Grand_Mosque_of_Bobo-Dioulasso"
+   ],
    "drawing": "mud-brick kit (djenne)",
    "frame": "scallop"
   },
@@ -167,7 +181,7 @@
    "where": "Manama",
    "confidence": "unverified",
    "drawing": "monument kit (pearl)",
-   "frame": "roundArch"
+   "frame": "octTall"
   },
   {
    "code": "BI",
@@ -228,7 +242,11 @@
    "country": "BHUTAN",
    "chosen": "Tiger's Nest (Paro Taktsang)",
    "where": "Paro",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Tiger's Nest is described as a national icon of Bhutan. Trongsa Dzong was also named as its most scenic fortress.",
+   "sources": [
+    "https://wondermondo.com/wonders-of-asia"
+   ],
    "drawing": "cliff kit (monastery)",
    "frame": "notch"
   },
@@ -266,7 +284,7 @@
    "where": "Toronto",
    "confidence": "unverified",
    "drawing": "tower kit (cn)",
-   "frame": "octTall"
+   "frame": "stepTall"
   },
   {
    "code": "CD",
@@ -356,7 +374,7 @@
    "where": "Cartagena",
    "confidence": "unverified",
    "drawing": "church kit (clocktower)",
-   "frame": "roundArch"
+   "frame": "octTall"
   },
   {
    "code": "CR",
@@ -401,7 +419,7 @@
    "where": "Prague",
    "confidence": "unverified",
    "drawing": "church kit (gothicTwin)",
-   "frame": "boxTall"
+   "frame": "house"
   },
   {
    "code": "DE",
@@ -444,7 +462,11 @@
    "country": "DOMINICA",
    "chosen": "Trafalgar Falls",
    "where": "Roseau",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Sources lead with Morne Trois Pitons National Park (UNESCO) and the Boiling Lake. Trafalgar Falls was not named in the results.",
+   "sources": [
+    "https://seeker.io/seeker/world-heritage-sites-in-the-caribbean"
+   ],
    "drawing": "waterfall kit (twin)",
    "frame": "boxWide"
   },
@@ -473,7 +495,7 @@
    "where": "Quito",
    "confidence": "unverified",
    "drawing": "monument kit (globe)",
-   "frame": "boxTall"
+   "frame": "roundArch"
   },
   {
    "code": "EE",
@@ -482,7 +504,7 @@
    "where": "Tallinn",
    "confidence": "unverified",
    "drawing": "church kit (townHall)",
-   "frame": "house"
+   "frame": "stepTall"
   },
   {
    "code": "EG",
@@ -544,7 +566,7 @@
    "where": "Nadi",
    "confidence": "unverified",
    "drawing": "Asian temple kit (gopuram)",
-   "frame": "ogee"
+   "frame": "roundArch"
   },
   {
    "code": "FM",
@@ -686,7 +708,12 @@
    "country": "GUYANA",
    "chosen": "Kaieteur Falls",
    "where": "Potaro",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Called Guyana's most iconic landmark; featured on banknotes.",
+   "sources": [
+    "https://www.banknoteworld.com/blog/kaieteur-falls-a-guyanese-natural-wonder-on-banknotes/",
+    "https://worldfootprints.com/compass/central-and-south-america/kaieteur-falls/"
+   ],
    "drawing": "waterfall kit (plunge)",
    "frame": "hexWide"
   },
@@ -695,7 +722,11 @@
    "country": "HONDURAS",
    "chosen": "Copan Ruins",
    "where": "Copan",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Copan Ruins is the top listed landmark in the guide found.",
+   "sources": [
+    "https://wondermondo.com/Honduras.htm"
+   ],
    "drawing": "pyramid kit (copan)",
    "frame": "banner"
   },
@@ -778,7 +809,7 @@
    "where": "Tehran",
    "confidence": "unverified",
    "drawing": "monument kit (azadi)",
-   "frame": "stepTall"
+   "frame": "hexTall"
   },
   {
    "code": "IS",
@@ -787,7 +818,7 @@
    "where": "Reykjavik",
    "confidence": "unverified",
    "drawing": "church kit (hallgrim)",
-   "frame": "stepTall"
+   "frame": "boxTall"
   },
   {
    "code": "IT",
@@ -855,16 +886,24 @@
    "country": "KYRGYZSTAN",
    "chosen": "Burana Tower",
    "where": "Chuy Valley",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Burana Tower, the minaret stump of a destroyed city.",
+   "sources": [
+    "https://wondermondo.com/wonders-of-asia"
+   ],
    "drawing": "mosque kit (burana)",
-   "frame": "stepTall"
+   "frame": "boxTall"
   },
   {
    "code": "KH",
    "country": "CAMBODIA",
    "chosen": "Angkor Wat",
    "where": "Siem Reap",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Angkor Wat appears on the national flag.",
+   "sources": [
+    "https://thetravelscribes.com/famous-landmarks-from-around-the-world/"
+   ],
    "drawing": "one-off drawing (angkor)",
    "frame": "pill"
   },
@@ -891,7 +930,11 @@
    "country": "SAINT KITTS AND NEVIS",
    "chosen": "Brimstone Hill Fortress",
    "where": "St Kitts",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Brimstone Hill Fortress National Park is a UNESCO site.",
+   "sources": [
+    "https://worldatlas.com/articles/the-20-unesco-world-heritage-sites-to-visit-in-the-caribbean.html"
+   ],
    "drawing": "fort kit (bastion)",
    "frame": "boxWide"
   },
@@ -902,7 +945,7 @@
    "where": "Pyongyang",
    "confidence": "unverified",
    "drawing": "monument kit (juche)",
-   "frame": "roundArch"
+   "frame": "octTall"
   },
   {
    "code": "KR",
@@ -920,7 +963,7 @@
    "where": "Kuwait City",
    "confidence": "unverified",
    "drawing": "tower kit (kuwait)",
-   "frame": "hexTall"
+   "frame": "heater"
   },
   {
    "code": "KZ",
@@ -929,7 +972,7 @@
    "where": "Astana",
    "confidence": "unverified",
    "drawing": "monument kit (bayterek)",
-   "frame": "boxTall"
+   "frame": "roundArch"
   },
   {
    "code": "LA",
@@ -938,7 +981,7 @@
    "where": "Vientiane",
    "confidence": "unverified",
    "drawing": "Asian temple kit (thatluang)",
-   "frame": "heater"
+   "frame": "shield"
   },
   {
    "code": "LB",
@@ -954,7 +997,11 @@
    "country": "SAINT LUCIA",
    "chosen": "The Pitons",
    "where": "Soufriere",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "The Pitons Management Area near Soufriere.",
+   "sources": [
+    "https://seeker.io/seeker/world-heritage-sites-in-the-caribbean"
+   ],
    "drawing": "rock formation kit (pitons)",
    "frame": "seal"
   },
@@ -963,7 +1010,11 @@
    "country": "LIECHTENSTEIN",
    "chosen": "Vaduz Castle",
    "where": "Vaduz",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Vaduz Castle is the most frequently named landmark.",
+   "sources": [
+    "https://www.worldatlas.com/articles/the-microstates-of-europe.html"
+   ],
    "drawing": "fort kit (hillCastle)",
    "frame": "boxTall"
   },
@@ -979,11 +1030,16 @@
   {
    "code": "LR",
    "country": "LIBERIA",
-   "chosen": "Cape Mesurado Lighthouse",
+   "chosen": "Joseph Jenkins Roberts Monument",
    "where": "Monrovia",
-   "confidence": "unverified",
-   "drawing": "one-off drawing (lighthouse)",
-   "frame": "octTall"
+   "confidence": "changed",
+   "evidence": "No source supported the lighthouse. Sources name the J.J. Roberts Monument, Centennial Pavilion and Providence Island. Switched to the Roberts Monument; no single agreed landmark.",
+   "sources": [
+    "https://www.lonelyplanet.com/liberia/monrovia/attractions",
+    "https://enjoyliberia.travel/blog/post/tracing-liberias-past-through-monrovias-must-see-h/"
+   ],
+   "drawing": "monument kit (plinth)",
+   "frame": "boxTall"
   },
   {
    "code": "LS",
@@ -1008,7 +1064,11 @@
    "country": "LUXEMBOURG",
    "chosen": "Adolphe Bridge",
    "where": "Luxembourg City",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Sources named Vianden Castle as a picturesque landmark; the Adolphe Bridge was not mentioned. Vianden Castle is the likely alternative.",
+   "sources": [
+    "https://www.travelawaits.com/2992004/europe-micro-states/"
+   ],
    "drawing": "bridge kit (twoArch)",
    "frame": "boxWide"
   },
@@ -1019,7 +1079,7 @@
    "where": "Riga",
    "confidence": "unverified",
    "drawing": "monument kit (freedom)",
-   "frame": "octTall"
+   "frame": "stepTall"
   },
   {
    "code": "LY",
@@ -1037,14 +1097,18 @@
    "where": "Casablanca",
    "confidence": "unverified",
    "drawing": "mosque kit (squareMinaret)",
-   "frame": "boxTall"
+   "frame": "house"
   },
   {
    "code": "MC",
    "country": "MONACO",
    "chosen": "Casino de Monte-Carlo",
    "where": "Monte Carlo",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Monte Carlo Casino is the most cited attraction.",
+   "sources": [
+    "https://www.travelawaits.com/2992004/europe-micro-states/"
+   ],
    "drawing": "church kit (casino)",
    "frame": "seal"
   },
@@ -1053,7 +1117,12 @@
    "country": "MOLDOVA",
    "chosen": "Orheiul Vechi monastery",
    "where": "Orhei",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Reported as the most visited site in Moldova outside the capital; the cave monastery is its centrepiece.",
+   "sources": [
+    "https://www.lonelyplanet.com/pois/1548859",
+    "https://worldheritagesite.org/tentative/id/6220"
+   ],
    "drawing": "cliff kit (monastery)",
    "frame": "scallop"
   },
@@ -1118,7 +1187,7 @@
    "where": "Tsonjin Boldog",
    "confidence": "unverified",
    "drawing": "statue kit (rider)",
-   "frame": "shield"
+   "frame": "octTall"
   },
   {
    "code": "MR",
@@ -1134,7 +1203,11 @@
    "country": "MALTA",
    "chosen": "Valletta skyline",
    "where": "Valletta",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "The Azure Window, Malta's best known rock formation, collapsed. Valletta skyline kept as a stand-in.",
+   "sources": [
+    "https://www.worldatlas.com/articles/the-microstates-of-europe.html"
+   ],
    "drawing": "church kit (domeBasilica)",
    "frame": "circle"
   },
@@ -1189,7 +1262,7 @@
    "where": "Kuala Lumpur",
    "confidence": "unverified",
    "drawing": "tower kit (petronas)",
-   "frame": "octTall"
+   "frame": "stepTall"
   },
   {
    "code": "MZ",
@@ -1216,7 +1289,7 @@
    "where": "Agadez",
    "confidence": "unverified",
    "drawing": "mud-brick kit (agadez)",
-   "frame": "roundArch"
+   "frame": "octTall"
   },
   {
    "code": "NG",
@@ -1232,7 +1305,11 @@
    "country": "NICARAGUA",
    "chosen": "Momotombo Volcano",
    "where": "Leon",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Results named the Isletas of Granada and Mombacho Volcano; Momotombo was not mentioned.",
+   "sources": [
+    "https://wondermondo.com/wonders-of-asia"
+   ],
    "drawing": "volcano kit (cone)",
    "frame": "notch"
   },
@@ -1243,7 +1320,7 @@
    "where": "Kinderdijk",
    "confidence": "unverified",
    "drawing": "one-off drawing (windmill)",
-   "frame": "stepTall"
+   "frame": "hexTall"
   },
   {
    "code": "NO",
@@ -1261,7 +1338,7 @@
    "where": "Kathmandu",
    "confidence": "unverified",
    "drawing": "Asian temple kit (boudha)",
-   "frame": "octTall"
+   "frame": "ogee"
   },
   {
    "code": "NR",
@@ -1342,7 +1419,7 @@
    "where": "Warsaw",
    "confidence": "unverified",
    "drawing": "tower kit (stepped)",
-   "frame": "hexTall"
+   "frame": "heater"
   },
   {
    "code": "PS",
@@ -1360,7 +1437,7 @@
    "where": "Lisbon",
    "confidence": "unverified",
    "drawing": "fort kit (belem)",
-   "frame": "heater"
+   "frame": "shield"
   },
   {
    "code": "PW",
@@ -1376,7 +1453,11 @@
    "country": "PARAGUAY",
    "chosen": "Jesuit Missions of Trinidad",
    "where": "Trinidad",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "One list named Itaipu Dam as Paraguay's landmark. The Jesuit Missions of Trinidad (UNESCO) is kept.",
+   "sources": [
+    "https://bergen.edu/wp-content/uploads/LANDMARKS-AND-LANDSCARPES-OF-LATIN-AMERICA-STUDY-GUIDE.pdf"
+   ],
    "drawing": "ruins kit (facade)",
    "frame": "circle"
   },
@@ -1387,7 +1468,7 @@
    "where": "Doha",
    "confidence": "unverified",
    "drawing": "tower kit (aspire)",
-   "frame": "boxTall"
+   "frame": "roundArch"
   },
   {
    "code": "RO",
@@ -1414,7 +1495,7 @@
    "where": "Moscow",
    "confidence": "unverified",
    "drawing": "church kit (basil)",
-   "frame": "shield"
+   "frame": "octTall"
   },
   {
    "code": "RW",
@@ -1432,7 +1513,7 @@
    "where": "Riyadh",
    "confidence": "unverified",
    "drawing": "tower kit (kingdom)",
-   "frame": "stepTall"
+   "frame": "boxTall"
   },
   {
    "code": "SB",
@@ -1468,7 +1549,7 @@
    "where": "Stockholm",
    "confidence": "unverified",
    "drawing": "tower kit (cityHall)",
-   "frame": "octTall"
+   "frame": "ogee"
   },
   {
    "code": "SG",
@@ -1502,7 +1583,12 @@
    "country": "SIERRA LEONE",
    "chosen": "Cotton Tree",
    "where": "Freetown",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "A confirmed national symbol, on banknotes and stamps. It was felled by a storm on 24 May 2023, so the stamp shows a landmark that no longer stands.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cotton_Tree_(Sierra_Leone)",
+    "https://www.aljazeera.com/news/2023/5/25/storm-fells-symbolic-400-year-old-cotton-tree-in-sierra-leone"
+   ],
    "drawing": "tree kit (cotton)",
    "frame": "scallop"
   },
@@ -1511,7 +1597,11 @@
    "country": "SAN MARINO",
    "chosen": "Three Towers of San Marino",
    "where": "Monte Titano",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "The Three Towers are the iconic sight.",
+   "sources": [
+    "https://www.worldatlas.com/articles/the-microstates-of-europe.html"
+   ],
    "drawing": "fort kit (threeTowers)",
    "frame": "notch"
   },
@@ -1538,9 +1628,13 @@
    "country": "SURINAME",
    "chosen": "St Peter and Paul Cathedral",
    "where": "Paramaribo",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Major landmark of Paramaribo's UNESCO listed historic inner city; an all wooden cathedral.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Saint_Peter_and_Paul_Cathedral,_Paramaribo"
+   ],
    "drawing": "church kit (gothicTwin)",
-   "frame": "house"
+   "frame": "stepTall"
   },
   {
    "code": "SS",
@@ -1565,7 +1659,11 @@
    "country": "EL SALVADOR",
    "chosen": "Izalco Volcano",
    "where": "Sonsonate",
-   "confidence": "unverified",
+   "confidence": "partly",
+   "evidence": "Results named Joya de Ceren and Tazumal; Izalco volcano was not mentioned.",
+   "sources": [
+    "https://wondermondo.com/wonders-of-asia"
+   ],
    "drawing": "volcano kit (cone)",
    "frame": "octSquare"
   },
@@ -1601,7 +1699,11 @@
    "country": "TOGO",
    "chosen": "Koutammakou tower houses",
    "where": "Kara",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "UNESCO describes the Batammariba tower houses (takienta) as a symbol of Togo.",
+   "sources": [
+    "https://whc.unesco.org/en/list/1140/"
+   ],
    "drawing": "mud-brick kit (takienta)",
    "frame": "notch"
   },
@@ -1639,7 +1741,7 @@
    "where": "Ashgabat",
    "confidence": "unverified",
    "drawing": "monument kit (neutrality)",
-   "frame": "octTall"
+   "frame": "stepTall"
   },
   {
    "code": "TN",
@@ -1654,8 +1756,12 @@
    "code": "TO",
    "country": "TONGA",
    "chosen": "Ha'amonga 'a Maui",
-   "where": "Niutoputapu",
-   "confidence": "unverified",
+   "where": "Niutoua, Tongatapu",
+   "confidence": "supported",
+   "evidence": "Tonga's best known monument, a coral limestone trilithon at Niutoua on Tongatapu. Location corrected.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Ha%CA%BBamonga_%CA%BBa_Maui"
+   ],
    "drawing": "ruins kit (trilithon)",
    "frame": "circle"
   },
@@ -1747,7 +1853,7 @@
    "where": "Montevideo",
    "confidence": "unverified",
    "drawing": "tower kit (palacio)",
-   "frame": "stepTall"
+   "frame": "boxTall"
   },
   {
    "code": "UZ",
@@ -1763,7 +1869,11 @@
    "country": "VATICAN CITY",
    "chosen": "St Peter's Basilica",
    "where": "Vatican City",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "St Peter's Basilica is the main landmark.",
+   "sources": [
+    "https://www.worldatlas.com/articles/the-microstates-of-europe.html"
+   ],
    "drawing": "church kit (domeBasilica)",
    "frame": "octSquare"
   },
@@ -1799,7 +1909,11 @@
    "country": "VANUATU",
    "chosen": "Mount Yasur",
    "where": "Tanna",
-   "confidence": "unverified",
+   "confidence": "supported",
+   "evidence": "Mount Yasur described as the most iconic landmark of Tanna.",
+   "sources": [
+    "https://southpacificislands.travel/volcanic-fireworks/"
+   ],
    "drawing": "volcano kit (crater)",
    "frame": "banner"
   },

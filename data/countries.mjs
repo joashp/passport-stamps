@@ -29,7 +29,7 @@ export const COUNTRIES = [
 ['GW', 'GUINEA-BISSAU', 'Fortaleza de Sao Jose da Amura', 'Bissau', 'fort', 'bastion'],
 ['KE', 'KENYA', 'Mount Kenya', 'Central Kenya', 'peak', 'twin'],
 ['LS', 'LESOTHO', 'Mokorotlo (Basotho hat)', 'Thaba Bosiu', 'hut', 'basotho'],
-['LR', 'LIBERIA', 'Cape Mesurado Lighthouse', 'Monrovia', 'icon', 'lighthouse'],
+['LR', 'LIBERIA', 'Joseph Jenkins Roberts Monument', 'Monrovia', 'pillar', 'plinth'],
 ['LY', 'LIBYA', 'Arch of Septimius Severus', 'Leptis Magna', 'gate', 'triumph'],
 ['MG', 'MADAGASCAR', 'Avenue of the Baobabs', 'Morondava', 'tree', 'avenue'],
 ['MW', 'MALAWI', 'Mount Mulanje', 'Mulanje', 'peak', 'range'],
@@ -188,7 +188,7 @@ export const COUNTRIES = [
 ['PG', 'PAPUA NEW GUINEA', 'Haus Tambaran (spirit house)', 'Sepik', 'hut', 'tambaran'],
 ['WS', 'SAMOA', "Baha'i House of Worship", 'Apia', 'church', 'bahai'],
 ['SB', 'SOLOMON ISLANDS', 'Mount Popomanaseu', 'Guadalcanal', 'peak', 'range'],
-['TO', 'TONGA', "Ha'amonga 'a Maui", 'Niutoputapu', 'ruins', 'trilithon'],
+['TO', 'TONGA', "Ha'amonga 'a Maui", 'Niutoua, Tongatapu', 'ruins', 'trilithon'],
 ['TV', 'TUVALU', 'Funafuti Atoll', 'Funafuti', 'island', 'palms'],
 ['VU', 'VANUATU', 'Mount Yasur', 'Tanna', 'volcano', 'crater'],
 // ---- Already hand-built ----

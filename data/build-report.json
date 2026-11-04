@@ -245,11 +245,11 @@
  {
   "code": "LR",
   "name": "LIBERIA",
-  "landmark": "Cape Mesurado Lighthouse",
+  "landmark": "Joseph Jenkins Roberts Monument",
   "where": "Monrovia",
-  "kit": "icon",
-  "kind": "lighthouse",
-  "frame": "octTall"
+  "kit": "pillar",
+  "kind": "plinth",
+  "frame": "boxTall"
  },
  {
   "code": "LY",
@@ -312,7 +312,7 @@
   "where": "Casablanca",
   "kit": "mosque",
   "kind": "squareMinaret",
-  "frame": "boxTall"
+  "frame": "house"
  },
  {
   "code": "MZ",
@@ -339,7 +339,7 @@
   "where": "Agadez",
   "kit": "mud",
   "kind": "agadez",
-  "frame": "roundArch"
+  "frame": "octTall"
  },
  {
   "code": "NG",
@@ -501,7 +501,7 @@
   "where": "Buenos Aires",
   "kit": "pillar",
   "kind": "obelisk",
-  "frame": "boxTall"
+  "frame": "roundArch"
  },
  {
   "code": "BS",
@@ -519,7 +519,7 @@
   "where": "Bridgetown",
   "kit": "church",
   "kind": "clocktower",
-  "frame": "stepTall"
+  "frame": "boxTall"
  },
  {
   "code": "BZ",
@@ -555,7 +555,7 @@
   "where": "Toronto",
   "kit": "tower",
   "kind": "cn",
-  "frame": "octTall"
+  "frame": "stepTall"
  },
  {
   "code": "CL",
@@ -573,7 +573,7 @@
   "where": "Cartagena",
   "kit": "church",
   "kind": "clocktower",
-  "frame": "roundArch"
+  "frame": "octTall"
  },
  {
   "code": "CR",
@@ -618,7 +618,7 @@
   "where": "Quito",
   "kit": "pillar",
   "kind": "globe",
-  "frame": "boxTall"
+  "frame": "roundArch"
  },
  {
   "code": "SV",
@@ -753,7 +753,7 @@
   "where": "Paramaribo",
   "kit": "church",
   "kind": "gothicTwin",
-  "frame": "house"
+  "frame": "stepTall"
  },
  {
   "code": "TT",
@@ -771,7 +771,7 @@
   "where": "Montevideo",
   "kit": "tower",
   "kind": "palacio",
-  "frame": "stepTall"
+  "frame": "boxTall"
  },
  {
   "code": "VE",
@@ -789,7 +789,7 @@
   "where": "Ghor",
   "kit": "mosque",
   "kind": "jam",
-  "frame": "octTall"
+  "frame": "stepTall"
  },
  {
   "code": "AM",
@@ -816,7 +816,7 @@
   "where": "Manama",
   "kit": "pillar",
   "kind": "pearl",
-  "frame": "roundArch"
+  "frame": "octTall"
  },
  {
   "code": "BD",
@@ -897,7 +897,7 @@
   "where": "Tehran",
   "kit": "pillar",
   "kind": "azadi",
-  "frame": "stepTall"
+  "frame": "hexTall"
  },
  {
   "code": "IQ",
@@ -933,7 +933,7 @@
   "where": "Astana",
   "kit": "pillar",
   "kind": "bayterek",
-  "frame": "boxTall"
+  "frame": "roundArch"
  },
  {
   "code": "KW",
@@ -942,7 +942,7 @@
   "where": "Kuwait City",
   "kit": "tower",
   "kind": "kuwait",
-  "frame": "hexTall"
+  "frame": "heater"
  },
  {
   "code": "KG",
@@ -951,7 +951,7 @@
   "where": "Chuy Valley",
   "kit": "mosque",
   "kind": "burana",
-  "frame": "stepTall"
+  "frame": "boxTall"
  },
  {
   "code": "LA",
@@ -960,7 +960,7 @@
   "where": "Vientiane",
   "kit": "buddhist",
   "kind": "thatluang",
-  "frame": "heater"
+  "frame": "shield"
  },
  {
   "code": "LB",
@@ -978,7 +978,7 @@
   "where": "Kuala Lumpur",
   "kit": "tower",
   "kind": "petronas",
-  "frame": "octTall"
+  "frame": "stepTall"
  },
  {
   "code": "MV",
@@ -996,7 +996,7 @@
   "where": "Tsonjin Boldog",
   "kit": "statue",
   "kind": "rider",
-  "frame": "shield"
+  "frame": "octTall"
  },
  {
   "code": "MM",
@@ -1014,7 +1014,7 @@
   "where": "Kathmandu",
   "kit": "buddhist",
   "kind": "boudha",
-  "frame": "octTall"
+  "frame": "ogee"
  },
  {
   "code": "KP",
@@ -1023,7 +1023,7 @@
   "where": "Pyongyang",
   "kit": "pillar",
   "kind": "juche",
-  "frame": "roundArch"
+  "frame": "octTall"
  },
  {
   "code": "OM",
@@ -1059,7 +1059,7 @@
   "where": "Doha",
   "kit": "tower",
   "kind": "aspire",
-  "frame": "boxTall"
+  "frame": "roundArch"
  },
  {
   "code": "SA",
@@ -1068,7 +1068,7 @@
   "where": "Riyadh",
   "kit": "tower",
   "kind": "kingdom",
-  "frame": "stepTall"
+  "frame": "boxTall"
  },
  {
   "code": "SG",
@@ -1140,7 +1140,7 @@
   "where": "Ashgabat",
   "kit": "pillar",
   "kind": "neutrality",
-  "frame": "octTall"
+  "frame": "stepTall"
  },
  {
   "code": "AE",
@@ -1149,7 +1149,7 @@
   "where": "Dubai",
   "kit": "tower",
   "kind": "burj",
-  "frame": "roundArch"
+  "frame": "octTall"
  },
  {
   "code": "UZ",
@@ -1194,7 +1194,7 @@
   "where": "Tirana",
   "kit": "statue",
   "kind": "rider",
-  "frame": "ogee"
+  "frame": "roundArch"
  },
  {
   "code": "AD",
@@ -1212,7 +1212,7 @@
   "where": "Vienna",
   "kit": "church",
   "kind": "gothicSpire",
-  "frame": "boxTall"
+  "frame": "roundArch"
  },
  {
   "code": "BY",
@@ -1230,7 +1230,7 @@
   "where": "Brussels",
   "kit": "tower",
   "kind": "atomium",
-  "frame": "roundArch"
+  "frame": "boxTall"
  },
  {
   "code": "BA",
@@ -1266,7 +1266,7 @@
   "where": "Prague",
   "kit": "church",
   "kind": "gothicTwin",
-  "frame": "boxTall"
+  "frame": "house"
  },
  {
   "code": "DK",
@@ -1284,7 +1284,7 @@
   "where": "Tallinn",
   "kit": "church",
   "kind": "townHall",
-  "frame": "house"
+  "frame": "stepTall"
  },
  {
   "code": "FI",
@@ -1320,7 +1320,7 @@
   "where": "Reykjavik",
   "kit": "church",
   "kind": "hallgrim",
-  "frame": "stepTall"
+  "frame": "boxTall"
  },
  {
   "code": "IE",
@@ -1338,7 +1338,7 @@
   "where": "Riga",
   "kit": "pillar",
   "kind": "freedom",
-  "frame": "octTall"
+  "frame": "stepTall"
  },
  {
   "code": "LI",
@@ -1410,7 +1410,7 @@
   "where": "Kinderdijk",
   "kit": "icon",
   "kind": "windmill",
-  "frame": "stepTall"
+  "frame": "hexTall"
  },
  {
   "code": "MK",
@@ -1437,7 +1437,7 @@
   "where": "Warsaw",
   "kit": "tower",
   "kind": "stepped",
-  "frame": "hexTall"
+  "frame": "heater"
  },
  {
   "code": "PT",
@@ -1446,7 +1446,7 @@
   "where": "Lisbon",
   "kit": "fort",
   "kind": "belem",
-  "frame": "heater"
+  "frame": "shield"
  },
  {
   "code": "RO",
@@ -1464,7 +1464,7 @@
   "where": "Moscow",
   "kit": "church",
   "kind": "basil",
-  "frame": "shield"
+  "frame": "octTall"
  },
  {
   "code": "SM",
@@ -1509,7 +1509,7 @@
   "where": "Stockholm",
   "kit": "tower",
   "kind": "cityHall",
-  "frame": "octTall"
+  "frame": "ogee"
  },
  {
   "code": "CH",
@@ -1554,7 +1554,7 @@
   "where": "Nadi",
   "kit": "buddhist",
   "kind": "gopuram",
-  "frame": "ogee"
+  "frame": "roundArch"
  },
  {
   "code": "KI",
@@ -1641,7 +1641,7 @@
   "code": "TO",
   "name": "TONGA",
   "landmark": "Ha'amonga 'a Maui",
-  "where": "Niutoputapu",
+  "where": "Niutoua, Tongatapu",
   "kit": "ruins",
   "kind": "trilithon",
   "frame": "circle"

@@ -51,4 +51,8 @@ To add a country: `node stamp.mjs new DE GERMANY navy oval`, then follow the sam
 
 ## Which landmarks are verified
 
-The ten hand-built countries were checked against sources (see [docs/MONUMENTS.md](docs/MONUMENTS.md)). The other 185 landmarks were chosen from general knowledge of each country's best known sight and have **not** been checked one by one. Politically sensitive picks (Israel, Palestine) and countries with several equally famous sights (Italy, Germany, Turkey) are easy to switch: change the row in `data/countries.mjs`, run `node tools/build-all.mjs`, then `node tools/docs.mjs`.
+Checked against web sources on 2026-11-04, so far: 10 hand-built countries, 18 more marked **supported** (a source named it as the best known landmark), 8 **partly** supported, and 1 **changed** (Liberia, whose lighthouse pick was replaced). The other 157 were chosen from general knowledge and have **not** been checked. Several list sites were blocked by the session's network allowlist, which is why coverage is partial. [docs/MONUMENTS.md](docs/MONUMENTS.md) shows the status and evidence for every country.
+
+One thing to know: Sierra Leone's Cotton Tree is a confirmed national symbol, but a storm felled it in May 2023.
+
+Politically sensitive picks (Israel, Palestine) and countries with several equally famous sights (Italy, Germany, Turkey) are easy to switch: change the row in `data/countries.mjs`, run `node tools/build-all.mjs`, then `node tools/docs.mjs`.
